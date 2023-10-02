@@ -16,7 +16,6 @@ export class ApplicationService {
   }
 
   getApplication(id: string): Observable<Application> {
-    // For now, assume that a hero with the specified `id` always exists.
     const application = APPLICATIONS.find(application => application.id === id)!;
     return of(application);
   }

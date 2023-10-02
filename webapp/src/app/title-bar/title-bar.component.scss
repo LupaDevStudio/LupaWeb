@@ -23,11 +23,18 @@
     height: 80%;
     margin-right: 50px;
     margin-left: 15px;
-    animation:rotatelogo 4s linear infinite;
+    animation: rotatelogo 4s linear infinite;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.602);
 }
+
 @keyframes rotatelogo {
-    from {rotate: 0deg;}
-    to {rotate: 360deg;}
+    from {
+        rotate: 0deg;
+    }
+
+    to {
+        rotate: 360deg;
+    }
 }
 
 .round-button {
@@ -47,4 +54,9 @@
     width: 10px;
     margin-right: 50px;
     font-size: smaller;
+}
+
+.toolbar {
+    height: 75px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.602);
 }
