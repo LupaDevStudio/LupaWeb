@@ -11,9 +11,11 @@ $lupa-blue: rgba(70, 129, 180);
     position: absolute;
     top: 25%;
 }
+
 #left-arrow {
     left: 7.5%;
 }
+
 #right-arrow {
     right: 7.5%;
 }
@@ -28,6 +30,7 @@ $lupa-blue: rgba(70, 129, 180);
     align-items: center;
     flex-direction: column;
 }
+
 #discover-button {
     top: 40%;
     padding: 30px;
@@ -42,6 +45,7 @@ $lupa-blue: rgba(70, 129, 180);
     color: white;
     text-shadow: 0px 0px 10px black;
 }
+
 .presentation-game {
     font-size: 30px;
     font-weight: bold;

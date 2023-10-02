@@ -3,49 +3,46 @@
     <div class="div-side div-side-too-small">
     </div>
 
-    <div style="background-color: white; width: 50%; min-width: 50%;">
 
-        <div class="middle-div">
+    <div class="middle-div">
 
-            <!-- Search bar for tags -->
-            <form class="search-bar-div">
-                <input placeholder="Search" class="search-bar"
-                [formControl]="control"
-                [matAutocomplete]="auto">
-                <mat-autocomplete #auto="matAutocomplete">
-                    <mat-option *ngFor="let tag of filteredTags | async" [value]="tag">
-                        {{tag}}
-                    </mat-option>
-                </mat-autocomplete>
-                <button mat-mini-fab color="primary" class="search-button">
-                    <mat-icon>search</mat-icon>
-                </button>
-            </form>
+        <!-- Search bar for tags -->
+        <form class="search-bar-div">
+            <input placeholder="Search" class="search-bar" [formControl]="control" [matAutocomplete]="auto">
+            <mat-autocomplete #auto="matAutocomplete">
+                <mat-option *ngFor="let tag of filteredTags | async" [value]="tag">
+                    {{tag}}
+                </mat-option>
+            </mat-autocomplete>
+            <button mat-mini-fab color="primary" class="search-button">
+                <mat-icon>search</mat-icon>
+            </button>
+        </form>
 
-            <ul class="all-news">
-                <li *ngFor="let newsPage of news" class="div-news">
-                    <div class="left-bar"></div>
+        <ul class="all-news">
+            <li *ngFor="let newsPage of news" class="div-news">
+                <div class="left-bar"></div>
 
-                    <a routerLink="/news/{{newsPage.id}}" routerLinkActive="active" ariaCurrentWhenActive="page" class="image-link">
-                        <img src="{{newsPage.vignetteSource}}" alt="image" class="image-vignette">
-                    </a>
-  
-                    <div class="news-description">
-                        <p class="name">{{newsPage.name}}</p>
-                        <p class="date">{{newsPage.date}}</p>
-                        <ul class="tags">
-                            <li *ngFor="let tag of newsPage.tags">
-                                <button mat-raised-button class="tag-button" value="{{tag}}">
-                                    {{tag}}
-                                </button>
-                            </li>
-                        </ul>
-                        <p class="description">{{newsPage.shortDescription}}</p>
-                    </div>
+                <a routerLink="/news/{{newsPage.id}}" routerLinkActive="active" ariaCurrentWhenActive="page"
+                    class="image-link">
+                    <img src="{{newsPage.vignetteSource}}" alt="image" class="image-vignette">
+                </a>
 
-                </li>
-            </ul>
-        </div>
+                <div class="news-description">
+                    <p class="name">{{newsPage.name}}</p>
+                    <p class="date">{{newsPage.date}}</p>
+                    <ul class="tags">
+                        <li *ngFor="let tag of newsPage.tags">
+                            <button mat-raised-button class="tag-button" value="{{tag}}">
+                                {{tag}}
+                            </button>
+                        </li>
+                    </ul>
+                    <p class="description">{{newsPage.shortDescription}}</p>
+                </div>
+
+            </li>
+        </ul>
     </div>
 
     <div class="div-side div-side-too-small">

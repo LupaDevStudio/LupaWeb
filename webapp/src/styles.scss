@@ -8,36 +8,35 @@ $lupa-blue: rgba(70, 129, 180);
 
 // Define the blue palette pour Lupa
 $lupa-blue-palette: (
-    50 : #e9f0f6,
-    100 : #c8d9e9,
-    200 : #a3c0da,
-    300 : #7ea7cb,
-    400 : #6294bf,
-    500 : #4681b4,
-    600 : #3f79ad,
-    700 : #376ea4,
-    800 : #2f649c,
-    900 : #20518c,
-    A100 : #c9e0ff,
-    A200 : #96c2ff,
-    A400 : #63a5ff,
-    A700 : #4997ff,
-    contrast: (
-        50 : #000000,
-        100 : #000000,
-        200 : #000000,
-        300 : #000000,
-        400 : #000000,
-        500 : #ffffff,
-        600 : #ffffff,
-        700 : #ffffff,
-        800 : #ffffff,
-        900 : #ffffff,
-        A100 : #000000,
-        A200 : #000000,
-        A400 : #000000,
-        A700 : #000000,
-    )
+  50 : #e9f0f6,
+  100 : #c8d9e9,
+  200 : #a3c0da,
+  300 : #7ea7cb,
+  400 : #6294bf,
+  500 : #4681b4,
+  600 : #3f79ad,
+  700 : #376ea4,
+  800 : #2f649c,
+  900 : #20518c,
+  A100 : #c9e0ff,
+  A200 : #96c2ff,
+  A400 : #63a5ff,
+  A700 : #4997ff,
+  contrast: (50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
 );
 
 // Define the pink palette pour Lupa
@@ -56,44 +55,46 @@ $lupa-pink-palette: (
   A200 : #ffc9d3,
   A400 : #ff96a9,
   A700 : #ff7c95,
-  contrast: (
-      50 : #000000,
-      100 : #000000,
-      200 : #000000,
-      300 : #000000,
-      400 : #ffffff,
-      500 : #ffffff,
-      600 : #ffffff,
-      700 : #ffffff,
-      800 : #ffffff,
-      900 : #ffffff,
-      A100 : #000000,
-      A200 : #000000,
-      A400 : #000000,
-      A700 : #000000,
+  contrast: (50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #ffffff,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
   )
 );
 
 $my-primary: mat.define-palette($lupa-blue-palette);
 $my-accent: mat.define-palette($lupa-pink-palette);
 
-$my-theme: mat.define-light-theme((
- color: (
-   primary: $my-primary,
-   accent: $my-accent,
- ),
- typography: mat.define-typography-config(),
- density: 0,
-));
+$my-theme: mat.define-light-theme((color: (primary: $my-primary,
+        accent: $my-accent,
+      ),
+      typography: mat.define-typography-config(),
+      density: 0,
+    ));
 
 @include mat.all-component-themes($my-theme);
 
-html, body { height: 100%; }
-body { 
+html,
+body {
+  height: 100%;
+}
+
+body {
   margin: 0;
   padding: 0px;
   overflow-x: hidden;
-  font-family: Roboto, "Helvetica Neue", sans-serif; }
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
 
 //////////////////////
 /// Global theming ///
@@ -120,6 +121,7 @@ body {
   position: relative;
   overflow: auto;
 }
+
 .div-side-too-small {
   height: max(100%, calc(100vh - 75px));
 }
@@ -127,12 +129,14 @@ body {
 .middle-div {
   display: flex;
   flex-direction: column;
-  margin-left: 4%;
-  margin-right: 4%;
-  overflow: none;
+  padding-left: 4%;
+  padding-right: 4%;
+  background-color: white;
+  width: 50%;
+  min-width: 50%;
 }
 
-div.separator{
+div.separator {
   background-color: $lupa-blue;
   margin-bottom: 0.3cm;
   height: 3px;
@@ -180,6 +184,7 @@ p.content {
   cursor: pointer;
   width: fit-content;
 }
+
 .image-link:hover {
   opacity: 75%;
 }
@@ -210,11 +215,6 @@ p.description {
 .image-vignette {
   margin-right: 30px;
   height: 200px;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
 }
 
 .news-description {
