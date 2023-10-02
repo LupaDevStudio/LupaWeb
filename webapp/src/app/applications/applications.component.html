@@ -1,0 +1,73 @@
+<div class="main-div">
+
+    <div class="scroll-images">
+
+        <!-- Scrollbar of images -->
+        <img src="{{applications[mainApplicationNumber].bannerSource}}" alt="image">
+
+
+        <div class="game-information">
+            <div class="title-game">
+                {{applications[mainApplicationNumber].name.toUpperCase()}}
+            </div>
+            <div class="presentation-game">
+                {{applications[mainApplicationNumber].introductionSentence}}
+            </div>
+            <a routerLink="/applications/{{applications[mainApplicationNumber].id}}" routerLinkActive="active" ariaCurrentWhenActive="page">
+                <button mat-raised-button color="accent"
+                id="discover-button">
+                Découvrir
+                </button>
+            </a>
+        </div>
+
+        <button mat-mini-fab color="accent"
+            id="left-arrow"
+            class="arrow-button"
+            [disabled]="mainApplicationNumber == 0"
+            (click)="changeMainApplication('left')">
+            <mat-icon>chevron_left</mat-icon>
+        </button>
+        <button mat-mini-fab color="accent"
+            id="right-arrow"
+            class="arrow-button"
+            [disabled]="mainApplicationNumber == applications.length - 1"
+            (click)="changeMainApplication('right')">
+            <mat-icon>chevron_right</mat-icon>
+        </button>
+
+        <!-- List of games -->
+        <div style="display: flex;">
+
+            <div class="div-side">
+            </div>
+        
+            <div style="background-color: white; width: 50%; min-width: 50%;">
+
+                <div class="middle-div">
+                    <ul class="all-games">
+                        <li *ngFor="let application of applications" class="div-game">
+                            <a routerLink="/applications/{{application.id}}" routerLinkActive="active" ariaCurrentWhenActive="page" class="game-image-link">
+            
+                                <img src="{{application.vignetteSource}}" alt="image" class="game-image-vignette">
+                            </a>
+            
+                            <div>
+                                <p class="game-name">{{application.name}}</p>
+                                <p class="game-date">{{application.date}}</p>
+                                <p class="game-description">{{application.shortDescription}}</p>
+                            </div>
+            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="div-side">
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

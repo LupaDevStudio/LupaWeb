@@ -1,0 +1,50 @@
+.div-logo-title {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.div-buttons {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.button {
+    margin-right: 15px;
+    width: 150px;
+}
+
+.logo-image {
+    border-radius: 50%;
+    height: 80%;
+    margin-right: 50px;
+    margin-left: 15px;
+    animation:rotatelogo 4s linear infinite;
+}
+@keyframes rotatelogo {
+    from {rotate: 0deg;}
+    to {rotate: 360deg;}
+}
+
+.round-button {
+    margin-right: 15px;
+    margin-left: 15px;
+    height: 35px;
+    width: 35px;
+    overflow: hidden;
+}
+
+.flag-image {
+    border-radius: 50%;
+    height: 37px;
+}
+
+.language-name {
+    width: 10px;
+    margin-right: 50px;
+    font-size: smaller;
+}

@@ -1,0 +1,60 @@
+$lupa-pink: rgba(229, 19, 100);
+$lupa-blue: rgba(70, 129, 180);
+
+.search-bar-div {
+    position: relative;
+    width: 90%;
+    min-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40px; 
+}
+
+.search-bar {
+    height: 50px;
+    width: 90%;
+    border: 0;
+    border-radius: 5rem;
+    outline: none;
+    font-size: 20px;
+    background-color: lightgray;
+    padding: 10px 5%;
+}
+
+.search-button {
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.tag-button {
+    font-size: 12px;
+    border-radius: 1.25rem;
+  }
+  .tag-button[value="Android"] {
+    background-color: #a5c639;
+  }
+  .tag-button[value="Improvements"] {
+    background-color: green;
+    color: white;
+  }
+  .tag-button[value="IoS"] {
+    background-color: #949494;
+  }
+  .tag-button[value="Lumacryte"] {
+    background-color: #ffcb20;
+  }
+  .tag-button[value="Postrias"] {
+    background-color: red;
+    color: white;
+  }
+  .tag-button[value="Release"] {
+    background-color: $lupa-blue;
+    color: white;
+  }
+  .tag-button[value="TC"] {
+    background-color: $lupa-pink;
+    color: white;
+  }
