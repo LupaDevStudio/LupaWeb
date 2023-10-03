@@ -1,2 +1,2 @@
 cd webapp
-ng serve --open
+ng serve
