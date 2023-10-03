@@ -117,7 +117,7 @@ body {
 
 .div-side {
   width: 25%;
-  background-color: gray;
+  background-color: #e6e6e6;
   outline: none;
   position: relative;
 }
@@ -142,8 +142,8 @@ body {
   }
 
   @media (max-width:800px) {
-    width: 90%;
-    min-width: 90%;
+    width: 92%;
+    min-width: 92%;
   }
 }
 
