@@ -13,26 +13,20 @@
             <div class="presentation-game">
                 {{applications[mainApplicationNumber].introductionSentence}}
             </div>
-            <a routerLink="/applications/{{applications[mainApplicationNumber].id}}" routerLinkActive="active" ariaCurrentWhenActive="page">
-                <button mat-raised-button color="accent"
-                id="discover-button">
-                Découvrir
+            <a routerLink="/applications/{{applications[mainApplicationNumber].id}}" routerLinkActive="active"
+                ariaCurrentWhenActive="page">
+                <button mat-raised-button color="accent" id="discover-button">
+                    Découvrir
                 </button>
             </a>
         </div>
 
-        <button mat-mini-fab color="accent"
-            id="left-arrow"
-            class="arrow-button"
-            [disabled]="mainApplicationNumber == 0"
+        <button mat-mini-fab color="accent" id="left-arrow" class="arrow-button" [disabled]="mainApplicationNumber == 0"
             (click)="changeMainApplication('left')">
             <mat-icon>chevron_left</mat-icon>
         </button>
-        <button mat-mini-fab color="accent"
-            id="right-arrow"
-            class="arrow-button"
-            [disabled]="mainApplicationNumber == applications.length - 1"
-            (click)="changeMainApplication('right')">
+        <button mat-mini-fab color="accent" id="right-arrow" class="arrow-button"
+            [disabled]="mainApplicationNumber == applications.length - 1" (click)="changeMainApplication('right')">
             <mat-icon>chevron_right</mat-icon>
         </button>
 
@@ -41,28 +35,26 @@
 
             <div class="div-side">
             </div>
-        
-            <div style="background-color: white; width: 50%; min-width: 50%;">
 
-                <div class="middle-div">
-                    <ul class="all-games">
-                        <li *ngFor="let application of applications" class="div-game">
-                            <a routerLink="/applications/{{application.id}}" routerLinkActive="active" ariaCurrentWhenActive="page" class="game-image-link">
-            
-                                <img src="{{application.vignetteSource}}" alt="image" class="game-image-vignette">
-                            </a>
-            
-                            <div>
-                                <p class="game-name">{{application.name}}</p>
-                                <p class="game-date">{{application.date}}</p>
-                                <p class="game-description">{{application.shortDescription}}</p>
-                            </div>
-            
-                        </li>
-                    </ul>
-                </div>
+            <div class="middle-div">
+                <ul class="all-games">
+                    <li *ngFor="let application of applications" class="div-game">
+                        <a routerLink="/applications/{{application.id}}" routerLinkActive="active"
+                            ariaCurrentWhenActive="page" class="game-image-link">
+
+                            <img src="{{application.vignetteSource}}" alt="image" class="game-image-vignette">
+                        </a>
+
+                        <div>
+                            <p class="game-name">{{application.name}}</p>
+                            <p class="game-date">{{application.date}}</p>
+                            <p class="game-description">{{application.shortDescription}}</p>
+                        </div>
+
+                    </li>
+                </ul>
             </div>
-        
+
             <div class="div-side">
             </div>
 
