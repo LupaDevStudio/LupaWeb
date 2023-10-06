@@ -100,6 +100,25 @@ body {
 /// Global theming ///
 //////////////////////
 
+:root {
+  @media (min-width:800px) {
+    --center-width: 800px;
+    --center-min-width: 700px;
+  }
+
+  @media (max-width:800px) {
+    --center-width: 92%;
+    --center-min-width: 92%;
+  }
+
+  --title-bar-height: 4em;
+  --foot-bar-height:6em;
+
+  --center-padding : 0 4% 4em 4%;
+
+  --content-height : height: max(100%, calc(100vh - var(--foot-bar-height) - var(--title-bar-height)));
+}
+
 .main-div {
   display: flex;
   flex-direction: row;
@@ -123,28 +142,19 @@ body {
 }
 
 .div-side-too-small {
-  height: max(100%, calc(100vh - 75px));
+  height: var(--content-height);
 }
 
 .middle-div {
   display: flex;
   flex-direction: column;
-  padding-left: 4%;
-  padding-right: 4%;
   background-color: white;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.816);
-  height: max(100%, calc(100vh - 75px));
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.816);
+  height: var(--content-height);
   z-index: 1;
-
-  @media (min-width:800px) {
-    width: 800px;
-    min-width: 700px;
-  }
-
-  @media (max-width:800px) {
-    width: 92%;
-    min-width: 92%;
-  }
+  padding: var(--center-padding);
+  width: var(--center-width);
+  min-width: var(--center-min-width);
 }
 
 div.separator {

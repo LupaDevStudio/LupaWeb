@@ -20,6 +20,7 @@ import { NewsComponent } from './news/news.component';
 import { ApplicationsComponent } from './applications/applications.component';
 import { ApplicationDetailsComponent } from './application-details/application-details.component';
 import { NewsPageDetailsComponent } from './news-page-details/news-page-details.component';
+import { FootBarComponent } from './foot-bar/foot-bar.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { NewsPageDetailsComponent } from './news-page-details/news-page-details.
     NewsComponent,
     ApplicationsComponent,
     ApplicationDetailsComponent,
-    NewsPageDetailsComponent
+    NewsPageDetailsComponent,
+    FootBarComponent
   ],
   imports: [
     BrowserModule,
