@@ -21,6 +21,7 @@ import { ApplicationsComponent } from './applications/applications.component';
 import { ApplicationDetailsComponent } from './application-details/application-details.component';
 import { NewsPageDetailsComponent } from './news-page-details/news-page-details.component';
 import { FootBarComponent } from './foot-bar/foot-bar.component';
+import { LegalComponent } from './legal/legal.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { FootBarComponent } from './foot-bar/foot-bar.component';
     ApplicationsComponent,
     ApplicationDetailsComponent,
     NewsPageDetailsComponent,
-    FootBarComponent
+    FootBarComponent,
+    LegalComponent
   ],
   imports: [
     BrowserModule,

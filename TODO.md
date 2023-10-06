@@ -12,7 +12,7 @@
 ## Composants
 
 - [ ] ajouter une catégorie d'âge dans la page des applications
-- [ ] ajouter une note de bas de page avec le lien play store, l'adresse de contact, le github
+- [x] ajouter une note de bas de page avec le lien play store, l'adresse de contact, le github
 - [ ] dans les informations de l'application, au niveau de la liste de langues, utiliser des bullets points
 - [ ] découper le texte sur le menu applications
 
@@ -26,6 +26,7 @@
 
 - [ ] rajouter les descriptions dans le menu des applications pour chaque jeu (au niveau de la bannière défilante, un peu comme sur le site d'Ubisoft)
 - [ ] ajouter Github Sponsor sur la page d'accueil
+- [ ] ajouter le contenu légal
 
 ## Autres
 

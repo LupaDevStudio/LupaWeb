@@ -1,10 +1,21 @@
 .footer {
+    width: 100%;
+    height: auto;
+}
+
+.box-over {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.box-layout {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 100%;
     height: auto;
     justify-content: space-between;
+    width: 100%;
 }
 
 .box-column {
@@ -23,4 +34,11 @@
 a {
     color: white;
     text-decoration: none;
+}
+
+.legal {
+    text-align: center;
+    margin-bottom: 0.5em;
+    text-decoration: underline;
+    font-size: 0.85em;
 }

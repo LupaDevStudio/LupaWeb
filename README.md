@@ -18,6 +18,12 @@ To run the script locally, use the command : `./webapp.sh`
 
 When running locally, open [localhost:4200](localhost:4200) to preview the website.
 
+## Develop
+
+### Create a new component
+
+To create a new component, use the command : `ng g c <name of the component>`
+
 ## Build
 
 To build the website, use the command : `./build.sh`
