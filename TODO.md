@@ -21,12 +21,14 @@
 
 - [ ] ajouter un bouton de téléchargement pour exécutables dans la page applications
 - [ ] quand on clique sur les boutons des tags ça recherche automatique le bon tag
+- [ ] ajouter la traduction du texte
 
 ## Contenu
 
 - [ ] rajouter les descriptions dans le menu des applications pour chaque jeu (au niveau de la bannière défilante, un peu comme sur le site d'Ubisoft)
 - [ ] ajouter Github Sponsor sur la page d'accueil
 - [ ] ajouter le contenu légal
+- [ ] remplacer le drapeau UK par un drapeau mixte UK/US
 
 ## Autres
 

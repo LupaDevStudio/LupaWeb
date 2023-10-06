@@ -14,17 +14,17 @@
         <div class="nav-buttons-layout">
             <button mat-raised-button routerLink="" routerLinkActive="active" ariaCurrentWhenActive="page"
                 color="accent" class="button">
-                Accueil
+                {{"HomePage"|translate}}
             </button>
 
             <button mat-raised-button routerLink="/applications" routerLinkActive="active" ariaCurrentWhenActive="page"
                 color="accent" class="button">
-                Applications
+                {{"Applications"|translate}}
             </button>
 
             <button mat-raised-button routerLink="/news" routerLinkActive="active" ariaCurrentWhenActive="page"
                 color="accent" class="button">
-                Actualités
+                {{"News"|translate}}
             </button>
         </div>
         <div class="nav-list">
@@ -37,23 +37,23 @@
             </button>
             <mat-menu #nav_menu="matMenu" xPosition="after">
                 <button mat-menu-item routerLink="/" routerLinkActive="active"
-                    ariaCurrentWhenActive="page">Accueil</button>
+                    ariaCurrentWhenActive="page">{{"HomePage"|translate}}</button>
                 <button mat-menu-item routerLink="/applications" routerLinkActive="active"
-                    ariaCurrentWhenActive="page">Applications</button>
+                    ariaCurrentWhenActive="page">{{"Applications"|translate}}</button>
                 <button mat-menu-item routerLink="/news" routerLinkActive="active"
-                    ariaCurrentWhenActive="page">Actualités</button>
+                    ariaCurrentWhenActive="page">{{"News"|translate}}</button>
             </mat-menu>
         </div>
         <!-- Language -->
 
         <button mat-fab [matMenuTriggerFor]="lang_menu" color="primary" class="round-button">
-            <img src={{flagName}} alt="image" class="flag-image">
+            <img src={{getFlagName()}} alt="image" class="flag-image">
         </button>
         <mat-menu #lang_menu="matMenu" xPosition="after">
-            <button mat-menu-item (click)="changeLanguage('english')">English</button>
-            <button mat-menu-item (click)="changeLanguage('french')">Français</button>
+            <button mat-menu-item (click)="switchLanguage('en')">English</button>
+            <button mat-menu-item (click)="switchLanguage('fr')">Français</button>
         </mat-menu>
-        <span class="language-name">{{languageName}}</span>
+        <span class="language-name">{{getLanguageName()}}</span>
 
     </div>
 </mat-toolbar>

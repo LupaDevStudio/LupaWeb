@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AppComponent } from '../app.component';
 
 @Component({
   selector: 'app-title-bar',
@@ -6,17 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./title-bar.component.scss']
 })
 export class TitleBarComponent {
-
-  // Languages parameters
-  languageName: string = "Fr";
-  flagName: string = "/assets/french_logo.png";
-  languageAssociations: { [Name: string]: [string, string]} = {
-    "english": ["En", "/assets/english_logo.png"],
-    "french": ["Fr", "/assets/french_logo.png"]
+  constructor(private appComponent: AppComponent) { }
+  public switchLanguage(lang: string): void {
+    this.appComponent.switchLanguage(lang);
   }
-
-  changeLanguage(newLanguage: string) {
-    this.languageName = this.languageAssociations[newLanguage][0];
-    this.flagName = this.languageAssociations[newLanguage][1];
+  public getFlagName(): string {
+    return this.appComponent.flagName;
+  }
+  public getLanguageName(): string {
+    return this.appComponent.languageName;
   }
 }
+

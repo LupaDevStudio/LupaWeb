@@ -1,0 +1,18 @@
+{
+    "HomePage": "Accueil",
+    "Applications": "Applications",
+    "News": "Actualités",
+    "OurTeam": "Notre équipe",
+    "TeamContent": "Nous sommes une petite équipe de développeurs en Python, intéressés dans le développement mobile, en particulier Android pour l'instant.",
+    "OurGoal": "Notre objectif",
+    "GoalContent": "Nous voulons créer des petits jeux et applications par nous-mêmes et les partager avec vous. Publier le code de nos projets en open-source est une valeur qui nous tient à cœur pour contribuer à la communauté.",
+    "GithubButton": "Visiter notre GitHub",
+    "OurWork": "Notre travail",
+    "WorkContent": "Pour développer nos jeux et applications mobiles, nous utilisons la librairie Kivy de Python, qui nous permet de partager notre code sur toutes les plateformes.",
+    "ContactUs": "Nous contacter",
+    "ContactContent": "Nous sommes ouverts à tout échange avec vous, si vous souhaitez nous reporter une erreur dans nos applications ou si vous voulez proposer de nouvelles idées.",
+    "ContactLink": "N'hésitez pas à nous contacter à l'adresse suivante : ",
+    "SupportUs": "Nous soutenir",
+    "SupportLink": "Pour nous soutenir, rendez-vous sur la page : ",
+    "LegalInformation": "Mentions légales"
+}
