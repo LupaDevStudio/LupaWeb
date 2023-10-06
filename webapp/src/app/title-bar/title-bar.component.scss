@@ -3,12 +3,28 @@ $lupa-pink: rgba(229, 19, 100);
 
 .div-logo-title {
     height: 100%;
-    width: 30%;
+    width: 32%;
     min-width: 10em;
     margin-right: 3%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.studio-title {
+    @media (min-width:800px) {
+        font-size: x-large;
+    }
+
+    @media (max-width:800px) {
+        font-size: larger;
+        margin-left: 0.5em;
+    }
+
+    @media (max-width:400px) {
+        font-size: large;
+        margin-left: 0.5em;
+    }
 }
 
 .logo-container {
@@ -21,7 +37,6 @@ $lupa-pink: rgba(229, 19, 100);
 
     @media (max-width:800px) {
         height: 60%;
-
     }
 }
 
@@ -42,7 +57,6 @@ $lupa-pink: rgba(229, 19, 100);
     @media (max-width:800px) {
         visibility: hidden;
         display: none;
-
     }
 }
 
@@ -60,7 +74,6 @@ $lupa-pink: rgba(229, 19, 100);
     @media (max-width:800px) {
         visibility: visible;
         display: flex;
-
     }
 
 
@@ -114,7 +127,7 @@ $lupa-pink: rgba(229, 19, 100);
 
 .language-name {
     width: 10px;
-    margin-right: 1em;
+    margin-right: 3%;
     font-size: smaller;
 }
 
