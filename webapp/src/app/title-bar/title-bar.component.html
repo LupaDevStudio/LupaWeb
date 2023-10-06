@@ -2,32 +2,38 @@
 
 
     <div class="div-logo-title">
-        <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page" class="div-logo-title"
-            style="cursor: pointer; text-decoration: none; color:inherit; width: fit-content">
+        <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page" class="logo-container">
             <img src="/assets/lupa_logo.png" alt="image" class="logo-image">
         </a>
-        <span style="margin-right: 30px;">LupaDevStudio</span>
+        <span>LupaDevStudio</span>
     </div>
 
     <div class="div-buttons">
 
         <!-- Main menus -->
+        <div class="nav-buttons-layout">
+            <button mat-raised-button routerLink="" routerLinkActive="active" ariaCurrentWhenActive="page"
+                color="accent" class="button">
+                Accueil
+            </button>
 
-        <button mat-raised-button routerLink="" routerLinkActive="active" ariaCurrentWhenActive="page" color="accent"
-            class="button">
-            Accueil
-        </button>
+            <button mat-raised-button routerLink="/applications" routerLinkActive="active" ariaCurrentWhenActive="page"
+                color="accent" class="button">
+                Applications
+            </button>
 
-        <button mat-raised-button routerLink="/applications" routerLinkActive="active" ariaCurrentWhenActive="page"
-            color="accent" class="button">
-            Applications
-        </button>
-
-        <button mat-raised-button routerLink="/news" routerLinkActive="active" ariaCurrentWhenActive="page"
-            color="accent" class="button">
-            Actualités
-        </button>
-
+            <button mat-raised-button routerLink="/news" routerLinkActive="active" ariaCurrentWhenActive="page"
+                color="accent" class="button">
+                Actualités
+            </button>
+        </div>
+        <div class="nav-list">
+            <svg xmlns="http://www.w3.org/2000/svg" class="list-button"
+                viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                    d="M40 48C26.7 48 16 58.7 16 72v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V72c0-13.3-10.7-24-24-24H40zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zM16 232v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V232c0-13.3-10.7-24-24-24H40c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V392c0-13.3-10.7-24-24-24H40z" />
+            </svg>
+        </div>
         <!-- Language -->
 
         <button mat-fab [matMenuTriggerFor]="menu" color="primary" class="round-button">
