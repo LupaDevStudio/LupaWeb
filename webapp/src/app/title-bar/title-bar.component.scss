@@ -51,11 +51,7 @@ $lupa-pink: rgba(229, 19, 100);
     width: 8em;
 }
 
-.list-button {
-    height: 37px;
-    vertical-align: middle;
-    margin-right: 0.7em;
-
+.nav-list {
     @media (min-width:800px) {
         visibility: hidden;
         display: none;
@@ -66,6 +62,23 @@ $lupa-pink: rgba(229, 19, 100);
         display: flex;
 
     }
+
+
+}
+
+.list-button {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.list-button-image {
+    height: 37px;
+    vertical-align: middle;
+    margin-right: 0.7em;
+}
+
+.list-button-image:active {
+    fill: $lupa-pink;
 }
 
 .logo-image {

@@ -28,18 +28,28 @@
             </button>
         </div>
         <div class="nav-list">
-            <svg xmlns="http://www.w3.org/2000/svg" class="list-button"
-                viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                <path
-                    d="M40 48C26.7 48 16 58.7 16 72v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V72c0-13.3-10.7-24-24-24H40zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zM16 232v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V232c0-13.3-10.7-24-24-24H40c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V392c0-13.3-10.7-24-24-24H40z" />
-            </svg>
+            <button class="list-button" [matMenuTriggerFor]="nav_menu">
+                <svg xmlns="http://www.w3.org/2000/svg" class="list-button-image"
+                    viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                        d="M40 48C26.7 48 16 58.7 16 72v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V72c0-13.3-10.7-24-24-24H40zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zM16 232v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V232c0-13.3-10.7-24-24-24H40c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V392c0-13.3-10.7-24-24-24H40z" />
+                </svg>
+            </button>
+            <mat-menu #nav_menu="matMenu" xPosition="after">
+                <button mat-menu-item routerLink="/" routerLinkActive="active"
+                    ariaCurrentWhenActive="page">Accueil</button>
+                <button mat-menu-item routerLink="/applications" routerLinkActive="active"
+                    ariaCurrentWhenActive="page">Applications</button>
+                <button mat-menu-item routerLink="/news" routerLinkActive="active"
+                    ariaCurrentWhenActive="page">Actualités</button>
+            </mat-menu>
         </div>
         <!-- Language -->
 
-        <button mat-fab [matMenuTriggerFor]="menu" color="primary" class="round-button">
+        <button mat-fab [matMenuTriggerFor]="lang_menu" color="primary" class="round-button">
             <img src={{flagName}} alt="image" class="flag-image">
         </button>
-        <mat-menu #menu="matMenu" xPosition="after">
+        <mat-menu #lang_menu="matMenu" xPosition="after">
             <button mat-menu-item (click)="changeLanguage('english')">English</button>
             <button mat-menu-item (click)="changeLanguage('french')">Français</button>
         </mat-menu>
