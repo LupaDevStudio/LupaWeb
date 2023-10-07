@@ -6,6 +6,8 @@
             <img [src]="image" alt="Game Banner">
         </div>
     </div>
-    <button (click)="prevSlide()" class="prev-button">Previous</button>
-    <button (click)="nextSlide()" class="next-button">Next</button>
+    <button mat-mini-fab color="accent" (click)="prevSlide()"
+        class="prev-button"><mat-icon>chevron_left</mat-icon></button>
+    <button mat-mini-fab color="accent" (click)="nextSlide()"
+        class="next-button"><mat-icon>chevron_right</mat-icon></button>
 </div>
