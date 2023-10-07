@@ -1,9 +1,7 @@
 <div class="main-div">
 
-    <div class="scroll-images">
-
-        <!-- Scrollbar of images -->
-        <img src="{{applications[mainApplicationNumber].bannerSource}}" alt="image">
+    <!-- Scrollbar of images -->
+    <!-- <img src="{{applications[mainApplicationNumber].bannerSource}}" alt="image">
 
 
         <div class="game-information">
@@ -19,47 +17,48 @@
                     Découvrir
                 </button>
             </a>
-        </div>
+        </div> -->
 
-        <button mat-mini-fab color="accent" id="left-arrow" class="arrow-button" [disabled]="mainApplicationNumber == 0"
+    <app-image-slider style="z-index: 2;" [images]="applicationsBannerList"></app-image-slider>
+
+    <!-- <button mat-mini-fab color="accent" id="left-arrow" class="arrow-button" [disabled]="mainApplicationNumber == 0"
             (click)="changeMainApplication('left')">
             <mat-icon>chevron_left</mat-icon>
         </button>
         <button mat-mini-fab color="accent" id="right-arrow" class="arrow-button"
             [disabled]="mainApplicationNumber == applications.length - 1" (click)="changeMainApplication('right')">
             <mat-icon>chevron_right</mat-icon>
-        </button>
+        </button> -->
 
-        <!-- List of games -->
-        <div style="display: flex;">
+    <!-- List of games -->
+    <div class="game-list-div">
 
-            <div class="div-side">
-            </div>
+        <div class="div-side">
+        </div>
 
-            <div class="middle-div">
-                <ul class="all-games">
-                    <li *ngFor="let application of applications" class="div-game">
-                        <a routerLink="/applications/{{application.id}}" routerLinkActive="active"
-                            ariaCurrentWhenActive="page" class="game-image-link">
+        <div class="middle-div">
+            <ul class="all-games">
+                <li *ngFor="let application of applications" class="div-game">
+                    <a routerLink="/applications/{{application.id}}" routerLinkActive="active"
+                        ariaCurrentWhenActive="page" class="game-image-link">
 
-                            <img src="{{application.vignetteSource}}" alt="image" class="game-image-vignette">
-                        </a>
+                        <img src="{{application.vignetteSource}}" alt="image" class="game-image-vignette">
+                    </a>
 
-                        <div>
-                            <p class="game-name">{{application.name}}</p>
-                            <p class="game-date">{{application.date}}</p>
-                            <p class="game-description">{{application.shortDescription}}</p>
-                        </div>
+                    <div>
+                        <p class="game-name">{{application.name}}</p>
+                        <p class="game-date">{{application.date}}</p>
+                        <p class="game-description">{{application.shortDescription}}</p>
+                    </div>
 
-                    </li>
-                </ul>
-            </div>
+                </li>
+            </ul>
+        </div>
 
-            <div class="div-side">
-            </div>
-
+        <div class="div-side">
         </div>
 
     </div>
+
 
 </div>

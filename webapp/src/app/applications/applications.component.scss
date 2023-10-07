@@ -1,10 +1,13 @@
 $lupa-blue: rgba(70, 129, 180);
 
-.scroll-images {
+.main-div {
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    position: relative;
+}
+
+.game-list-div {
+    display: flex;
+    z-index: 1;
 }
 
 .arrow-button {

@@ -10,6 +10,11 @@ import { APPLICATIONS } from '../mock-applications';
 export class ApplicationsComponent {
   applications = APPLICATIONS;
   mainApplicationNumber: number = 0;
+  applicationsBannerList: string[] = [
+    'assets/apps_images/postrias_banner.png',
+    'assets/apps_images/lumacryte_banner.png',
+    'assets/apps_images/tramway_collector_banner.png',
+  ];
 
   changeMainApplication(side: string) {
     if (side == "left") {

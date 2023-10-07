@@ -25,6 +25,7 @@ import { ApplicationDetailsComponent } from './application-details/application-d
 import { NewsPageDetailsComponent } from './news-page-details/news-page-details.component';
 import { FootBarComponent } from './foot-bar/foot-bar.component';
 import { LegalComponent } from './legal/legal.component';
+import { ImageSliderComponent } from './image-slider/image-slider.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { LegalComponent } from './legal/legal.component';
     ApplicationDetailsComponent,
     NewsPageDetailsComponent,
     FootBarComponent,
-    LegalComponent
+    LegalComponent,
+    ImageSliderComponent
   ],
   imports: [
     BrowserModule,
