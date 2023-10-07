@@ -8,6 +8,12 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ImageSliderComponent implements OnInit {
   @Input() images: string[] = [];
+  // @Input() titles: string[] = [];
+  titles: string[] = [
+    'Postrias',
+    'Lumacryte',
+    'Tramway Collector',
+  ];
 
   currentIndex = 0;
 

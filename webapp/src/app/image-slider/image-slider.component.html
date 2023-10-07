@@ -1,10 +1,15 @@
 <div class="slider-container">
     <div class="slider">
+
         <div *ngFor="let image of images; let i = index" class="slide"
             [style.transform]="'translateX(' + -currentIndex * 100 + '%)'">
-            <!-- <div *ngFor="let image of images; let i = index" class="slide" [@slideAnimation]="animationState"> -->
             <img [src]="image" alt="Game Banner">
+            <div class="slide-title">{{titles[i].toUpperCase()}}</div>
+            <div class="slide-text">Lorem ipsum sit dolor njldsq d,kslq dnjk qs djqsk dsq dsnjkq dnjqs ddnjkqs dsqjk
+            </div>
         </div>
+
+
     </div>
     <button mat-mini-fab color="accent" (click)="prevSlide()"
         class="prev-button"><mat-icon>chevron_left</mat-icon></button>
