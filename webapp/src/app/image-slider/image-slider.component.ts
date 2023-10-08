@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Application } from '../application';
 
 
 @Component({
@@ -8,16 +9,23 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ImageSliderComponent implements OnInit {
   @Input() images: string[] = [];
-  // @Input() titles: string[] = [];
-  titles: string[] = [
-    'Postrias',
-    'Lumacryte',
-    'Tramway Collector',
-  ];
+  @Input() titles: string[] = [];
+  @Input() texts: string[] = [];
 
   currentIndex = 0;
+  intervalId: any;
 
-  ngOnInit() { }
+  ngOnInit() {
+    // Start the timer when the component is initialized
+    this.startSlideShow();
+  }
+
+  startSlideShow() {
+    // Set an interval to switch images every 3 seconds (adjust as needed)
+    this.intervalId = setInterval(() => {
+      this.nextSlide();
+    }, 10000);
+  }
 
   prevSlide() {
     if (this.currentIndex > 0) {

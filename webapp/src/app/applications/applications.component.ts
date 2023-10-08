@@ -10,11 +10,21 @@ import { APPLICATIONS } from '../mock-applications';
 export class ApplicationsComponent {
   applications = APPLICATIONS;
   mainApplicationNumber: number = 0;
-  applicationsBannerList: string[] = [
-    'assets/apps_images/postrias_banner.png',
-    'assets/apps_images/lumacryte_banner.png',
-    'assets/apps_images/tramway_collector_banner.png',
-  ];
+  applicationsBannerList: string[] = [];
+  applicationsTitleList: string[] = [];
+  applicationsTextList: string[] = [];
+
+  constructor() {
+    this.buildImageSliderList();
+  }
+
+  buildImageSliderList() {
+    this.applications.forEach(element => {
+      this.applicationsBannerList.push(element.bannerSource);
+      this.applicationsTitleList.push(element.name);
+      this.applicationsTextList.push(element.introductionSentence);
+    });
+  }
 
   changeMainApplication(side: string) {
     if (side == "left") {
