@@ -5,3 +5,33 @@
     margin-top: 20px;
     margin-bottom: 15px;
 }
+
+// .middle-div {
+//     z-index: 10;
+// }
+
+// .div-side {
+//     z-index: 102;
+// }
+
+.background-image {
+    position: absolute;
+    // top: 10%;
+    width: 100%;
+    top: 0%;
+    // height: calc(100% - var(--title-bar-height));
+    height: 100%;
+    z-index: -1;
+}
+
+.side-div {
+    background-color: transparent;
+}
+
+.body {
+    background-color: transparent;
+}
+
+// .body {
+//     background-image: "{{application.bannerSource}}";
+// }

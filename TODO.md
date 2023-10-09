@@ -21,20 +21,20 @@
 
 - [ ] ajouter un bouton de téléchargement pour exécutables dans la page applications
 - [ ] quand on clique sur les boutons des tags ça recherche automatique le bon tag
-- [ ] ajouter la traduction du texte
+- [x] ajouter la traduction du texte
 
 ## Contenu
 
 - [ ] rajouter les descriptions dans le menu des applications pour chaque jeu (au niveau de la bannière défilante, un peu comme sur le site d'Ubisoft)
-- [ ] ajouter Github Sponsor sur la page d'accueil
+- [x] ajouter Github Sponsor sur la page d'accueil
 - [ ] ajouter le contenu légal
 - [ ] remplacer le drapeau UK par un drapeau mixte UK/US
 
 ## Autres
 
 - [ ] remplacer les backslash \n dans les grandes descriptions par une succession de paragraphes (faire un tableau dans mock-applications et faire une itération de paragraphes)
-- [ ] icône de la page
-- [ ] nom de la page
+- [x] icône de la page
+- [x] nom de la page
 
 
 
