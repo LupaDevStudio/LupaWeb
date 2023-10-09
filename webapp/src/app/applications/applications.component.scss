@@ -48,27 +48,29 @@ $lupa-blue: rgba(70, 129, 180);
 
 .all-games {
     list-style-type: none;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    // grid-template-columns: repeat(3, 1fr);
     padding: 20px;
 }
 
-.all-games li {
+.div-game {
     display: flex;
     padding: 15px;
     flex-direction: column;
-}
-
-.div-game {
-    height: 100%;
-    align-items: stretch;
-    display: flex;
-    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 33%;
+    max-width: 20em;
+    margin-bottom: 0.5em;
 }
 
 .game-image-link {
     cursor: pointer;
-
 }
 
 .game-image-link:hover {
@@ -84,13 +86,13 @@ p.game-name {
 }
 
 p.game-date {
-    font-size: 14px;
+    font-size: medium;
     font-style: italic;
     margin-bottom: 15px;
 }
 
 p.game-description {
-    font-size: 16px;
+    font-size: medium;
 }
 
 .game-image-vignette {
