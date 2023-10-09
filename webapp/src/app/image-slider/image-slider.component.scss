@@ -46,7 +46,7 @@
     }
 
     @media (max-width:800px) {
-        top: 70%;
+        top: 15%;
         font-size: x-large;
 
     }
@@ -73,8 +73,27 @@
         visibility: hidden;
         display: none;
     }
+}
 
+.slide-button {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
+    font-weight: bold;
+    color: white;
+
+    @media (min-width:800px) {
+        top: 50%;
+        font-size: xx-large;
+        padding: 1em;
+    }
+
+    @media (max-width:800px) {
+        top: 85%;
+        font-size: x-large;
+    }
 }
 
 .prev-button,

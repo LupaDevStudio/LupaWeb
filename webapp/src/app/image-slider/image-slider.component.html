@@ -9,6 +9,11 @@
             <div class="slide-text">
                 {{texts[i]}}
             </div>
+            <button mat-raised-button color="accent" class="slide-button"
+                [routerLink]="'/applications/' +titles[i].toLowerCase()" routerLinkActive="active"
+                ariaCurrentWhenActive="page">
+                {{"Discover"|translate}}
+            </button>
         </div>
 
 

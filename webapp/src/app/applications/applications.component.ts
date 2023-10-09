@@ -13,6 +13,7 @@ export class ApplicationsComponent {
   applicationsBannerList: string[] = [];
   applicationsTitleList: string[] = [];
   applicationsTextList: string[] = [];
+  applicationsButtonList: string[] = [];
 
   constructor() {
     this.buildImageSliderList();
