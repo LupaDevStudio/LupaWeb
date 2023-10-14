@@ -1,39 +1,45 @@
 <div>
-
-
   <div class="main-div">
-
-
-
     <div class="div-side div-side-too-small" style="opacity: 50%;">
     </div>
+    <div class="middle-div">
+      <span class="main-title">{{JsonAppContent.name}}</span>
+      <span class="introduction-sentence">{{JsonAppContent.introductionSentence}}</span>
 
-
-    <div *ngIf="application" class="middle-div">
-      <span class="main-title">{{application.name}}</span>
-      <span class="introduction-sentence">{{application.introductionSentence}}</span>
-
-      <p class="title">Histoire</p>
+      <p class="title">{{"Story"|translate}}</p>
       <div class="separator"></div>
-      <p class="content">{{application.storyDescription}}</p>
+      <p *ngFor="let paragraph of JsonAppContent.storyDescription" class="content">{{paragraph}}</p>
 
-      <p class="title">Informations</p>
+      <p class="title">{{"Info"|translate}}</p>
       <div class="separator"></div>
-      <p class="content">{{application.information}}</p>
+      <ul class="content">
+        <li class="language-li">
+          {{"Languages"|translate}}:
+          <ul>
+            <li *ngFor="let language of JsonAppContent.languages" class="sub-li">
+              {{language}}
+            </li>
+          </ul>
+        </li>
+      </ul>
 
-      <p class="title">Installation</p>
+      <p class="title">{{"Installation"|translate}}</p>
       <div class="separator"></div>
-      <p class="content">{{application.installation}}</p>
-      <a mat-raised-button color="accent" href="{{application.downloadLink}}" target="_blank" class="download-button">
-        Télécharger
+      <div *ngIf="JsonAppContent.GooglePlayLink">
+        <img src={{getGooglePlayImage()}}>
+      </div>
+      <p class="content">{{JsonAppContent.installation}}</p>
+      <a mat-raised-button color="accent" href="{{JsonAppContent.downloadLink}}" target="_blank"
+        class="download-button">
+        {{"Download"|translate}}
       </a>
 
-      <p class="title">Actualités</p>
+      <p class="title">{{"News"|translate}}</p>
       <div class="separator"></div>
 
       <ul class="all-news">
         <li *ngFor="let newsPage of news" style="margin-top: 0 !important;">
-          <div *ngIf="newsPage.gameId == application.id" class="div-news" style="margin-top: 20px;">
+          <div *ngIf="newsPage.gameId == JsonAppContent.id" class="div-news" style="margin-top: 20px;">
             <div class="left-bar"></div>
 
             <a routerLink="/news/{{newsPage.id}}" routerLinkActive="active" ariaCurrentWhenActive="page"
@@ -57,7 +63,7 @@
     </div>
 
   </div>
-  <img src="{{application.bannerSource}}" alt="image" class="background-image">
+  <img src="{{JsonAppContent.bannerSource}}" alt="image" class="background-image">
 
 
 </div>

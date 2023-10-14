@@ -1,10 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { ApplicationService } from '../application.service';
-import { Application } from '../application';
-import { APPLICATIONS } from '../mock-applications';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { AppComponent } from '../app.component';
 import { NEWS } from '../mock-news';
 
 @Component({
@@ -14,33 +11,41 @@ import { NEWS } from '../mock-news';
 })
 
 export class ApplicationDetailsComponent {
-  application: Application;
   news = NEWS;
   JsonAppContent: any;
-
-
   constructor(
     private route: ActivatedRoute,
-    private applicationService: ApplicationService,
-    private http: HttpClient
+    private http: HttpClient,
+    private appComponent: AppComponent
   ) {
-    this.application = APPLICATIONS[0];
-    this.JsonAppContent = this.getJSON("/assets/app-content-fr.json");
   }
 
-  public getJSON(url: string): Observable<any> {
-    return this.http.get(url);
-  }
+
   ngOnInit(): void {
-    this.getApplication();
+    this.getAppDict();
   }
 
-  getApplication(): void {
+  getAppDict(): void {
     const id = this.route.snapshot.paramMap.get('id');
+    const lang = this.getLanguageName();
+    const json_path = "/assets/app-content-" + lang.toLowerCase() + ".json";
     if (id != undefined) {
-      this.applicationService.getApplication(id)
-        .subscribe(application => this.application = application);
+      this.http.get(json_path).subscribe((data: any) => {
+        this.JsonAppContent = data[id];
+      });
+    }
+    else {
+      this.http.get(json_path).subscribe((data: any) => {
+        this.JsonAppContent = data["postrias"];
+      });
     }
   }
 
-}
+  public getLanguageName(): string {
+    return this.appComponent.languageName;
+  }
+
+  public getGooglePlayImage(): string {
+    return this.appComponent.googlePlayImage;
+  }
+} 

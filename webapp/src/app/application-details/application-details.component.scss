@@ -4,15 +4,8 @@
     font-size: 18px;
     margin-top: 20px;
     margin-bottom: 15px;
+    text-align: center;
 }
-
-// .middle-div {
-//     z-index: 10;
-// }
-
-// .div-side {
-//     z-index: 102;
-// }
 
 .background-image {
     position: absolute;
@@ -32,6 +25,37 @@
     background-color: transparent;
 }
 
-// .body {
-//     background-image: "{{application.bannerSource}}";
-// }
+.content {
+    text-align: justify;
+}
+
+ul {
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 1em;
+}
+
+.language-li {
+    list-style: none;
+    font-size: medium;
+    // text-decoration: bold;
+    font-weight: bold;
+}
+
+.language-li:before {
+    content: '';
+    display: inline-block;
+    height: 0.95em;
+    width: 1.3em;
+    background-size: 1.3em;
+    background-image: url("/assets/icons/language-solid.svg");
+    background-repeat: no-repeat;
+    margin-right: 0.3em;
+}
+
+.sub-li {
+    font-size: small;
+    font-weight: normal;
+    margin-left: 1.5em;
+    list-style: initial;
+}

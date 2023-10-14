@@ -12,7 +12,7 @@
             "Autres para"
         ],
         "downloadLink": "",
-        "installation": "Cette application est disponible sur Google Play.",
+        "installation": "Instructions pour l'installation",
         "languages": [
             "Français",
             "Anglais"
@@ -32,8 +32,7 @@
             "Pendant votre voyage souterrain, vous trouverez aussi joyaux et pierres précieuses, rapportez-les à la balise la plus proche pour compléter votre collection !"
         ],
         "downloadLink": "https://play.google.com/store/apps/details?id=org.lumacryte",
-        "GooglePlayLink": "https://play.google.com/store/apps/details?id=org.lumacryte",
-        "installation": "Cette application est disponible sur Google Play ou sur itch.io.",
+        "installation": "Instructions pour l'installation",
         "languages": [
             "Français",
             "Anglais"
