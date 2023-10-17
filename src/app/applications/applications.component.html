@@ -1,24 +1,5 @@
 <div class="main-div">
 
-    <!-- Scrollbar of images -->
-    <!-- <img src="{{applications[mainApplicationNumber].bannerSource}}" alt="image">
-
-
-        <div class="game-information">
-            <div class="title-game">
-                {{applications[mainApplicationNumber].name.toUpperCase()}}
-            </div>
-            <div class="presentation-game">
-                {{applications[mainApplicationNumber].introductionSentence}}
-            </div>
-            <a routerLink="/applications/{{applications[mainApplicationNumber].id}}" routerLinkActive="active"
-                ariaCurrentWhenActive="page">
-                <button mat-raised-button color="accent" id="discover-button">
-                    Découvrir
-                </button>
-            </a>
-        </div> -->
-
     <app-image-slider style="z-index: 2;" [images]="applicationsBannerList" [texts]="applicationsTextList"
         [titles]="applicationsTitleList"></app-image-slider>
 
@@ -30,7 +11,7 @@
 
         <div class="middle-div">
             <ul class="all-games">
-                <li *ngFor="let application of applications" class="div-game">
+                <li *ngFor="let application of JsonAppsContent" class="div-game">
                     <a routerLink="/applications/{{application.id}}" routerLinkActive="active"
                         ariaCurrentWhenActive="page" class="game-image-link">
 

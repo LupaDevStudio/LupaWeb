@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
-import { APPLICATIONS } from '../mock-applications';
+import { HttpClient } from '@angular/common/http';
+import { AppComponent } from '../app.component';
+import { LanguageService } from '../language.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-applications',
@@ -8,31 +11,51 @@ import { APPLICATIONS } from '../mock-applications';
 })
 
 export class ApplicationsComponent {
-  applications = APPLICATIONS;
-  mainApplicationNumber: number = 0;
+
+  languageService: LanguageService;
+  langSubscription: Subscription;
+
+  JsonAppsContent: any[] = [];
+
   applicationsBannerList: string[] = [];
   applicationsTitleList: string[] = [];
   applicationsTextList: string[] = [];
   applicationsButtonList: string[] = [];
 
-  constructor() {
-    this.buildImageSliderList();
+  constructor(
+    private http: HttpClient,
+    private appComponent: AppComponent,
+    languageService: LanguageService
+  ) {
+    this.getJsonAppsContent(this.getLanguageName());
+    this.languageService = languageService;
+    this.langSubscription = this.languageService.getNewLang().subscribe((value: string) => {
+      this.getJsonAppsContent(value);
+    });
+  }
+
+
+  getJsonAppsContent(value: string) {
+    const json_path = "/assets/app-content-" + value.toLowerCase() + ".json";
+    this.http.get(json_path).subscribe((data: any) => {
+      let i = 0;
+      for (let key in data) {
+        this.JsonAppsContent[i] = data[key];
+        i++;
+      }
+      this.buildImageSliderList();
+    });
   }
 
   buildImageSliderList() {
-    this.applications.forEach(element => {
+    this.JsonAppsContent.forEach(element => {
       this.applicationsBannerList.push(element.bannerSource);
       this.applicationsTitleList.push(element.name);
       this.applicationsTextList.push(element.introductionSentence);
     });
   }
 
-  changeMainApplication(side: string) {
-    if (side == "left") {
-      this.mainApplicationNumber -= 1;
-    }
-    if (side == "right") {
-      this.mainApplicationNumber += 1;
-    }
+  public getLanguageName(): string {
+    return this.appComponent.languageName;
   }
 }
