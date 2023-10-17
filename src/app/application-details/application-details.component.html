@@ -25,14 +25,21 @@
 
       <p class="title">{{"Installation"|translate}}</p>
       <div class="separator"></div>
-      <div *ngIf="JsonAppContent.GooglePlayLink">
-        <img src={{getGooglePlayImage()}}>
-      </div>
       <p class="content">{{JsonAppContent.installation}}</p>
-      <a mat-raised-button color="accent" href="{{JsonAppContent.downloadLink}}" target="_blank"
-        class="download-button">
-        {{"Download"|translate}}
-      </a>
+      <div class="download-box">
+        <div *ngIf="JsonAppContent.GooglePlayLink">
+          <a href={{JsonAppContent.GooglePlayLink}}>
+            <img src={{getGooglePlayImage()}} class="link-item">
+          </a>
+        </div>
+        <div *ngIf="JsonAppContent.ItchIoImage">
+          <a href={{JsonAppContent.ItchIoLink}}>{{JsonAppContent.title}}
+            <img src={{JsonAppContent.ItchIoImage}} class="link-item">
+          </a>
+        </div>
+
+      </div>
+
 
       <p class="title">{{"News"|translate}}</p>
       <div class="separator"></div>

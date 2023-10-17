@@ -1,6 +1,6 @@
 # LupaDevStudio Website
 
-This is the code used for the LupaDevStudio's website available at the url : [lupadevstudio.com](lupadevstudio.com)
+This is the code used for the LupaDevStudio's website available at the url : [lupadevstudio.com](http://lupadevstudio.com)
 
 ## Requirements
 
@@ -16,7 +16,7 @@ To install the website for the first time, use the command : `npm install` in th
 
 To run the script locally, use the command : `./webapp.sh`
 
-When running locally, open [localhost:4200](localhost:4200) to preview the website.
+When running locally, open [localhost:4200](http://localhost:4200) to preview the website.
 
 ## Develop
 

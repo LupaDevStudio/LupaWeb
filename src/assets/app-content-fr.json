@@ -11,7 +11,6 @@
             "A CHANGER",
             "Autres para"
         ],
-        "downloadLink": "",
         "installation": "Cette application est disponible sur Google Play.",
         "languages": [
             "Français",
@@ -28,11 +27,12 @@
         "shortDescription": "Description",
         "storyDescription": [
             "Dans Lumacryte vous êtes un petit fantôme perdu dans un gigantesque souterrain obscur. Si vous vous égarez dans l'obscurité, votre énergie vitale s'affaiblira et vous disparaîtrez. Par chance, vous trouverez pendant votre aventure des balises magiques alimentées par d'étranges cristaux poussant sous terre. Ils vous guideront et vous permettront peut-être de vous échapper... ",
-            "Gardez cependant un oeil sur l'énergie restante de votre balise, elle diminuera au cours du temps...",
+            "Gardez cependant un œil sur l'énergie restante de votre balise, elle diminuera au cours du temps...",
             "Pendant votre voyage souterrain, vous trouverez aussi joyaux et pierres précieuses, rapportez-les à la balise la plus proche pour compléter votre collection !"
         ],
-        "downloadLink": "https://play.google.com/store/apps/details?id=org.lumacryte",
         "GooglePlayLink": "https://play.google.com/store/apps/details?id=org.lumacryte",
+        "ItchIoLink": "https://the-washing-machine.itch.io/lumacryte",
+        "ItchIoImage": "assets/apps_images/lumacryte_itch_io.jpg",
         "installation": "Cette application est disponible sur Google Play ou sur itch.io.",
         "languages": [
             "Français",

@@ -11,12 +11,16 @@ import { NEWS } from '../mock-news';
 })
 
 export class ApplicationDetailsComponent {
+
+
   news = NEWS;
   JsonAppContent: any;
+  safeItchIoFrameLink: any;
+
   constructor(
     private route: ActivatedRoute,
     private http: HttpClient,
-    private appComponent: AppComponent
+    private appComponent: AppComponent,
   ) {
   }
 

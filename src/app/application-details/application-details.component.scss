@@ -59,3 +59,20 @@ ul {
     margin-left: 1.5em;
     list-style: initial;
 }
+
+.link-item {
+    width: 15em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.download-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 1.5em;
+}
