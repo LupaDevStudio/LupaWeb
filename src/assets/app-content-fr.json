@@ -22,8 +22,8 @@
         "name": "Lumacryte",
         "date": "21 juillet 2023",
         "introductionSentence": "Un petit fantôme perdu dans les ténèbres, aidez-le à s'échapper !",
-        "vignetteSource": "/assets/apps_images/lumacryte_vignette.png",
-        "bannerSource": "/assets/apps_images/lumacryte_banner.png",
+        "vignetteSource": "/assets/apps_images/lumacryte_vignette.jpg",
+        "bannerSource": "/assets/apps_images/lumacryte_banner.jpg",
         "shortDescription": "Description",
         "storyDescription": [
             "Dans Lumacryte vous êtes un petit fantôme perdu dans un gigantesque souterrain obscur. Si vous vous égarez dans l'obscurité, votre énergie vitale s'affaiblira et vous disparaîtrez. Par chance, vous trouverez pendant votre aventure des balises magiques alimentées par d'étranges cristaux poussant sous terre. Ils vous guideront et vous permettront peut-être de vous échapper... ",
@@ -44,8 +44,8 @@
         "name": "Tramway Collector",
         "date": "5 juillet 2023",
         "introductionSentence": "Avez-vous déjà remarqué la diversité des tramways autour de vous ? Collectez-les tous !",
-        "vignetteSource": "/assets/apps_images/tramway_collector_vignette.png",
-        "bannerSource": "/assets/apps_images/tramway_collector_banner.png",
+        "vignetteSource": "/assets/apps_images/tramway_collector_vignette.jpg",
+        "bannerSource": "/assets/apps_images/tramway_collector_banner.jpg",
         "shortDescription": "Description",
         "storyDescription": [
             "A CHANGER Dans Lumacryte vous êtes un petit fantôme perdu dans un gigantesque souterrain obscur. Si vous vous égarez dans l'obscurité, votre énergie vitale s'affaiblira et vous disparaîtrez. Par chance, vous trouverez pendant votre aventure des balises magiques alimentées par d'étranges cristaux poussant sous terre. Ils vous guideront et vous permettront peut-être de vous échapper... ",
