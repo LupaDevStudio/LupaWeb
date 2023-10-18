@@ -1,20 +1,37 @@
 import { Component, OnInit, Input } from '@angular/core';
-
+import { CommonFunctionalityComponent } from '../common-functionality/common-functionality.component';
+import { Router } from '@angular/router';
+import { LanguageService } from '../language.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-image-slider',
   templateUrl: './image-slider.component.html',
   styleUrls: ['./image-slider.component.scss'],
 })
-export class ImageSliderComponent implements OnInit {
+export class ImageSliderComponent extends CommonFunctionalityComponent implements OnInit {
   @Input() images: string[] = [];
   @Input() titles: string[] = [];
   @Input() texts: string[] = [];
 
+
+  languageService: LanguageService;
+  langSubscription: Subscription;
+
   currentIndex = 0;
   intervalId: any;
 
-  ngOnInit() {
+  constructor(
+    public override router: Router,
+    languageService: LanguageService) {
+    super(router);
+    this.languageService = languageService;
+    this.langSubscription = this.languageService.getNewLang().subscribe((value: string) => {
+      this.reloadCurrent()
+    });
+  }
+
+  override ngOnInit() {
     // Start the timer when the component is initialized
     this.startSlideShow();
   }
@@ -44,5 +61,9 @@ export class ImageSliderComponent implements OnInit {
       this.currentIndex++;
 
     }
+  }
+
+  reloadCurrent() {
+    this.reloadComponent(true);
   }
 }

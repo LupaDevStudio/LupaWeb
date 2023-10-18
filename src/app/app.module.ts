@@ -26,6 +26,7 @@ import { NewsPageDetailsComponent } from './news-page-details/news-page-details.
 import { FootBarComponent } from './foot-bar/foot-bar.component';
 import { LegalComponent } from './legal/legal.component';
 import { ImageSliderComponent } from './image-slider/image-slider.component';
+import { CommonFunctionalityComponent } from './common-functionality/common-functionality.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ImageSliderComponent } from './image-slider/image-slider.component';
     NewsPageDetailsComponent,
     FootBarComponent,
     LegalComponent,
-    ImageSliderComponent
+    ImageSliderComponent,
+    CommonFunctionalityComponent
   ],
   imports: [
     BrowserModule,
