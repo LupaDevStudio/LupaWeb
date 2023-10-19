@@ -13,6 +13,18 @@
       <p class="title">{{"Info"|translate}}</p>
       <div class="separator"></div>
       <ul class="content">
+
+
+
+        <li class="platforms-li">
+          {{"Platforms"|translate}}:
+          <ul>
+            <li *ngFor="let platform of JsonAppContent.platforms" class="sub-li">
+              {{platform}}
+            </li>
+          </ul>
+        </li>
+
         <li class="language-li">
           {{"Languages"|translate}}:
           <ul>
@@ -21,6 +33,16 @@
             </li>
           </ul>
         </li>
+
+        <div *ngIf="JsonAppContent.pegi_image" class="age-container">
+          <li class="age-li">
+            {{"Age"|translate}}:
+          </li>
+          <img src={{JsonAppContent.pegi_image}} class="pegi-image">
+
+        </div>
+
+
       </ul>
 
       <p class="title">{{"Installation"|translate}}</p>

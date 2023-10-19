@@ -37,7 +37,12 @@
         "languages": [
             "Français",
             "Anglais"
-        ]
+        ],
+        "platforms": [
+            "Android",
+            "Windows"
+        ],
+        "pegi_image": "/assets/PEGI/age-3.jpg"
     },
     "tramway_collector": {
         "id": "tramway_collector",

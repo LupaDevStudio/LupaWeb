@@ -6,15 +6,15 @@
 - [x] mettre les bonnes couleurs de rose et de bleu dans le template styles.scss
 - [x] colorier les boutons des tags dans les bonnes couleurs
 - [ ] ajouter une box shadow sur la barre de recherche
-- [ ] comprendre comment utiliser les background-image en local (pour résoudre le problème sur chaque page de jeu)
-- [ ] résoudre les problèmes de largeur de fenêtre qui ne sont pas les mêmes partout entre news actualités et chaque jeu
+- [x] comprendre comment utiliser les background-image en local (pour résoudre le problème sur chaque page de jeu)
+- [x] résoudre les problèmes de largeur de fenêtre qui ne sont pas les mêmes partout entre news actualités et chaque jeu
 
 ## Composants
 
-- [ ] ajouter une catégorie d'âge dans la page des applications
+- [x] ajouter une catégorie d'âge dans la page des applications
 - [x] ajouter une note de bas de page avec le lien play store, l'adresse de contact, le github
-- [ ] dans les informations de l'application, au niveau de la liste de langues, utiliser des bullets points
-- [ ] découper le texte sur le menu applications
+- [x] dans les informations de l'application, au niveau de la liste de langues, utiliser des bullets points
+- [x] découper le texte sur le menu applications
 
 
 ## Fonctionnalités

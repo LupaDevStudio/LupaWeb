@@ -1,8 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectorRef } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { AppComponent } from '../app.component';
 import { NEWS } from '../mock-news';
+import { LanguageService } from '../language.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-application-details',
@@ -17,11 +19,21 @@ export class ApplicationDetailsComponent {
   JsonAppContent: any;
   safeItchIoFrameLink: any;
 
+  languageService: LanguageService;
+  langSubscription: Subscription;
+
   constructor(
     private route: ActivatedRoute,
     private http: HttpClient,
     private appComponent: AppComponent,
+    private changeDetection: ChangeDetectorRef,
+    languageService: LanguageService
   ) {
+    this.languageService = languageService;
+    this.langSubscription = this.languageService.getNewLang().subscribe((value: string) => {
+      this.getAppDict();
+      this.changeDetection.detectChanges();
+    });
   }
 
 
