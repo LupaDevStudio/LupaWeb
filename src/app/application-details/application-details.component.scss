@@ -21,13 +21,6 @@ $lupa-blue: rgba(70, 129, 180);
     background-color: transparent;
 }
 
-.body {
-    background-color: transparent;
-}
-
-.content {
-    text-align: justify;
-}
 
 ul {
     margin-top: 0;
@@ -122,45 +115,4 @@ ul {
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 1.5em;
-}
-
-
-.all-news {
-    height: auto;
-}
-
-.div-news-loc {
-    width: 100%;
-    // height: 15em;
-    // align-items: stretch;
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 1.5em;
-}
-
-.image-vignette {
-    margin-right: 30px;
-    min-width: 15em;
-    padding-left: 1em;
-    background-color: $lupa-blue;
-
-    @media (max-width:800px) {
-        height: 10em;
-    }
-}
-
-
-.news-description {
-    display: flex;
-    flex-direction: column;
-    min-width: 15em;
-    line-height: normal;
-
-    @media (max-width:800px) {
-        width: 100%;
-    }
-
 }

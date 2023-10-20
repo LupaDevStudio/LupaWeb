@@ -2,7 +2,6 @@ import { Component, ChangeDetectorRef } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { AppComponent } from '../app.component';
-import { NEWS } from '../mock-news';
 import { LanguageService } from '../language.service';
 import { Subscription } from 'rxjs';
 
@@ -14,11 +13,8 @@ import { Subscription } from 'rxjs';
 
 export class ApplicationDetailsComponent {
 
-
-  // news = NEWS;
   NewsContent: any[] = [];
   AppContent: any;
-  safeItchIoFrameLink: any;
 
   languageService: LanguageService;
   langSubscription: Subscription;

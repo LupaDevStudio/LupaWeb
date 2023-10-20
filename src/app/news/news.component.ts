@@ -1,9 +1,11 @@
-import { Component } from '@angular/core';
-import { NEWS } from '../mock-news';
-import {OnInit} from '@angular/core';
-import {FormControl} from '@angular/forms';
-import {Observable} from 'rxjs';
-import {startWith, map} from 'rxjs/operators';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
+import { FormControl } from '@angular/forms';
+import { Observable } from 'rxjs';
+import { startWith, map } from 'rxjs/operators';
+import { HttpClient } from '@angular/common/http';
+import { AppComponent } from '../app.component';
+import { LanguageService } from '../language.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-news',
@@ -11,32 +13,50 @@ import {startWith, map} from 'rxjs/operators';
   styleUrls: ['./news.component.scss'],
 })
 export class NewsComponent implements OnInit {
-  news = NEWS;
+
   control = new FormControl('');
   tags: string[] = [];
   filteredTags: Observable<string[]>;
 
-  constructor() {
+  NewsContent: any[] = [];
+  AppContent: any;
+
+  languageService: LanguageService;
+  langSubscription: Subscription;
+
+  constructor(
+    private http: HttpClient,
+    private appComponent: AppComponent,
+    languageService: LanguageService,
+    private changeDetection: ChangeDetectorRef
+
+  ) {
     // Init the values of all tags
     this.tags = [];
-    this.news.forEach(element => {
-      element.tags.forEach(tag => {
+    this.languageService = languageService;
+    this.getNewsContent();
+    this.langSubscription = this.languageService.getNewLang().subscribe((value: string) => {
+      this.getNewsContent();
+      this.changeDetection.detectChanges();
+    });
+    this.NewsContent.forEach(element => {
+      element.tags.forEach((tag: any) => {
         if (!this.tags.includes(tag)) {
           this.tags.push(tag);
         }
       });
     });
     // Sort the array of tags
-    this.tags = this.tags.sort((n1,n2) => {
-        if (n1 > n2) {
-            return 1;
-        }
-    
-        if (n1 < n2) {
-            return -1;
-        }
-    
-        return 0;
+    this.tags = this.tags.sort((n1, n2) => {
+      if (n1 > n2) {
+        return 1;
+      }
+
+      if (n1 < n2) {
+        return -1;
+      }
+
+      return 0;
     });
 
     this.filteredTags = this.control.valueChanges.pipe(
@@ -59,5 +79,21 @@ export class NewsComponent implements OnInit {
 
   private _normalizeValue(value: string): string {
     return value.toLowerCase().replace(/\s/g, '');
+  }
+
+  getNewsContent() {
+    const lang = this.getLanguageName();
+    const json_path = "/assets/content/news-content-" + lang.toLowerCase() + ".json";
+    this.http.get(json_path).subscribe((data: any) => {
+      let i = 0;
+      for (let key in data) {
+        this.NewsContent[i] = data[key];
+        i++;
+      }
+    });
+  }
+
+  public getLanguageName(): string {
+    return this.appComponent.languageName;
   }
 }

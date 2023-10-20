@@ -20,7 +20,7 @@
         </form>
 
         <ul class="all-news">
-            <li *ngFor="let newsPage of news" class="div-news">
+            <li *ngFor="let newsPage of NewsContent" class="div-news">
                 <div class="left-bar"></div>
 
                 <a routerLink="/news/{{newsPage.id}}" routerLinkActive="active" ariaCurrentWhenActive="page"
