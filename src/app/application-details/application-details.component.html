@@ -3,12 +3,12 @@
     <div class="div-side div-side-too-small" style="opacity: 50%;">
     </div>
     <div class="middle-div">
-      <span class="main-title">{{JsonAppContent.name}}</span>
-      <span class="introduction-sentence">{{JsonAppContent.introductionSentence}}</span>
+      <span class="main-title">{{AppContent.name}}</span>
+      <span class="introduction-sentence">{{AppContent.introductionSentence}}</span>
 
       <p class="title">{{"Story"|translate}}</p>
       <div class="separator"></div>
-      <p *ngFor="let paragraph of JsonAppContent.storyDescription" class="content">{{paragraph}}</p>
+      <p *ngFor="let paragraph of AppContent.storyDescription" class="content">{{paragraph}}</p>
 
       <p class="title">{{"Info"|translate}}</p>
       <div class="separator"></div>
@@ -19,7 +19,7 @@
         <li class="platforms-li">
           {{"Platforms"|translate}}:
           <ul>
-            <li *ngFor="let platform of JsonAppContent.platforms" class="sub-li">
+            <li *ngFor="let platform of AppContent.platforms" class="sub-li">
               {{platform}}
             </li>
           </ul>
@@ -28,17 +28,17 @@
         <li class="language-li">
           {{"Languages"|translate}}:
           <ul>
-            <li *ngFor="let language of JsonAppContent.languages" class="sub-li">
+            <li *ngFor="let language of AppContent.languages" class="sub-li">
               {{language}}
             </li>
           </ul>
         </li>
 
-        <div *ngIf="JsonAppContent.pegi_image" class="age-container">
+        <div *ngIf="AppContent.pegi_image" class="age-container">
           <li class="age-li">
             {{"Age"|translate}}:
           </li>
-          <img src={{JsonAppContent.pegi_image}} class="pegi-image">
+          <img src={{AppContent.pegi_image}} class="pegi-image">
 
         </div>
 
@@ -47,16 +47,16 @@
 
       <p class="title">{{"Installation"|translate}}</p>
       <div class="separator"></div>
-      <p class="content">{{JsonAppContent.installation}}</p>
+      <p class="content">{{AppContent.installation}}</p>
       <div class="download-box">
-        <div *ngIf="JsonAppContent.GooglePlayLink">
-          <a href={{JsonAppContent.GooglePlayLink}}>
+        <div *ngIf="AppContent.GooglePlayLink">
+          <a href={{AppContent.GooglePlayLink}}>
             <img src={{getGooglePlayImage()}} class="link-item">
           </a>
         </div>
-        <div *ngIf="JsonAppContent.ItchIoImage">
-          <a href={{JsonAppContent.ItchIoLink}}>{{JsonAppContent.title}}
-            <img src={{JsonAppContent.ItchIoImage}} class="link-item">
+        <div *ngIf="AppContent.ItchIoImage">
+          <a href={{AppContent.ItchIoLink}}>{{AppContent.title}}
+            <img src={{AppContent.ItchIoImage}} class="link-item">
           </a>
         </div>
 
@@ -67,8 +67,8 @@
       <div class="separator"></div>
 
       <ul class="all-news">
-        <li *ngFor="let newsPage of news" style="margin-top: 0 !important;">
-          <div *ngIf="newsPage.gameId == JsonAppContent.id" class="div-news" style="margin-top: 20px;">
+        <li *ngFor="let newsPage of NewsContent" style="margin-top: 0 !important;">
+          <div *ngIf="newsPage.gameId == AppContent.id" class="div-news" style="margin-top: 20px;">
             <div class="left-bar"></div>
 
             <a routerLink="/news/{{newsPage.id}}" routerLinkActive="active" ariaCurrentWhenActive="page"
@@ -92,7 +92,7 @@
     </div>
 
   </div>
-  <img src="{{JsonAppContent.bannerSource}}" alt="image" class="background-image">
+  <img src="{{AppContent.bannerSource}}" alt="image" class="background-image">
 
 
 </div>

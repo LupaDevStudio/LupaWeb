@@ -8,6 +8,7 @@
 - [ ] ajouter une box shadow sur la barre de recherche
 - [x] comprendre comment utiliser les background-image en local (pour résoudre le problème sur chaque page de jeu)
 - [x] résoudre les problèmes de largeur de fenêtre qui ne sont pas les mêmes partout entre news actualités et chaque jeu
+- [ ] Changer l'image google Play
 
 ## Composants
 
