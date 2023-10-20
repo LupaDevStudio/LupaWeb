@@ -10,11 +10,11 @@ This website is built with angular, to install it, use the command : `npm instal
 
 ## Install
 
-To install the website for the first time, use the command : `npm install` in the `webapp` folder.
+To install the website for the first time, use the command : `npm install`
 
 ## Testing
 
-To run the script locally, use the command : `./webapp.sh`
+To run the script locally, use the command : `ng serve`
 
 When running locally, open [localhost:4200](http://localhost:4200) to preview the website.
 
@@ -26,4 +26,8 @@ To create a new component, use the command : `ng g c <name of the component>`
 
 ## Build
 
-To build the website, use the command : `./build.sh`
+To build the website, use the command : `npm run build`
+
+## License
+
+The code of this website is licensed under the `Apache License version 2.0`.
