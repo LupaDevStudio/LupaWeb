@@ -1,5 +1,8 @@
 # LupaDevStudio Website
 
+![License](https://img.shields.io/github/license/LupaDevStudio/TramwayCollector)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aa9938ed-22c1-46eb-b0a5-9f50c32b67d2/deploy-status)](https://app.netlify.com/sites/lupadevstudio/deploys)
+
 This is the code used for the LupaDevStudio's website available at the url : [lupadevstudio.com](http://lupadevstudio.com)
 
 ## Requirements
