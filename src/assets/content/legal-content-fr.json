@@ -1,0 +1,12 @@
+{
+    "ProtectedContentIntro": "Certains contenus de ce site sont la propriété de l'équipe de LupaDevStudio. Cela comprend sans s'y limiter :",
+    "ProtectContentList": [
+        "Logo LupaDevStudio sous toutes ses formes",
+        "Images tirés d'illustration des jeux et des annonces",
+        "Descriptifs et contenus textuels des différentes pages",
+        "Programmes et applications disponibles en téléchargement"
+    ],
+    "ProtectContentExp": "La republication ou la réutilisation de ces éléments n'est donc pas permise sans la permission explicite de LupaDevStudio. Le code de notre site internet est cependant open-source et peut-être réutilisé à l'exception des éléments précisés ci-dessous comme indiqué sur la licence du site disponible sur sa page Github dédiée.",
+    "ProtectContentOthers": "Le site de LupaDevStudio utilise à des fins d'illustration certaines images dont l'équipe de LupaDevStudio n'est pas propriétaire. Nous faisons notre possible pour nous conformer aux différentes exigences des propriétaires de ces images mais des erreurs peuvent être présentes. Si vous êtes propriétaire de l'une de ces images et que vous jugez que nous ne respectons pas son cadre d'utilisation, merci de nous en informer en utilisant le lien de contact en bas de la page afin que nous puissions effectuer les changements nécessaires.",
+    "Licenses": "Les informations légales concernant chaque programmes sont fournies lors du téléchargement ou bien sur la page github du programme concerné."
+}
