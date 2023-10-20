@@ -213,6 +213,7 @@ p.content {
   min-width: 15em;
   padding-left: 1em;
   background-color: $lupa-blue;
+  height: 200px;
 
   @media (max-width:800px) {
     height: 10em;
@@ -225,8 +226,9 @@ p.content {
   flex-direction: column;
   min-width: 15em;
   line-height: normal;
+  width: 50%;
 
-  @media (max-width:800px) {
+  @media (max-width:600px) {
     width: 100%;
   }
 
@@ -242,6 +244,7 @@ p.name {
   margin-top: 5px;
   margin-bottom: 10px;
   color: $lupa-pink;
+  text-align: left;
 }
 
 p.date {
@@ -256,9 +259,10 @@ p.description {
 .tags {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 15px;
-  margin-bottom: 20px;
-  margin-top: -25px;
-  margin-left: -25px;
+  gap: 0.5em;
+  margin-bottom: 1em;
+  // margin-top: -25px;
+  // margin-left: -25px;
 }

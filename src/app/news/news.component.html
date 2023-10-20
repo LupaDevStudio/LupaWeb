@@ -31,13 +31,11 @@
                 <div class="news-description">
                     <p class="name">{{newsPage.name}}</p>
                     <p class="date">{{newsPage.date}}</p>
-                    <ul class="tags">
-                        <li *ngFor="let tag of newsPage.tags">
-                            <button mat-raised-button class="tag-button" value="{{tag}}">
-                                {{tag}}
-                            </button>
-                        </li>
-                    </ul>
+                    <div class="tags">
+                        <button *ngFor="let tag of newsPage.tags" mat-raised-button class="tag-button" value="{{tag}}">
+                            {{tag}}
+                        </button>
+                    </div>
                     <p class="description">{{newsPage.shortDescription}}</p>
                 </div>
 
