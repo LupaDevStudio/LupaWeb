@@ -8,19 +8,20 @@
 
         <!-- Search bar for tags -->
         <form class="search-bar-div">
-            <input placeholder="Search" class="search-bar" [formControl]="control" [matAutocomplete]="auto">
+            <input placeholder="Search" id="search-bar" class="search-bar" [formControl]="control"
+                [matAutocomplete]="auto">
             <mat-autocomplete #auto="matAutocomplete">
                 <mat-option *ngFor="let tag of filteredTags | async" [value]="tag">
                     {{tag}}
                 </mat-option>
             </mat-autocomplete>
-            <button mat-mini-fab color="primary" class="search-button">
+            <button mat-mini-fab color="primary" class="search-button" (click)="launchFilter()">
                 <mat-icon>search</mat-icon>
             </button>
         </form>
 
         <ul class="all-news">
-            <li *ngFor="let newsPage of NewsContent" class="div-news">
+            <li *ngFor="let newsPage of filteredNewsContent" class="div-news">
                 <div class="left-bar"></div>
 
                 <a routerLink="/news/{{newsPage.id}}" routerLinkActive="active" ariaCurrentWhenActive="page"
@@ -33,7 +34,7 @@
                     <p class="date">{{newsPage.date}}</p>
                     <div class="tags">
                         <button *ngFor="let tag of newsPage.tags" mat-raised-button class="tag-button" value="{{tag}}">
-                            {{tag}}
+                            {{tag|translate}}
                         </button>
                     </div>
                     <p class="description">{{newsPage.shortDescription}}</p>

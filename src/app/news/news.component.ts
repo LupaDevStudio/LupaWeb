@@ -20,6 +20,7 @@ export class NewsComponent implements OnInit {
 
   NewsContent: any[] = [];
   AppContent: any;
+  filteredNewsContent: any[] = [];
 
   languageService: LanguageService;
   langSubscription: Subscription;
@@ -39,13 +40,8 @@ export class NewsComponent implements OnInit {
       this.getNewsContent();
       this.changeDetection.detectChanges();
     });
-    this.NewsContent.forEach(element => {
-      element.tags.forEach((tag: any) => {
-        if (!this.tags.includes(tag)) {
-          this.tags.push(tag);
-        }
-      });
-    });
+
+    this.filteredNewsContent = this.NewsContent;
     // Sort the array of tags
     this.tags = this.tags.sort((n1, n2) => {
       if (n1 > n2) {
@@ -58,7 +54,6 @@ export class NewsComponent implements OnInit {
 
       return 0;
     });
-
     this.filteredTags = this.control.valueChanges.pipe(
       startWith(''),
       map(value => this._filter(value || '')),
@@ -90,10 +85,48 @@ export class NewsComponent implements OnInit {
         this.NewsContent[i] = data[key];
         i++;
       }
+      for (let id in this.NewsContent) {
+        let news = this.NewsContent[id];
+        for (let id_tag in news.tags) {
+          let tag = news.tags[id_tag];
+          if (!this.tags.includes(tag)) {
+            this.tags.push(tag);
+          }
+        }
+      }
+      this.filteredTags = this.control.valueChanges.pipe(
+        startWith(''),
+        map(value => this._filter(value || '')),
+      );
     });
   }
 
   public getLanguageName(): string {
     return this.appComponent.languageName;
+  }
+
+  launchFilter() {
+    // console.log(this.filteredTags);
+    let searchBar = <HTMLInputElement>document.getElementById("search-bar");
+    let filter = searchBar?.value;
+    if (filter == "") {
+      this.filteredNewsContent = this.NewsContent;
+    }
+    else {
+      this.filteredNewsContent = [];
+      for (let id in this.NewsContent) {
+        let cond = false;
+        let news = this.NewsContent[id];
+        for (let id_tag in news.tags) {
+          let tag = news.tags[id_tag];
+          if (filter == tag) {
+            cond = true;
+          }
+        }
+        if (cond == true) {
+          this.filteredNewsContent.push(news);
+        }
+      }
+    }
   }
 }
