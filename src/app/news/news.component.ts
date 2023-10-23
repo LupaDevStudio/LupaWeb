@@ -105,10 +105,19 @@ export class NewsComponent implements OnInit {
     return this.appComponent.languageName;
   }
 
-  launchFilter() {
-    // console.log(this.filteredTags);
-    let searchBar = <HTMLInputElement>document.getElementById("search-bar");
-    let filter = searchBar?.value;
+  launchFilter(arg: string) {
+    let filter: string;
+    if (arg == "") {
+      let searchBar = <HTMLInputElement>document.getElementById("search-bar");
+      filter = searchBar?.value;
+    }
+    else {
+      filter = arg;
+      let searchBar = <HTMLInputElement>document.getElementById("search-bar");
+      searchBar.value = arg;
+    }
+    console.log(filter)
+
     if (filter == "") {
       this.filteredNewsContent = this.NewsContent;
     }

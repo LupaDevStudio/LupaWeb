@@ -15,7 +15,7 @@
                     {{tag}}
                 </mat-option>
             </mat-autocomplete>
-            <button mat-mini-fab color="primary" class="search-button" (click)="launchFilter()">
+            <button mat-mini-fab color="primary" class="search-button" (click)="launchFilter('')">
                 <mat-icon>search</mat-icon>
             </button>
         </form>
@@ -33,7 +33,8 @@
                     <p class="name">{{newsPage.name}}</p>
                     <p class="date">{{newsPage.date}}</p>
                     <div class="tags">
-                        <button *ngFor="let tag of newsPage.tags" mat-raised-button class="tag-button" value="{{tag}}">
+                        <button *ngFor="let tag of newsPage.tags" mat-raised-button class="tag-button" value="{{tag}}"
+                            (click)="launchFilter(tag)">
                             {{tag|translate}}
                         </button>
                     </div>
