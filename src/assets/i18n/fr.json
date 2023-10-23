@@ -22,5 +22,9 @@
     "Info": "Informations",
     "Installation": "Installation",
     "Download": "Télécharger",
-    "Languages": "Langues"
+    "Languages": "Langues",
+    "Platforms": "Plateformes",
+    "WebsiteContent": "Contenu du site web",
+    "ProgramLicenses": "Licence des programmes",
+    "Release": "Sortie"
 }

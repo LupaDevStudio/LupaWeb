@@ -15,7 +15,7 @@ export class ApplicationsComponent {
   languageService: LanguageService;
   langSubscription: Subscription;
 
-  JsonAppsContent: any[] = [];
+  AppsContent: any[] = [];
 
   applicationsBannerList: string[] = [];
   applicationsTitleList: string[] = [];
@@ -27,20 +27,20 @@ export class ApplicationsComponent {
     private appComponent: AppComponent,
     languageService: LanguageService
   ) {
-    this.getJsonAppsContent(this.getLanguageName());
+    this.getAppsContent(this.getLanguageName());
     this.languageService = languageService;
     this.langSubscription = this.languageService.getNewLang().subscribe((value: string) => {
-      this.getJsonAppsContent(value);
+      this.getAppsContent(value);
     });
   }
 
 
-  getJsonAppsContent(value: string) {
-    const json_path = "/assets/app-content-" + value.toLowerCase() + ".json";
+  getAppsContent(value: string) {
+    const json_path = "/assets/content/app-content-" + value.toLowerCase() + ".json";
     this.http.get(json_path).subscribe((data: any) => {
       let i = 0;
       for (let key in data) {
-        this.JsonAppsContent[i] = data[key];
+        this.AppsContent[i] = data[key];
         i++;
       }
       this.buildImageSliderList();
@@ -48,7 +48,7 @@ export class ApplicationsComponent {
   }
 
   buildImageSliderList() {
-    this.JsonAppsContent.forEach(element => {
+    this.AppsContent.forEach(element => {
       this.applicationsBannerList.push(element.bannerSource);
       this.applicationsTitleList.push(element.name);
       this.applicationsTextList.push(element.introductionSentence);

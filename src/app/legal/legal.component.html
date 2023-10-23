@@ -1,1 +1,32 @@
-<p>legal works!</p>
+<div class="main-div">
+    <div class="div-side div-side-too-small">
+    </div>
+
+
+    <div class="middle-div">
+        <p class="main-title">{{"LegalInformation"|translate}}</p>
+
+        <p class="title">{{"WebsiteContent"|translate}}</p>
+        <div class="separator"></div>
+
+        <p class="content">{{LegalContent.ProtectedContentIntro}}</p>
+
+        <ul>
+            <li *ngFor="let item of LegalContent.ProtectContentList">{{item}}</li>
+        </ul>
+
+        <p class="content">{{LegalContent.ProtectContentExp}}</p>
+
+        <p class="content">{{LegalContent.ProtectContentOthers}}</p>
+
+        <p class="title">{{"ProgramLicenses"|translate}}</p>
+        <div class="separator"></div>
+
+        <p class="content">{{LegalContent.Licenses}}</p>
+
+    </div>
+
+    <div class="div-side div-side-too-small">
+    </div>
+
+</div>
