@@ -18,7 +18,7 @@ export class NewsComponent implements OnInit {
   tags: string[] = [];
   filteredTags: Observable<string[]>;
 
-  NewsContent: any[] = [];
+  newsContent: any[] = [];
   AppContent: any;
   filteredNewsContent: any[] = [];
 
@@ -41,7 +41,7 @@ export class NewsComponent implements OnInit {
       this.changeDetection.detectChanges();
     });
 
-    this.filteredNewsContent = this.NewsContent;
+    this.filteredNewsContent = this.newsContent;
     // Sort the array of tags
     this.tags = this.tags.sort((n1, n2) => {
       if (n1 > n2) {
@@ -82,11 +82,11 @@ export class NewsComponent implements OnInit {
     this.http.get(json_path).subscribe((data: any) => {
       let i = 0;
       for (let key in data) {
-        this.NewsContent[i] = data[key];
+        this.newsContent[i] = data[key];
         i++;
       }
-      for (let id in this.NewsContent) {
-        let news = this.NewsContent[id];
+      for (let id in this.newsContent) {
+        let news = this.newsContent[id];
         for (let id_tag in news.tags) {
           let tag = news.tags[id_tag];
           if (!this.tags.includes(tag)) {
@@ -119,13 +119,13 @@ export class NewsComponent implements OnInit {
     console.log(filter)
 
     if (filter == "") {
-      this.filteredNewsContent = this.NewsContent;
+      this.filteredNewsContent = this.newsContent;
     }
     else {
       this.filteredNewsContent = [];
-      for (let id in this.NewsContent) {
+      for (let id in this.newsContent) {
         let cond = false;
-        let news = this.NewsContent[id];
+        let news = this.newsContent[id];
         for (let id_tag in news.tags) {
           let tag = news.tags[id_tag];
           if (filter == tag) {

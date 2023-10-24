@@ -13,7 +13,7 @@ import { Subscription } from 'rxjs';
 
 export class ApplicationDetailsComponent {
 
-  NewsContent: any[] = [];
+  newsContent: any[] = [];
   AppContent: any;
 
   languageService: LanguageService;
@@ -62,7 +62,7 @@ export class ApplicationDetailsComponent {
     this.http.get(json_path).subscribe((data: any) => {
       let i = 0;
       for (let key in data) {
-        this.NewsContent[i] = data[key];
+        this.newsContent[i] = data[key];
         i++;
       }
     });
