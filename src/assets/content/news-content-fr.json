@@ -29,8 +29,10 @@
             "Update"
         ],
         "release": null,
-        "improvements": "Update",
-        "bugsFixed": "Bugs à détailler",
+        "improvements": [
+            "Ajout du logo animé de Lupa au démarrage"
+        ],
+        "bugsFixed": null,
         "downloadLink": "https://play.google.com/store/apps/details?id=org.tramwaycollector"
     },
     "tramway_collector_v110": {
