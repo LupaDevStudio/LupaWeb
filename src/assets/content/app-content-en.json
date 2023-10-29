@@ -1,66 +1,55 @@
 {
-    "postrias": {
-        "id": "postrias",
-        "name": "Postrias",
-        "date": "METTRE",
-        "introductionSentence": "Les dinosaures sont de retour, arriverez-vous à survivre dans un monde hostile ?",
-        "vignetteSource": "/assets/apps_images/postrias_vignette.jpg",
-        "bannerSource": "/assets/apps_images/postrias_banner.jpg",
-        "shortDescription": "Description",
-        "storyDescription": [
-            "A CHANGER",
-            "Autres para"
-        ],
-        "downloadLink": "",
-        "installation": "Instructions pour l'installation",
-        "languages": [
-            "Français",
-            "Anglais"
-        ]
-    },
     "lumacryte": {
         "id": "lumacryte",
         "name": "Lumacryte",
-        "date": "21 juillet 2023",
-        "introductionSentence": "Un petit fantôme perdu dans les ténèbres, aidez-le à s'échapper !",
+        "date": "July 21, 2023",
+        "introductionSentence": "A little ghost lost in the darkness, help it escape!",
         "vignetteSource": "/assets/apps_images/lumacryte_vignette.jpg",
         "bannerSource": "/assets/apps_images/lumacryte_banner.jpg",
         "shortDescription": "Description",
         "storyDescription": [
-            "Dans Lumacryte vous êtes un petit fantôme perdu dans un gigantesque souterrain obscur. Si vous vous égarez dans l'obscurité, votre énergie vitale s'affaiblira et vous disparaîtrez. Par chance, vous trouverez pendant votre aventure des balises magiques alimentées par d'étranges cristaux poussant sous terre. Ils vous guideront et vous permettront peut-être de vous échapper... ",
-            "Gardez cependant un oeil sur l'énergie restante de votre balise, elle diminuera au cours du temps...",
-            "Pendant votre voyage souterrain, vous trouverez aussi joyaux et pierres précieuses, rapportez-les à la balise la plus proche pour compléter votre collection !"
+            "In Lumacryte, you are a little ghost lost in a vast, dark underground. If you wander in the darkness, your life force will weaken, and you will disappear. Fortunately, during your adventure, you will find magical beacons powered by strange crystals that grow underground. They will guide you and might help you escape...",
+            "However, keep an eye on the remaining energy of your beacon; it will decrease over time...",
+            "During your underground journey, you will also discover jewels and gemstones; bring them back to the nearest beacon to complete your collection!"
         ],
-        "downloadLink": "https://play.google.com/store/apps/details?id=org.lumacryte",
-        "installation": "Instructions pour l'installation",
+        "GooglePlayLink": "https://play.google.com/store/apps/details?id=org.lumacryte",
+        "ItchIoLink": "https://the-washing-machine.itch.io/lumacryte",
+        "ItchIoImage": "assets/apps_images/lumacryte_itch_io.jpg",
+        "installation": "This application is available on Google Play or itch.io.",
         "languages": [
-            "Français",
-            "Anglais"
+            "French",
+            "English"
+        ],
+        "platforms": [
+            "Android",
+            "Windows"
         ],
         "pegi_image": "/assets/PEGI/age-3.jpg"
     },
     "tramway_collector": {
         "id": "tramway_collector",
         "name": "Tramway Collector",
-        "date": "5 juillet 2023",
-        "introductionSentence": "Avez-vous déjà remarqué la diversité des tramways autour de vous ? Collectez-les tous !",
+        "date": "July 5, 2023",
+        "introductionSentence": "Have you ever noticed the diversity of trams around you? Collect them all!",
         "vignetteSource": "/assets/apps_images/tramway_collector_vignette.jpg",
         "bannerSource": "/assets/apps_images/tramway_collector_banner.jpg",
         "shortDescription": "Description",
         "storyDescription": [
-            "A CHANGER Dans Lumacryte vous êtes un petit fantôme perdu dans un gigantesque souterrain obscur. Si vous vous égarez dans l'obscurité, votre énergie vitale s'affaiblira et vous disparaîtrez. Par chance, vous trouverez pendant votre aventure des balises magiques alimentées par d'étranges cristaux poussant sous terre. Ils vous guideront et vous permettront peut-être de vous échapper... ",
-            "Gardez cependant un oeil sur l'énergie restante de votre balise, elle diminuera au cours du temps...",
-            "Pendant votre voyage souterrain, vous trouverez aussi joyaux et pierres précieuses, rapportez-les à la balise la plus proche pour compléter votre collection !"
+            "Have you ever found trams fascinating? They can be found all around the world, in various shapes and colors. They are often used for advertisements and decorated with many logos and images.",
+            "With this application, you now have a place to gather all your images and start a wonderful collection!"
         ],
-        "downloadLink": "https://play.google.com/store/apps/details?id=org.tramwaycollector",
-        "installation": "Instructions pour l'installation",
+        "GooglePlayLink": "https://play.google.com/store/apps/details?id=org.tramwaycollector",
+        "installation": "This application is available on Google Play.",
         "languages": [
-            "Français",
-            "Anglais",
-            "Allemand",
-            "Espagnol",
-            "Italien",
-            "Japonais"
+            "French",
+            "English",
+            "German",
+            "Spanish",
+            "Italian",
+            "Japanese"
+        ],
+        "platforms": [
+            "Android"
         ]
     }
 }

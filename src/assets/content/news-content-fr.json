@@ -1,54 +1,68 @@
 {
-    "postrias_v100": {
-        "id": "postrias_v100",
-        "gameId": "postrias",
-        "name": "Postrias - Lancement",
-        "date": "METTRE",
-        "vignetteSource": "/assets/apps_images/postrias_vignette.jpg",
-        "shortDescription": "Un nouveau jeu de stratégie apparaît dans notre catalogue ! Rejoignez l'univers de Postrias où les dinosaures sont revenus à la vie !",
-        "tags": [
-            "Postrias",
-            "Android",
-            "Release"
-        ],
-        "release": "à écrire la release",
-        "improvements": null,
-        "bugsFixed": null,
-        "downloadLink": ""
-    },
     "tramway_collector_v121": {
         "id": "tramway_collector_v121",
         "gameId": "tramway_collector",
         "name": "Tramway Collector - version 1.2.1",
         "date": "1er septembre 2023",
         "vignetteSource": "/assets/apps_images/tramway_collector_vignette.jpg",
-        "shortDescription": "La nouvelle version de Tramway Collector sort sur le Play Store avec des améliorations mineures.",
+        "shortDescription": "Tramway Collector affiche maintenant le logo animé de Lupa au démarrage.",
         "tags": [
             "TC",
             "Android",
-            "Improvements"
+            "Update"
         ],
         "release": null,
-        "improvements": "Improvements",
-        "bugsFixed": "Bugs à détailler",
-        "downloadLink": "https://play.google.com/store/apps/details?id=org.tramwaycollector"
+        "improvements": [
+            "Ajout du logo animé de LupaDevStudio au démarrage"
+        ],
+        "bugsFixed": null
     },
-    "tramway_collector_v110": {
-        "id": "tramway_collector_v110",
+    "tramway_collector_v120": {
+        "id": "tramway_collector_v120",
         "gameId": "tramway_collector",
-        "name": "Tramway Collector - version 1.1.0",
-        "date": "21 juillet 2023",
+        "name": "Tramway Collector - version 1.2.0",
+        "date": "29 août 2023",
         "vignetteSource": "/assets/apps_images/tramway_collector_vignette.jpg",
         "shortDescription": "Une deuxième version de Tramway Collector apparaît sur le Play Store avec des améliorations mineures.",
         "tags": [
             "TC",
             "Android",
-            "Improvements"
+            "Update"
         ],
         "release": null,
-        "improvements": "Improvements",
-        "bugsFixed": "Bugs à détailler",
-        "downloadLink": "https://play.google.com/store/apps/details?id=org.tramwaycollector"
+        "improvements": [
+            "Tri des langues dans le menu",
+            "Optimisation du chargement des images",
+            "Ajout de la statistique du nombre total d'images enregistrée"
+        ],
+        "bugsFixed": [
+            "Correction du bug d'actualisation de la langue du bouton de fermeture",
+            "Correction du bug des espaces manquants dans certaines langues",
+            "Correction du bug de changement de l'image par défaut lors de la modification du côté du tramway"
+        ]
+    },
+    "tramway_collector_v110": {
+        "id": "tramway_collector_v110",
+        "gameId": "tramway_collector",
+        "name": "Tramway Collector - version 1.1.0",
+        "date": "20 juillet 2023",
+        "vignetteSource": "/assets/apps_images/tramway_collector_vignette.jpg",
+        "shortDescription": "Une deuxième version de Tramway Collector apparaît sur le Play Store avec des améliorations mineures.",
+        "tags": [
+            "TC",
+            "Android",
+            "Update"
+        ],
+        "release": null,
+        "improvements": [
+            "Ajout d'un popup de confirmation lors de l'import d'une collection",
+            "Changement de l'image du bouton d'import"
+        ],
+        "bugsFixed": [
+            "Correction du bug ponctuel de chargement d'image",
+            "Le bouton retour sous android est maintenant fonctionnel",
+            "Correction du bug d'affichage des popups en japonais"
+        ]
     },
     "lumacryte_v100": {
         "id": "lumacryte_v100",
@@ -62,10 +76,9 @@
             "Android",
             "Release"
         ],
-        "release": "à écrire la release",
+        "release": "Réalisé lors de la Open Source AI Game Jam, nous avons décidé de partager ce jeu avec vous une semaine après la compétition en le publiant sur Google Play.",
         "improvements": null,
-        "bugsFixed": null,
-        "downloadLink": "https://play.google.com/store/apps/details?id=org.lumacryte"
+        "bugsFixed": null
     },
     "tramway_collector_v100": {
         "id": "tramway_collector_v100",
@@ -79,9 +92,8 @@
             "Android",
             "Release"
         ],
-        "release": null,
+        "release": "LupaDevStudio est fier de partager avec vous sa toute première application dédiée à la collecte de photos de tramways !",
         "improvements": null,
-        "bugsFixed": null,
-        "downloadLink": "https://play.google.com/store/apps/details?id=org.tramwaycollector"
+        "bugsFixed": null
     }
 }

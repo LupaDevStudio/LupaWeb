@@ -1,1 +1,56 @@
-<p>news-page-details works!</p>
+<div>
+    <div class="main-div">
+        <div class="div-side div-side-too-small">
+        </div>
+        <div class="middle-div">
+
+            <span class="main-title">{{currentNewsContent.name}}</span>
+            <span class="introduction-sentence">{{currentNewsContent.shortDescription}}</span>
+
+
+            <div *ngIf="currentNewsContent.release != null">
+                <p class="title">{{"Release"|translate}}</p>
+                <div class="separator"></div>
+                <p class="content">{{currentNewsContent.release}}</p>
+            </div>
+
+            <div *ngIf="currentNewsContent.improvements != null">
+                <p class="title">{{"Improvements"|translate}}</p>
+                <div class="separator"></div>
+                <ul>
+                    <li *ngFor="let paragraph of currentNewsContent.improvements">{{paragraph}}</li>
+                </ul>
+            </div>
+
+            <div *ngIf="currentNewsContent.bugsFixed != null">
+                <p class="title">{{"BugFix"|translate}}</p>
+                <div class="separator"></div>
+                <ul>
+                    <li *ngFor="let paragraph of currentNewsContent.bugsFixed">{{paragraph}}</li>
+                </ul>
+            </div>
+
+            <div *ngIf="currentNewsContent.vignetteSource != null" class="vignette-div">
+                <p class="title">{{"MainPage"|translate}}</p>
+                <div class="separator"></div>
+                <div class="vignette">
+
+                    <img src="{{currentNewsContent.vignetteSource}}" class="vignette-image">
+                    <button mat-raised-button color="accent" class="discover-button"
+                        [routerLink]="'/applications/' +currentNewsContent.gameId.toLowerCase()"
+                        routerLinkActive="active" ariaCurrentWhenActive="page">
+                        {{"Discover"|translate}}
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="div-side div-side-too-small">
+        </div>
+
+    </div>
+
+
+</div>

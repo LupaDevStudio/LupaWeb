@@ -51,11 +51,14 @@ $lupa-blue: rgba(70, 129, 180);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    // justify-content: space-between;
     width: 100%;
     height: auto;
+    // margin: auto;
+    // margin: 20px;
     // grid-template-columns: repeat(3, 1fr);
-    padding: 20px;
+    // padding: 20px;
+    padding: 0;
 }
 
 .div-game {

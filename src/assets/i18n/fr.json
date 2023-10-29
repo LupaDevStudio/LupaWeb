@@ -26,5 +26,10 @@
     "Platforms": "Plateformes",
     "WebsiteContent": "Contenu du site web",
     "ProgramLicenses": "Licence des programmes",
-    "Release": "Sortie"
+    "Release": "Sortie",
+    "Update": "Mise à jour",
+    "Search": "Recherche",
+    "Improvements": "Améliorations",
+    "MainPage": "Page du jeu",
+    "BugFix": "Bugs corrigés"
 }

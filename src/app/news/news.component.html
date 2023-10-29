@@ -8,11 +8,11 @@
 
         <!-- Search bar for tags -->
         <form class="search-bar-div">
-            <input placeholder="Search" id="search-bar" class="search-bar" [formControl]="control"
+            <input placeholder='{{"Search"|translate}}' id="search-bar" class="search-bar" [formControl]="control"
                 [matAutocomplete]="auto">
             <mat-autocomplete #auto="matAutocomplete">
                 <mat-option *ngFor="let tag of filteredTags | async" [value]="tag">
-                    {{tag}}
+                    {{tag|translate}}
                 </mat-option>
             </mat-autocomplete>
             <button mat-mini-fab color="primary" class="search-button" (click)="launchFilter('')">
