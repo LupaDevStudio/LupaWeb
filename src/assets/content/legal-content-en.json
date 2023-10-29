@@ -1,12 +1,12 @@
 {
-    "ProtectedContentIntro": "Certains contenus de ce site sont la propriété de l'équipe de LupaDevStudio. Cela comprend sans s'y limiter :",
+    "ProtectedContentIntro": "Some content on this site is the property of the LupaDevStudio team. This includes but is not limited to:",
     "ProtectContentList": [
-        "Logo LupaDevStudio sous toutes ses formes",
-        "Images tirés d'illustration des jeux et des annonces",
-        "Descriptifs et contenus textuels des différentes pages",
-        "Programmes et applications disponibles en téléchargement"
+        "LupaDevStudio logo in all its forms",
+        "Images used for game illustrations and announcements",
+        "Descriptions and textual content on various pages",
+        "Programs and applications available for download"
     ],
-    "ProtectContentExp": "La republication ou la réutilisation de ces éléments n'est donc pas permise sans la permission explicite de LupaDevStudio. Le code de notre site internet est cependant open-source et peut-être réutilisé à l'exception des éléments précisés ci-dessous comme indiqué sur la licence du site disponible sur sa page Github dédiée.",
-    "ProtectContentOthers": "Le site de LupaDevStudio utilise à des fins d'illustration certaines images dont l'équipe de LupaDevStudio n'est pas propriétaire. Nous faisons notre possible pour nous conformer aux différentes exigences des propriétaires de ces images mais des erreurs peuvent être présentes. Si vous êtes propriétaire de l'une de ces images et que vous jugez que nous ne respectons pas son cadre d'utilisation, merci de nous en informer en utilisant le lien de contact en bas de la page afin que nous puissions effectuer les changements nécessaires.",
-    "Licenses": "Les informations légales concernant chaque programmes sont fournies lors du téléchargement ou bien sur la page Github du programme concerné."
+    "ProtectContentExp": "Republication or reuse of these elements is not allowed without explicit permission from LupaDevStudio. However, the code of our website is open source and can be reused, except for the specific elements mentioned below, as indicated in the site's license available on its dedicated Github page.",
+    "ProtectContentOthers": "LupaDevStudio's website uses certain images for illustrative purposes that are not owned by the LupaDevStudio team. We make every effort to comply with the various requirements of the owners of these images, but errors may occur. If you are the owner of one of these images and believe that we are not adhering to its usage terms, please inform us using the contact link at the bottom of the page so that we can make the necessary changes.",
+    "Licenses": "Legal information for each program is provided during the download or on the respective program's Github page."
 }

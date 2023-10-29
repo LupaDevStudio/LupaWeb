@@ -1,87 +1,99 @@
 {
-    "postrias_v100": {
-        "id": "postrias_v100",
-        "gameId": "postrias",
-        "name": "Postrias - Lancement",
-        "date": "METTRE",
-        "vignetteSource": "/assets/apps_images/postrias_vignette.jpg",
-        "shortDescription": "Un nouveau jeu de stratégie apparaît dans notre catalogue ! Rejoignez l'univers de Postrias où les dinosaures sont revenus à la vie !",
-        "tags": [
-            "Postrias",
-            "Android",
-            "Release"
-        ],
-        "release": "à écrire la release",
-        "improvements": null,
-        "bugsFixed": null,
-        "downloadLink": ""
-    },
     "tramway_collector_v121": {
         "id": "tramway_collector_v121",
         "gameId": "tramway_collector",
         "name": "Tramway Collector - version 1.2.1",
-        "date": "1er septembre 2023",
+        "date": "September 1, 2023",
         "vignetteSource": "/assets/apps_images/tramway_collector_vignette.jpg",
-        "shortDescription": "La nouvelle version de Tramway Collector sort sur le Play Store avec des améliorations mineures.",
+        "shortDescription": "Tramway Collector now displays the animated Lupa logo at startup.",
         "tags": [
             "TC",
             "Android",
             "Update"
         ],
         "release": null,
-        "improvements": "Update",
-        "bugsFixed": "Bugs à détailler",
-        "downloadLink": "https://play.google.com/store/apps/details?id=org.tramwaycollector"
+        "improvements": [
+            "Added the animated LupaDevStudio logo at startup."
+        ],
+        "bugsFixed": null
+    },
+    "tramway_collector_v120": {
+        "id": "tramway_collector_v120",
+        "gameId": "tramway_collector",
+        "name": "Tramway Collector - version 1.2.0",
+        "date": "August 29, 2023",
+        "vignetteSource": "/assets/apps_images/tramway_collector_vignette.jpg",
+        "shortDescription": "A second version of Tramway Collector is now available on the Play Store with minor improvements.",
+        "tags": [
+            "TC",
+            "Android",
+            "Update"
+        ],
+        "release": null,
+        "improvements": [
+            "Language sorting in the menu",
+            "Optimized image loading",
+            "Added statistics for the total number of saved images."
+        ],
+        "bugsFixed": [
+            "Fixed the bug of language refresh for the close button",
+            "Fixed missing spaces in some languages",
+            "Fixed the bug of changing the default image when modifying the tramway side."
+        ]
     },
     "tramway_collector_v110": {
         "id": "tramway_collector_v110",
         "gameId": "tramway_collector",
         "name": "Tramway Collector - version 1.1.0",
-        "date": "21 juillet 2023",
+        "date": "July 20, 2023",
         "vignetteSource": "/assets/apps_images/tramway_collector_vignette.jpg",
-        "shortDescription": "Une deuxième version de Tramway Collector apparaît sur le Play Store avec des améliorations mineures.",
+        "shortDescription": "A second version of Tramway Collector is now available on the Play Store with minor improvements.",
         "tags": [
             "TC",
             "Android",
             "Update"
         ],
         "release": null,
-        "improvements": "Update",
-        "bugsFixed": "Bugs à détailler",
-        "downloadLink": "https://play.google.com/store/apps/details?id=org.tramwaycollector"
+        "improvements": [
+            "Added a confirmation popup when importing a collection",
+            "Changed the import button image."
+        ],
+        "bugsFixed": [
+            "Fixed occasional image loading bug",
+            "The back button on Android is now functional",
+            "Fixed the display bug of popups in Japanese."
+        ]
     },
     "lumacryte_v100": {
         "id": "lumacryte_v100",
         "gameId": "lumacryte",
-        "name": "Lumacryte - Lancement",
-        "date": "21 juillet 2023",
+        "name": "Lumacryte - Launch",
+        "date": "July 21, 2023",
         "vignetteSource": "/assets/apps_images/lumacryte_vignette.jpg",
-        "shortDescription": "Le tout premier jeu de LupaDevStudio fait son apparition sur le Play Store !",
+        "shortDescription": "LupaDevStudio's very first game makes its debut on the Play Store!",
         "tags": [
             "Lumacryte",
             "Android",
             "Release"
         ],
-        "release": "à écrire la release",
+        "release": "Created during the Open Source AI Game Jam, we decided to share this game with you one week after the competition by publishing it on Google Play.",
         "improvements": null,
-        "bugsFixed": null,
-        "downloadLink": "https://play.google.com/store/apps/details?id=org.lumacryte"
+        "bugsFixed": null
     },
     "tramway_collector_v100": {
         "id": "tramway_collector_v100",
         "gameId": "tramway_collector",
-        "name": "Tramway Collector - Lancement",
-        "date": "5 juillet 2023",
+        "name": "Tramway Collector - Launch",
+        "date": "July 5, 2023",
         "vignetteSource": "/assets/apps_images/tramway_collector_vignette.jpg",
-        "shortDescription": "Grand moment d'émotion, la première application de LupaDevStudio est publiée sur le Play Store !",
+        "shortDescription": "A moment of great excitement as LupaDevStudio's first application is published on the Play Store!",
         "tags": [
             "TC",
             "Android",
             "Release"
         ],
-        "release": null,
+        "release": "LupaDevStudio is proud to share its very first application dedicated to collecting tramway photos with you!",
         "improvements": null,
-        "bugsFixed": null,
-        "downloadLink": "https://play.google.com/store/apps/details?id=org.tramwaycollector"
+        "bugsFixed": null
     }
 }
