@@ -34,7 +34,6 @@
     "introductionSentence": "Les dinosaures sont de retour, arriverez-vous à survivre dans un monde hostile ?",
     "vignetteSource": "/assets/apps_images/postrias_vignette.jpg",
     "bannerSource": "/assets/apps_images/postrias_banner.jpg",
-    "shortDescription": "Description",
     "storyDescription": [
         "A CHANGER",
         "Autres para"
