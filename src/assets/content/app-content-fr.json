@@ -6,7 +6,6 @@
         "introductionSentence": "Un petit fantôme perdu dans les ténèbres, aidez-le à s'échapper !",
         "vignetteSource": "/assets/apps_images/lumacryte_vignette.jpg",
         "bannerSource": "/assets/apps_images/lumacryte_banner.jpg",
-        "shortDescription": "Description",
         "storyDescription": [
             "Dans Lumacryte vous êtes un petit fantôme perdu dans un gigantesque souterrain obscur. Si vous vous égarez dans l'obscurité, votre énergie vitale s'affaiblira et vous disparaîtrez. Par chance, vous trouverez pendant votre aventure des balises magiques alimentées par d'étranges cristaux poussant sous terre. Ils vous guideront et vous permettront peut-être de vous échapper... ",
             "Gardez cependant un œil sur l'énergie restante de votre balise, elle diminuera au cours du temps...",
@@ -33,7 +32,6 @@
         "introductionSentence": "Avez-vous déjà remarqué la diversité des tramways autour de vous ? Collectez-les tous !",
         "vignetteSource": "/assets/apps_images/tramway_collector_vignette.jpg",
         "bannerSource": "/assets/apps_images/tramway_collector_banner.jpg",
-        "shortDescription": "Description",
         "storyDescription": [
             "N'avez-vous jamais trouvé les tramways fascinants ? Ils peuvent être retrouvés partout dans le monde, avec diverses formes et couleurs. Ils sont souvent utilisés pour des publicités et ainsi décorés par de nombreux logos et images.",
             "Avec cette application vous avez à présent un endroit pour réunir toutes vos images et commencer une merveilleuse collection !"

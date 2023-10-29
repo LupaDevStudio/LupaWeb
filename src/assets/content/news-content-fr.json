@@ -23,7 +23,7 @@
         "name": "Tramway Collector - version 1.2.0",
         "date": "29 août 2023",
         "vignetteSource": "/assets/apps_images/tramway_collector_vignette.jpg",
-        "shortDescription": "Une deuxième version de Tramway Collector apparaît sur le Play Store avec des améliorations mineures.",
+        "shortDescription": "Une nouvelle version de Tramway Collector avec quelques correctifs.",
         "tags": [
             "TC",
             "Android",
@@ -60,7 +60,7 @@
         ],
         "bugsFixed": [
             "Correction du bug ponctuel de chargement d'image",
-            "Le bouton retour sous android est maintenant fonctionnel",
+            "Fonctionnement du bouton retour sous Android",
             "Correction du bug d'affichage des popups en japonais"
         ]
     },
