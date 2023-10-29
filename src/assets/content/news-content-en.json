@@ -23,7 +23,7 @@
         "name": "Tramway Collector - version 1.2.0",
         "date": "August 29, 2023",
         "vignetteSource": "/assets/apps_images/tramway_collector_vignette.jpg",
-        "shortDescription": "A second version of Tramway Collector is now available on the Play Store with minor improvements.",
+        "shortDescription": "A new version of Tramway Collector with some modifications.",
         "tags": [
             "TC",
             "Android",
@@ -55,13 +55,13 @@
         ],
         "release": null,
         "improvements": [
-            "Added a confirmation popup when importing a collection",
-            "Changed the import button image."
+            "Add a confirmation popup when importing a collection",
+            "Change the import button image"
         ],
         "bugsFixed": [
-            "Fixed occasional image loading bug",
-            "The back button on Android is now functional",
-            "Fixed the display bug of popups in Japanese."
+            "Fix occasional image loading bug",
+            "Make the back button on Android functionnal",
+            "Fix the display bug of popups in Japanese"
         ]
     },
     "lumacryte_v100": {
@@ -92,7 +92,7 @@
             "Android",
             "Release"
         ],
-        "release": "LupaDevStudio is proud to share its very first application dedicated to collecting tramway photos with you!",
+        "release": "LupaDevStudio is proud to share with you its very first application dedicated to collecting tramway photos!",
         "improvements": null,
         "bugsFixed": null
     }

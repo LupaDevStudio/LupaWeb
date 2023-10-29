@@ -6,7 +6,6 @@
         "introductionSentence": "A little ghost lost in the darkness, help it escape!",
         "vignetteSource": "/assets/apps_images/lumacryte_vignette.jpg",
         "bannerSource": "/assets/apps_images/lumacryte_banner.jpg",
-        "shortDescription": "Description",
         "storyDescription": [
             "In Lumacryte, you are a little ghost lost in a vast, dark underground. If you wander in the darkness, your life force will weaken, and you will disappear. Fortunately, during your adventure, you will find magical beacons powered by strange crystals that grow underground. They will guide you and might help you escape...",
             "However, keep an eye on the remaining energy of your beacon; it will decrease over time...",
@@ -33,7 +32,6 @@
         "introductionSentence": "Have you ever noticed the diversity of trams around you? Collect them all!",
         "vignetteSource": "/assets/apps_images/tramway_collector_vignette.jpg",
         "bannerSource": "/assets/apps_images/tramway_collector_banner.jpg",
-        "shortDescription": "Description",
         "storyDescription": [
             "Have you ever found trams fascinating? They can be found all around the world, in various shapes and colors. They are often used for advertisements and decorated with many logos and images.",
             "With this application, you now have a place to gather all your images and start a wonderful collection!"

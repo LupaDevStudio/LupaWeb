@@ -5,7 +5,6 @@ export interface Application {
     introductionSentence: string;
     vignetteSource: string;
     bannerSource: string;
-    shortDescription: string;
     storyDescription: string;
     downloadLink: string;
     installation: string;
