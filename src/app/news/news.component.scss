@@ -43,6 +43,11 @@ $lupa-blue: rgba(70, 129, 180);
   color: white;
 }
 
+.tag-button[value="MAJ"] {
+  background-color: green;
+  color: white;
+}
+
 .tag-button[value="IoS"] {
   background-color: #949494;
 }
@@ -57,6 +62,11 @@ $lupa-blue: rgba(70, 129, 180);
 }
 
 .tag-button[value="Release"] {
+  background-color: $lupa-blue;
+  color: white;
+}
+
+.tag-button[value="Sortie"] {
   background-color: $lupa-blue;
   color: white;
 }
