@@ -77,6 +77,7 @@ export class NewsComponent implements OnInit {
   }
 
   getNewsContent() {
+    this.tags = [];
     const lang = this.getLanguageName();
     const json_path = "/assets/content/news-content-" + lang.toLowerCase() + ".json";
     this.http.get(json_path).subscribe((data: any) => {
