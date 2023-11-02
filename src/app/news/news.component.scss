@@ -29,6 +29,11 @@ $lupa-blue: rgba(70, 129, 180);
   width: 40px;
 }
 
+.div-news {
+  margin-top: 2em;
+
+}
+
 .tag-button {
   font-size: 12px;
   border-radius: 1.25rem;
@@ -39,6 +44,11 @@ $lupa-blue: rgba(70, 129, 180);
 }
 
 .tag-button[value="Update"] {
+  background-color: green;
+  color: white;
+}
+
+.tag-button[value="MAJ"] {
   background-color: green;
   color: white;
 }
@@ -57,6 +67,11 @@ $lupa-blue: rgba(70, 129, 180);
 }
 
 .tag-button[value="Release"] {
+  background-color: $lupa-blue;
+  color: white;
+}
+
+.tag-button[value="Sortie"] {
   background-color: $lupa-blue;
   color: white;
 }

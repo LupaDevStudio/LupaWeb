@@ -9,7 +9,7 @@
         "tags": [
             "TC",
             "Android",
-            "Update"
+            "MAJ"
         ],
         "release": null,
         "improvements": [
@@ -27,7 +27,7 @@
         "tags": [
             "TC",
             "Android",
-            "Update"
+            "MAJ"
         ],
         "release": null,
         "improvements": [
@@ -51,7 +51,7 @@
         "tags": [
             "TC",
             "Android",
-            "Update"
+            "MAJ"
         ],
         "release": null,
         "improvements": [
@@ -74,7 +74,7 @@
         "tags": [
             "Lumacryte",
             "Android",
-            "Release"
+            "Sortie"
         ],
         "release": "Réalisé lors de la Open Source AI Game Jam, nous avons décidé de partager ce jeu avec vous une semaine après la compétition en le publiant sur Google Play.",
         "improvements": null,
@@ -90,7 +90,7 @@
         "tags": [
             "TC",
             "Android",
-            "Release"
+            "Sortie"
         ],
         "release": "LupaDevStudio est fier de partager avec vous sa toute première application dédiée à la collecte de photos de tramways !",
         "improvements": null,
