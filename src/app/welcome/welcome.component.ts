@@ -46,6 +46,9 @@ export class WelcomeComponent {
   }
 
   buildImageSliderList() {
+    this.applicationsBannerList = [];
+    this.applicationsTitleList = [];
+    this.applicationsTextList = [];
     this.AppsContent.forEach(element => {
       this.applicationsBannerList.push(element.bannerSource);
       this.applicationsTitleList.push(element.name);
