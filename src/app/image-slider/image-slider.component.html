@@ -11,15 +11,15 @@
             </div>
             <button mat-raised-button color="accent" class="slide-button"
                 [routerLink]="'/applications/' +titles[i].toLowerCase()" routerLinkActive="active"
-                ariaCurrentWhenActive="page">
+                ariaCurrentWhenActive="page" *ngIf="enable_buttons">
                 {{"Discover"|translate}}
             </button>
         </div>
 
 
     </div>
-    <button mat-mini-fab color="accent" (click)="prevSlide()"
-        class="prev-button"><mat-icon>chevron_left</mat-icon></button>
-    <button mat-mini-fab color="accent" (click)="nextSlide()"
-        class="next-button"><mat-icon>chevron_right</mat-icon></button>
+    <button mat-mini-fab color="accent" (click)="prevSlide()" class="prev-button"
+        *ngIf="enable_buttons"><mat-icon>chevron_left</mat-icon></button>
+    <button mat-mini-fab color="accent" (click)="nextSlide()" class="next-button"
+        *ngIf="enable_buttons"><mat-icon>chevron_right</mat-icon></button>
 </div>
