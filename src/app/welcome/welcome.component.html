@@ -1,44 +1,45 @@
-<div class="main-div">
+<div>
+    <div class="main-div">
 
-    <div class="center-div">
-        <div class="div-side">
+        <div class="center-div">
+            <div class="div-side" style="opacity: 50%;">
+            </div>
+
+
+            <div class="middle-div">
+                <p class="main-title">LupaDevStudio</p>
+
+                <p class="title">{{'OurTeam'|translate}}</p>
+                <div class="separator"></div>
+                <p class="content">
+                    {{'TeamContent'|translate}}
+                </p>
+
+                <p class="title">{{'OurPhilosophy'|translate}}</p>
+                <div class="separator"></div>
+                <p class="content" *ngFor="let paragraph of 'PhilosophyContent'|translate">
+                    {{paragraph}}
+                </p>
+                <a mat-raised-button color="accent" href="https://github.com/LupaDevStudio" target="_blank"
+                    class="download-button">
+                    {{'GithubButton'|translate}}
+                </a>
+
+                <p class="title">{{'OurApps'|translate}}</p>
+                <div class="separator"></div>
+                <a [routerLink]="'/applications/'" routerLinkActive="active">
+                    <app-image-slider class="image-slider" [images]="applicationsBannerList"
+                        [texts]="applicationsTextList" [titles]="applicationsTitleList" [enable_buttons]="false"
+                        [slide_delay]="5000"></app-image-slider>
+                </a>
+            </div>
+
+
+            <div class="div-side" style="opacity: 50%;">
+            </div>
+
         </div>
 
-
-        <div class="middle-div">
-            <p class="main-title">LupaDevStudio</p>
-
-            <p class="title">{{'OurTeam'|translate}}</p>
-            <div class="separator"></div>
-            <p class="content">
-                {{'TeamContent'|translate}}
-            </p>
-
-            <p class="title">{{'OurPhilosophy'|translate}}</p>
-            <div class="separator"></div>
-            <p class="content" *ngFor="let paragraph of 'PhilosophyContent'|translate">
-                {{paragraph}}
-            </p>
-            <a mat-raised-button color="accent" href="https://github.com/LupaDevStudio" target="_blank"
-                class="download-button">
-                {{'GithubButton'|translate}}
-            </a>
-
-            <p class="title">{{'OurApps'|translate}}</p>
-            <div class="separator"></div>
-            <a [routerLink]="'/applications/'" routerLinkActive="active">
-                <app-image-slider class="image-slider" [images]="applicationsBannerList" [texts]="applicationsTextList"
-                    [titles]="applicationsTitleList" [enable_buttons]="false" [slide_delay]="5000"></app-image-slider>
-            </a>
-        </div>
-
-
-        <div class="div-side">
-        </div>
     </div>
-
-
-
-
-
+    <img src="/assets/banner.png" alt="image" class="background-image">
 </div>
