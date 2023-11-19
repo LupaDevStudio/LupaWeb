@@ -48,6 +48,7 @@
         ],
         "platforms": [
             "Android"
-        ]
+        ],
+        "pegi_image": "/assets/PEGI/age-3.jpg"
     }
 }

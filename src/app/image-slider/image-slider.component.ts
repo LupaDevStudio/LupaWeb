@@ -13,6 +13,8 @@ export class ImageSliderComponent extends CommonFunctionalityComponent implement
   @Input() images: string[] = [];
   @Input() titles: string[] = [];
   @Input() texts: string[] = [];
+  @Input() enable_buttons: boolean = true;
+  @Input() slide_delay = 10000;
 
 
   languageService: LanguageService;
@@ -40,7 +42,7 @@ export class ImageSliderComponent extends CommonFunctionalityComponent implement
     // Set an interval to switch images every 3 seconds (adjust as needed)
     this.intervalId = setInterval(() => {
       this.nextSlide();
-    }, 10000);
+    }, this.slide_delay);
   }
 
   prevSlide() {

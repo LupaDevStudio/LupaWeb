@@ -1,0 +1,22 @@
+.main-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.center-div {
+    display: flex;
+    z-index: 1;
+}
+
+.image-slider {
+    z-index: 2;
+    margin-top: 1em;
+}
+
+.background-image {
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    height: 100%;
+    z-index: -1;
+}
