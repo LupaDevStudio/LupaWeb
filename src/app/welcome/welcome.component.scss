@@ -1,0 +1,14 @@
+.main-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.center-div {
+    display: flex;
+    z-index: 1;
+}
+
+.image-slider {
+    z-index: 2;
+    margin-top: 1em;
+}
