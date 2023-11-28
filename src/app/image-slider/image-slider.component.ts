@@ -14,6 +14,7 @@ export class ImageSliderComponent extends CommonFunctionalityComponent implement
   @Input() titles: string[] = [];
   @Input() texts: string[] = [];
   @Input() enable_buttons: boolean = true;
+  @Input() center_title: boolean = false;
   @Input() slide_delay = 10000;
 
 
