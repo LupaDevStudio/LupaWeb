@@ -45,13 +45,21 @@
     @media (min-width:800px) {
         top: 20%;
         font-size: larger;
-
     }
 
     @media (max-width:800px) {
         top: 15%;
         font-size: x-large;
+    }
+}
 
+.slide-title-center {
+    @media (min-width:800px) {
+        top: 30%;
+    }
+
+    @media (max-width:800px) {
+        top: 45%;
     }
 }
 

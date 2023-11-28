@@ -4,7 +4,9 @@
         <div *ngFor="let image of images; let i = index" class="slide"
             [style.transform]="'translateX(' + -currentIndex * 100 + '%)'">
             <img [src]="image" alt="Game Banner">
-            <div class="slide-title">
+            <div class="slide-title" *ngIf="! center_title">
+                {{titles[i].toUpperCase()}}</div>
+            <div class="slide-title slide-title-center" *ngIf="center_title">
                 {{titles[i].toUpperCase()}}</div>
             <div class="slide-text">
                 {{texts[i]}}
