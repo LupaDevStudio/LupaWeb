@@ -237,6 +237,7 @@ p.content {
   min-width: 15em;
   line-height: normal;
   width: 50%;
+  align-self: flex-start;
 
   @media (max-width:600px) {
     width: 100%;
