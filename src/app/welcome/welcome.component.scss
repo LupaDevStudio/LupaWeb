@@ -1,3 +1,5 @@
+$lupa-blue: rgba(70, 129, 180);
+
 .main-div {
     display: flex;
     flex-direction: column;
@@ -19,4 +21,43 @@
     top: 0%;
     height: 100%;
     z-index: -1;
+}
+
+.div-right-background {
+    opacity: 50%;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.last-news-background {
+    background-color: white;
+    position: absolute;
+    flex-wrap: wrap;
+    width: 80%;
+    left: 10%;
+    top: 5%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    @media (max-width:1300px) {
+        opacity: 0;
+      }
+}
+
+.image-last-news {
+    width: 80%;
+    margin-left: 8%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding-left: 1em;
+    background-color: $lupa-blue;
+    @media (max-width:1300px) {
+      height: 100px;
+    }
+}
+
+.last-news-text {
+    width: 80%;
+    margin-left: 10%;
+    line-height: normal;
 }
