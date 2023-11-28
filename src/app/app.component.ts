@@ -14,7 +14,7 @@ export class AppComponent extends CommonFunctionalityComponent {
   // Languages parameters
   languageName: string = "En";
   flagName: string = "/assets/english_logo.png";
-  googlePlayImage: string = "https://play.google.com/intl/en_us/badges/static/images/badges/fr_badge_web_generic.png"
+  googlePlayImage: string = "https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
   languageAssociations: { [Name: string]: [string, string, string] } = {
     "en": ["En", "/assets/english_logo.png", "https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"],
     "fr": ["Fr", "/assets/french_logo.png", "https://play.google.com/intl/en_us/badges/static/images/badges/fr_badge_web_generic.png"]
