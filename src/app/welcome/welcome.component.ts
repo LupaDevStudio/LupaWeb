@@ -20,6 +20,8 @@ export class WelcomeComponent {
   applicationsTextList: string[] = [];
   applicationsButtonList: string[] = [];
 
+  lastNews: any;
+
   constructor(
     private http: HttpClient,
     private appComponent: AppComponent,
@@ -27,6 +29,7 @@ export class WelcomeComponent {
   ) {
     this.getAppsContent(this.getLanguageName());
     this.languageService = languageService;
+    this.getLastNewsContent();
     this.langSubscription = this.languageService.getNewLang().subscribe((value: string) => {
       this.getAppsContent(value);
     });
@@ -59,4 +62,17 @@ export class WelcomeComponent {
   public getLanguageName(): string {
     return this.appComponent.languageName;
   }
+
+  getLastNewsContent() {
+    const lang = this.getLanguageName();
+    const json_path = "/assets/content/news-content-" + lang.toLowerCase() + ".json";
+    this.http.get(json_path).subscribe((data: any) => {
+      for (let key in data) {
+        this.lastNews = data[key];
+        break;
+      }
+      console.log(this.lastNews);
+    });
+  }
+
 }

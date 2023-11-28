@@ -35,7 +35,20 @@
             </div>
 
 
-            <div class="div-side" style="opacity: 50%;">
+            <div style="position: relative; width:25%; outline: none;">
+                <div class="div-side div-right-background">
+                </div>
+
+                <div class="last-news-background">
+                    <p class="name last-news-text">{{'LastNews'|translate}}</p>
+
+                    <a routerLink="/news/{{lastNews.id}}" routerLinkActive="active" ariaCurrentWhenActive="page"
+                    class="image-link">
+                        <img src="{{lastNews.vignetteSource}}" alt="image" class="image-last-news">
+                    </a>
+
+                    <p class="description last-news-text">{{lastNews.shortDescription}}</p>
+                </div>
             </div>
 
         </div>
