@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, Meta } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -67,7 +67,12 @@ import { CommonFunctionalityComponent } from './common-functionality/common-func
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(private meta: Meta) {
+    this.meta.addTag({ name: 'title', content: 'LupaDevStudio' });
+    this.meta.addTag({ name: 'description', content: 'LupaDevStudio is an independent French studio specializing in developing applications and video games for mobile and computer platforms.' });
+  }
+ }
 
 export function httpTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http);
