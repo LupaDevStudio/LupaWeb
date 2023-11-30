@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule, Meta } from '@angular/platform-browser';
+import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -67,11 +67,7 @@ import { CommonFunctionalityComponent } from './common-functionality/common-func
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule {
-  constructor(private meta: Meta) {
-    // this.meta.addTag({ name: 'title', content: 'LupaDevStudio' });
-  }
- }
+export class AppModule {}
 
 export function httpTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http);
