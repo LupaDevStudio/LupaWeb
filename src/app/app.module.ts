@@ -69,8 +69,7 @@ import { CommonFunctionalityComponent } from './common-functionality/common-func
 })
 export class AppModule {
   constructor(private meta: Meta) {
-    this.meta.addTag({ name: 'title', content: 'LupaDevStudio' });
-    this.meta.addTag({ name: 'description', content: 'LupaDevStudio is an independent French studio specializing in developing applications and video games for mobile and computer platforms.' });
+    // this.meta.addTag({ name: 'title', content: 'LupaDevStudio' });
   }
  }
 
