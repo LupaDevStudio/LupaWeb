@@ -20,7 +20,7 @@
         "gameId": "tramway_collector",
         "name": "Tramway Collector - version 1.2.1",
         "date": "1er septembre 2023",
-        "vignetteSource": "/assets/apps_images/tramway_collector_vignette.jpg",
+        "vignetteSource": "/assets/apps_images/tramway_collector_121.jpg",
         "shortDescription": "Tramway Collector affiche maintenant le logo animé de Lupa au démarrage.",
         "tags": [
             "TC",
@@ -38,7 +38,7 @@
         "gameId": "tramway_collector",
         "name": "Tramway Collector - version 1.2.0",
         "date": "29 août 2023",
-        "vignetteSource": "/assets/apps_images/tramway_collector_vignette.jpg",
+        "vignetteSource": "/assets/apps_images/tramway_collector_120.jpg",
         "shortDescription": "Une nouvelle version de Tramway Collector avec quelques correctifs.",
         "tags": [
             "TC",
@@ -62,7 +62,7 @@
         "gameId": "tramway_collector",
         "name": "Tramway Collector - version 1.1.0",
         "date": "20 juillet 2023",
-        "vignetteSource": "/assets/apps_images/tramway_collector_vignette.jpg",
+        "vignetteSource": "/assets/apps_images/tramway_collector_110.jpg",
         "shortDescription": "Une deuxième version de Tramway Collector apparaît sur le Play Store avec des améliorations mineures.",
         "tags": [
             "TC",
