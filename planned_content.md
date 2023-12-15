@@ -9,7 +9,7 @@
     "id": "postrias_v100",
     "gameId": "postrias",
     "name": "Postrias - Lancement",
-    "date": "METTRE",
+    "date": "17 décembre 2023",
     "vignetteSource": "/assets/apps_images/postrias_vignette.jpg",
     "shortDescription": "Un nouveau jeu de stratégie apparaît dans notre catalogue ! Rejoignez l'univers de Postrias où les dinosaures sont revenus à la vie !",
     "tags": [
@@ -30,7 +30,7 @@
 "postrias": {
     "id": "postrias",
     "name": "Postrias",
-    "date": "METTRE",
+    "date": "17 décembre 2023",
     "introductionSentence": "Les dinosaures sont de retour, arriverez-vous à survivre dans un monde hostile ?",
     "vignetteSource": "/assets/apps_images/postrias_vignette.jpg",
     "bannerSource": "/assets/apps_images/postrias_banner.jpg",

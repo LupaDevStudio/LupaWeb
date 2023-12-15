@@ -71,7 +71,6 @@ export class WelcomeComponent {
         this.lastNews = data[key];
         break;
       }
-      console.log(this.lastNews);
     });
   }
 

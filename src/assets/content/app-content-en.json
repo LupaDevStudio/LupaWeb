@@ -1,4 +1,26 @@
 {
+    "postrias": {
+        "id": "postrias",
+        "name": "Postrias",
+        "date": "December 17, 2023",
+        "introductionSentence": "The dinosaurs are back, can you survive in a hostile world?",
+        "vignetteSource": "/assets/apps_images/postrias_vignette.jpg",
+        "bannerSource": "/assets/apps_images/postrias_banner.jpg",
+        "storyDescription": [
+            "In a post-apocalyptic world where dinosaurs resurface, a leader in the American Midwest's last human enclave must protect against these creatures while maintaining power.",
+            "Balancing factions — the influential Ardent Order, loyal Militia, fellow citizens and knowledgeable yet controversial paleontologists — is crucial. To survive, the leader must utilize all resources, navigate internal strife, and confront the dinosaur threat with decisive measures. In this unforgiving landscape, apathy is deadly, requiring a delicate balance between control, alliances, and confronting external dangers for the community's survival."
+        ],
+        "GooglePlayLink": "https://play.google.com/store/apps/details?id=lupadevstudio.com.postrias",
+        "installation": "This application is available on Google Play.",
+        "languages": [
+            "French",
+            "English"
+        ],
+        "platforms": [
+            "Android"
+        ],
+        "pegi_image": "/assets/PEGI/age-7.jpg"
+    },
     "lumacryte": {
         "id": "lumacryte",
         "name": "Lumacryte",

@@ -1,4 +1,20 @@
 {
+    "postrias_v211": {
+        "id": "postrias_v211",
+        "gameId": "postrias",
+        "name": "Postrias - Launch",
+        "date": "December 17, 2023",
+        "vignetteSource": "/assets/apps_images/postrias_vignette.jpg",
+        "shortDescription": "Discover the post-apocalyptic world of Postrias, where dinosaurs have come back to life!",
+        "tags": [
+            "Postrias",
+            "Android",
+            "Release"
+        ],
+        "release": "We're proud to share with you the remastered version of Postrias, a game originally made in 2020 during a weekend game jam. Discover a post-apocalyptic universe overrun by dinosaurs where you are the leader of the world's last survivors; make decisions to enable your community to survive!",
+        "improvements": null,
+        "bugsFixed": null
+    },
     "tramway_collector_v121": {
         "id": "tramway_collector_v121",
         "gameId": "tramway_collector",
