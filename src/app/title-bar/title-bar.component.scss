@@ -8,17 +8,18 @@ $lupa-pink: rgba(229, 19, 100);
     margin-right: 3%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .studio-title {
     @media (min-width:800px) {
+        margin-left: 1em;
         font-size: x-large;
     }
 
     @media (max-width:800px) {
         font-size: larger;
-        margin-left: 0.5em;
+        margin-left: 1em;
     }
 
     @media (max-width:400px) {
