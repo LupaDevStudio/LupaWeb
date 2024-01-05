@@ -120,6 +120,14 @@ body {
   --content-height : height: max(100%, calc(100vh - var(--foot-bar-height) - var(--title-bar-height)));
 }
 
+.background-image {
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  height: 100%;
+  z-index: -1;
+}
+
 .main-div {
   display: flex;
   flex-direction: row;
@@ -151,6 +159,7 @@ body {
   background-color: #e6e6e6;
   outline: none;
   position: relative;
+  opacity: 50%;
 }
 
 .div-side-too-small {
