@@ -32,6 +32,7 @@ export class WelcomeComponent {
     this.getLastNewsContent();
     this.langSubscription = this.languageService.getNewLang().subscribe((value: string) => {
       this.getAppsContent(value);
+      this.getLastNewsContent();
     });
   }
 
@@ -67,10 +68,7 @@ export class WelcomeComponent {
     const lang = this.getLanguageName();
     const json_path = "/assets/content/news-content-" + lang.toLowerCase() + ".json";
     this.http.get(json_path).subscribe((data: any) => {
-      for (let key in data) {
-        this.lastNews = data[key];
-        break;
-      }
+      this.lastNews = data[Object.keys(data)[0]]
     });
   }
 
