@@ -1,4 +1,25 @@
 {
+    "postrias_v221": {
+        "id": "postrias_v221",
+        "gameId": "postrias",
+        "name": "Postrias - version 2.2.1",
+        "date": "5 janvier 2024",
+        "vignetteSource": "/assets/apps_images/postrias_christmas.jpg",
+        "shortDescription": "La version hiver de Postrias sort sur le PlayStore avec des décors inédits !",
+        "tags": [
+            "Postrias",
+            "Android",
+            "MAJ"
+        ],
+        "release": null,
+        "improvements": [
+            "Ajout de nouveaux décors pour créer la version hiver de Postrias."
+        ],
+        "bugsFixed": [
+            "Correction du bug des publicités infinies lorsque l'utilisateur continue une partie en cours.",
+            "Correction du bug de la perte des données de l'utilisateur lors d'une mise à jour."
+        ]
+    },
     "postrias_v211": {
         "id": "postrias_v211",
         "gameId": "postrias",

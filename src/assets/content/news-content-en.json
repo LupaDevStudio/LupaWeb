@@ -1,4 +1,25 @@
 {
+    "postrias_v221": {
+        "id": "postrias_v221",
+        "gameId": "postrias",
+        "name": "Postrias - version 2.2.1",
+        "date": "5 janvier 2024",
+        "vignetteSource": "/assets/apps_images/postrias_christmas.jpg",
+        "shortDescription": "The winter version of Postrias has been released on the PlayStore, with brand new backgrounds!",
+        "tags": [
+            "Postrias",
+            "Android",
+            "MAJ"
+        ],
+        "release": null,
+        "improvements": [
+            "Added new backgrounds to create the winter version of Postrias."
+        ],
+        "bugsFixed": [
+            "Fixed bug of infinite ads when the user continues a game.",
+            "Fixed bug of the lost of user's data when updating the app."
+        ]
+    },
     "postrias_v211": {
         "id": "postrias_v211",
         "gameId": "postrias",
