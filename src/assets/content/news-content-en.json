@@ -13,7 +13,8 @@
         ],
         "release": null,
         "improvements": [
-            "Added new backgrounds to create the winter version of Postrias."
+            "Added new backgrounds to create the winter version of Postrias.",
+            "Added popup to propose to the user to rate on the PlayStore the app after his first game."
         ],
         "bugsFixed": [
             "Fixed bug of infinite ads when the user continues a game.",

@@ -13,7 +13,8 @@
         ],
         "release": null,
         "improvements": [
-            "Ajout de nouveaux décors pour créer la version hiver de Postrias."
+            "Ajout de nouveaux décors pour créer la version hiver de Postrias.",
+            "Ajout d'une fenêtre proposant à l'utilisateur de noter sur le PlayStore l'application après sa première partie."
         ],
         "bugsFixed": [
             "Correction du bug des publicités infinies lorsque l'utilisateur continue une partie en cours.",
