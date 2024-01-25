@@ -8,12 +8,12 @@ import { NewsComponent } from './news/news.component';
 import { LegalComponent } from './legal/legal.component';
 
 const routes: Routes = [
-  { path: '', component: WelcomeComponent },
-  { path: 'applications', component: ApplicationsComponent },
-  { path: 'applications/:id', component: ApplicationDetailsComponent },
-  { path: 'news', component: NewsComponent },
-  { path: 'news/:id', component: NewsPageDetailsComponent },
-  { path: 'legal', component: LegalComponent }
+  { path: '', component: WelcomeComponent, data: { title: "LupaDevStudio" } },
+  { path: 'applications', component: ApplicationsComponent, data: { title: "Applications" } },
+  { path: 'applications/:id', component: ApplicationDetailsComponent, data: { title: "temp" } },
+  { path: 'news', component: NewsComponent, data: { title: "News" } },
+  { path: 'news/:id', component: NewsPageDetailsComponent, data: { title: "temp" } },
+  { path: 'legal', component: LegalComponent, data: { title: "Legal" } }
 ];
 
 @NgModule({
