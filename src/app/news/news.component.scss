@@ -40,6 +40,16 @@ $lupa-blue: rgba(70, 129, 180);
   border-radius: 1.25rem;
 }
 
+.tag-button[value="Linconym"] {
+  background-color: #ff7e9f;
+  color: white;
+}
+
+.tag-button[value="Geozzle"] {
+  background-color: #011575;
+  color: white;
+}
+
 .tag-button[value="Android"] {
   background-color: #a5c639;
 }

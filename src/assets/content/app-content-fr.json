@@ -1,4 +1,29 @@
 {
+    "geozzle": {
+        "id": "geozzle",
+        "name": "Geozzle",
+        "date": "25 février 2024",
+        "introductionSentence": "Embarquez pour un incroyable voyage de découverte du monde avec Geozzle, le jeu ultime de questions de géographie !",
+        "vignetteSource": "/assets/apps_images/geozzle_vignette.jpg",
+        "bannerSource": "/assets/apps_images/geozzle_banner.jpg",
+        "storyDescription": [
+            "Découvrez le monde ! Sélectionnez votre continent préféré et plongez-vous dans un univers empli d'informations sur chaque pays. Geozzle vous emmène en visite virtuelle autour du monde !",
+            "Devinez le pays ! Chaque manche présente un défi passionnant ! Choisissez votre catégorie préférée, que ce soit la monnaie officielle, le type de gouvernement, la superficie, le PIB, et plus encore. Pourrez-vous deviner le pays en fonction de ces indices fournis ?",
+            "Conquérissez tous les continents ! Défiez-vous sur les six continents ! Explorez les caractéristiques uniques de chaque région au fur et à mesure de votre progression dans les niveaux. Geozzle garantit une expérience engageante et éducative pour les joueurs de tous âges.",
+            "Images merveilleuses ! Plongez-vous dans la beauté de chaque continent ; des paysages glacés de l'Antarctique aux décors vibrants de l'Afrique, Geozzle associe l'éducation au plaisir esthétique.",
+            "Éducatif et Amusant ! Geozzle n'est pas seulement un jeu ; c'est aussi une expérience d'apprentissage captivante. Affûtez vos connaissances géographiques de manière divertissante, que vous soyez joueur occasionnel ou étudiant passionné."
+        ],
+        "GooglePlayLink": "https://play.google.com/store/apps/details?id=lupadevstudio.com.geozzle",
+        "installation": "Cette application est disponible sur Google Play.",
+        "languages": [
+            "Français",
+            "Anglais"
+        ],
+        "platforms": [
+            "Android"
+        ],
+        "pegi_image": "/assets/PEGI/age-3.jpg"
+    },
     "postrias": {
         "id": "postrias",
         "name": "Postrias",
