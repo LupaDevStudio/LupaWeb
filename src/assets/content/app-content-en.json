@@ -1,4 +1,29 @@
 {
+    "geozzle": {
+        "id": "geozzle",
+        "name": "Geozzle",
+        "date": "February 25, 2024",
+        "introductionSentence": "Embark on an incredible journey of world discovery with Geozzle, the ultimate geography trivia game!",
+        "vignetteSource": "/assets/apps_images/geozzle_vignette.jpg",
+        "bannerSource": "/assets/apps_images/geozzle_banner.jpg",
+        "storyDescription": [
+            "Discover the world! Select your favorite continent and immerse yourself in a universe filled with information about each country. Geozzle takes you on a virtual tour around the world!",
+            "Guess the country! Each round presents an exciting challenge! Choose your favorite category, whether it's the official currency, type of government, area, GDP, and more. Can you guess the country based on these provided clues?",
+            "Conquer all continents! Challenge yourself on all six continents! Explore the unique characteristics of each region as you progress through the levels. Geozzle ensures an engaging and educational experience for players of all ages.",
+            "Wonderful images! Immerse yourself in the beauty of each continent; from the icy landscapes of Antarctica to the vibrant scenery of Africa, Geozzle combines education with aesthetic pleasure.",
+            "Educational and Fun! Geozzle is not just a game; it's also a captivating learning experience. Sharpen your geographical knowledge in an entertaining way, whether you're a casual player or an avid learner."
+        ],
+        "GooglePlayLink": "https://play.google.com/store/apps/details?id=lupadevstudio.com.geozzle",
+        "installation": "This application is available on Google Play.",
+        "languages": [
+            "French",
+            "English"
+        ],
+        "platforms": [
+            "Android"
+        ],
+        "pegi_image": "/assets/PEGI/age-3.jpg"
+    },
     "postrias": {
         "id": "postrias",
         "name": "Postrias",
@@ -19,7 +44,15 @@
         "platforms": [
             "Android"
         ],
-        "pegi_image": "/assets/PEGI/age-7.jpg"
+        "pegi_image": "/assets/PEGI/age-7.jpg",
+        "TrailerLink": "https://www.youtube.com/embed/gATLZJNnqP8?si=MPAbe61RwycW5sLX",
+        "displayImages": [
+            "/assets/apps_images/postrias/screen_1.jpg",
+            "/assets/apps_images/postrias/screen_2.jpg",
+            "/assets/apps_images/postrias/screen_3.jpg",
+            "/assets/apps_images/postrias/screen_4.jpg",
+            "/assets/apps_images/postrias/screen_5.jpg"
+        ]
     },
     "lumacryte": {
         "id": "lumacryte",
