@@ -14,9 +14,18 @@
         <p class="title">Trailer</p>
         <div class="separator"></div>
         <iframe class="video-player" [src]="sanitizeUrl(AppContent.TrailerLink)" title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
+          frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div *ngIf="AppContent.displayImages">
+        <p class="title">Images</p>
+        <div class="separator"></div>
+        <div class="image-slider-container">
+          <app-image-slider class="image-slider" [images]="AppContent.displayImages" [enable_buttons]="true"
+            [center_title]="false" [slide_delay]="5000"></app-image-slider>
+        </div>
+
+
       </div>
 
       <p class="title">{{"Info"|translate}}</p>

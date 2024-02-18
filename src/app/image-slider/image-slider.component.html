@@ -4,16 +4,16 @@
         <div *ngFor="let image of images; let i = index" class="slide"
             [style.transform]="'translateX(' + -currentIndex * 100 + '%)'">
             <img [src]="image" alt="Game Banner">
-            <div class="slide-title" *ngIf="! center_title">
+            <div class="slide-title" *ngIf="! center_title && titles[i]">
                 {{titles[i].toUpperCase()}}</div>
-            <div class="slide-title slide-title-center" *ngIf="center_title">
+            <div class="slide-title slide-title-center" *ngIf="center_title && titles[i]">
                 {{titles[i].toUpperCase()}}</div>
-            <div class="slide-text">
+            <div *ngIf="texts[i]" class="slide-text">
                 {{texts[i]}}
             </div>
             <button mat-raised-button color="accent" class="slide-button"
                 [routerLink]="'/applications/' +titles[i].toLowerCase()" routerLinkActive="active"
-                ariaCurrentWhenActive="page" *ngIf="enable_buttons">
+                ariaCurrentWhenActive="page" *ngIf="enable_buttons && titles[i]">
                 {{"Discover"|translate}}
             </button>
         </div>
