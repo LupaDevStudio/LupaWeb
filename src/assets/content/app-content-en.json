@@ -44,7 +44,8 @@
         "platforms": [
             "Android"
         ],
-        "pegi_image": "/assets/PEGI/age-7.jpg"
+        "pegi_image": "/assets/PEGI/age-7.jpg",
+        "TrailerLink": "https://www.youtube.com/embed/gATLZJNnqP8?"
     },
     "lumacryte": {
         "id": "lumacryte",

@@ -10,6 +10,15 @@
       <div class="separator"></div>
       <p *ngFor="let paragraph of AppContent.storyDescription" class="content">{{paragraph}}</p>
 
+      <div *ngIf="AppContent.TrailerLink">
+        <p class="title">Trailer</p>
+        <div class="separator"></div>
+        <iframe class="video-player" [src]="sanitizeUrl(AppContent.TrailerLink)" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+
       <p class="title">{{"Info"|translate}}</p>
       <div class="separator"></div>
       <ul class="content">

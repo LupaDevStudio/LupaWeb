@@ -4,6 +4,8 @@ import { HttpClient } from '@angular/common/http';
 import { AppComponent } from '../app.component';
 import { LanguageService } from '../language.service';
 import { Subscription } from 'rxjs';
+import { DomSanitizer } from '@angular/platform-browser';
+
 
 @Component({
   selector: 'app-application-details',
@@ -23,6 +25,7 @@ export class ApplicationDetailsComponent {
     private route: ActivatedRoute,
     private http: HttpClient,
     private appComponent: AppComponent,
+    private sanitizer: DomSanitizer,
     private changeDetection: ChangeDetectorRef,
     languageService: LanguageService
   ) {
@@ -74,5 +77,9 @@ export class ApplicationDetailsComponent {
 
   public getGooglePlayImage(): string {
     return this.appComponent.googlePlayImage;
+  }
+
+  sanitizeUrl(url: string): any {
+    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
 } 
