@@ -112,10 +112,40 @@ ul {
 
 .video-player {
     display: flex;
-    width: 80%;
+
+    @media (min-width:800px) {
+        width: 80%;
+    }
+
+    @media (max-width:800px) {
+        width: 100%;
+    }
+
     aspect-ratio: 16/9;
     // height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1.5em;
+}
+
+
+.image-slider {
+    z-index: 2;
+    margin-top: 1em;
+    width: 80%;
+    // margin-bottom: 2em;
+}
+
+.image-slider-container {
+    @media (min-width:800px) {
+        width: 80%;
+    }
+
+    @media (max-width:800px) {
+        width: 100%;
+    }
+
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
 }
