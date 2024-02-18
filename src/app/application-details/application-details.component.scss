@@ -109,3 +109,13 @@ ul {
     justify-content: space-evenly;
     margin-bottom: 1.5em;
 }
+
+.video-player {
+    display: flex;
+    width: 80%;
+    aspect-ratio: 16/9;
+    // height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+}

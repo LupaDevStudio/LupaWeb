@@ -3,7 +3,7 @@
         "id": "geozzle",
         "name": "Geozzle",
         "date": "25 février 2024",
-        "introductionSentence": "Embarquez pour un incroyable voyage de découverte du monde avec Geozzle, le jeu ultime de questions de géographie !",
+        "introductionSentence": "Embarquez pour un incroyable voyage de découverte du monde avec Geozzle, le jeu de géographie ultime !",
         "vignetteSource": "/assets/apps_images/geozzle_vignette.jpg",
         "bannerSource": "/assets/apps_images/geozzle_banner.jpg",
         "storyDescription": [
@@ -44,7 +44,8 @@
         "platforms": [
             "Android"
         ],
-        "pegi_image": "/assets/PEGI/age-7.jpg"
+        "pegi_image": "/assets/PEGI/age-7.jpg",
+        "TrailerLink": "https://www.youtube.com/embed/gATLZJNnqP8?"
     },
     "lumacryte": {
         "id": "lumacryte",
