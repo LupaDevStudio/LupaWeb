@@ -18,10 +18,11 @@ export class AppComponent extends CommonFunctionalityComponent {
   // Languages parameters
   languageName: string = "En";
   flagName: string = "/assets/english_logo.png";
-  googlePlayImage: string = "https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-  languageAssociations: { [Name: string]: [string, string, string] } = {
-    "en": ["En", "/assets/english_logo.png", "https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"],
-    "fr": ["Fr", "/assets/french_logo.png", "https://play.google.com/intl/en_us/badges/static/images/badges/fr_badge_web_generic.png"]
+  googlePlayImage: string = "https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png";
+  appStoreImage: string = "assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg";
+  languageAssociations: { [Name: string]: [string, string, string, string] } = {
+    "en": ["En", "/assets/english_logo.png", "https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png", "assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"],
+    "fr": ["Fr", "/assets/french_logo.png", "https://play.google.com/intl/en_us/badges/static/images/badges/fr_badge_web_generic.png", "assets/Download_on_the_App_Store_Badge_FR_RGB_blk_100517.svg"]
   }
 
   constructor(
@@ -40,17 +41,6 @@ export class AppComponent extends CommonFunctionalityComponent {
       .pipe(
         filter((event) => event instanceof NavigationEnd),
         map(() => {
-          // let route: ActivatedRoute = this.router.routerState.root;
-          // let routeTitle;
-          // while (route!.firstChild) {
-          //   route = route.firstChild;
-          // }
-          // if (route.snapshot.data['title']) {
-          //   routeTitle = route!.snapshot.data['title'];
-          //   if (routeTitle == "temp") {
-          //     routeTitle = route.snapshot.paramMap.get('id');
-          //   }
-          // }
           return this.getPageTitle();
         })
       )
@@ -117,6 +107,7 @@ export class AppComponent extends CommonFunctionalityComponent {
     this.languageName = this.languageAssociations[lang][0];
     this.flagName = this.languageAssociations[lang][1];
     this.googlePlayImage = this.languageAssociations[lang][2];
+    this.appStoreImage = this.languageAssociations[lang][3];
     this.setPageTitle();
   }
 
@@ -125,7 +116,6 @@ export class AppComponent extends CommonFunctionalityComponent {
   }
 
   onActivate(event: any) {
-    // window.scroll(0,0);
 
     window.scroll({
       top: 0,
@@ -133,8 +123,5 @@ export class AppComponent extends CommonFunctionalityComponent {
       behavior: 'smooth'
     });
 
-    //or document.body.scrollTop = 0;
-    //or document.querySelector('body').scrollTo(0,0)
-    //  ...
   }
 }
