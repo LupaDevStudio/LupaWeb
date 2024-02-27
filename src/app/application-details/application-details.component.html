@@ -68,8 +68,20 @@
       <p class="content">{{AppContent.installation}}</p>
       <div class="download-box">
         <div *ngIf="AppContent.GooglePlayLink">
-          <a href={{AppContent.GooglePlayLink}}>
-            <img src={{getGooglePlayImage()}} class="link-item">
+          <div *ngIf="getLanguageName() == 'En'">
+            <a href={{AppContent.GooglePlayLink}}>
+              <img src={{getGooglePlayImage()}} class="link-item" style="width: 17.3em">
+            </a>
+          </div>
+          <div *ngIf="getLanguageName() != 'En'">
+            <a href={{AppContent.GooglePlayLink}}>
+              <img src={{getGooglePlayImage()}} class="link-item">
+            </a>
+          </div>
+        </div>
+        <div *ngIf="AppContent.AppStoreLink">
+          <a href={{AppContent.AppStoreLink}}>
+            <img src={{getAppStoreImage()}} class="link-item">
           </a>
         </div>
         <div *ngIf="AppContent.ItchIoImage">

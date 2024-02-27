@@ -72,11 +72,16 @@ export class ApplicationDetailsComponent {
   }
 
   public getLanguageName(): string {
+    console.log(this.appComponent.languageName)
     return this.appComponent.languageName;
   }
 
   public getGooglePlayImage(): string {
     return this.appComponent.googlePlayImage;
+  }
+
+  public getAppStoreImage(): string {
+    return this.appComponent.appStoreImage;
   }
 
   sanitizeUrl(url: string): any {

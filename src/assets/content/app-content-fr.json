@@ -14,13 +14,15 @@
             "Éducatif et Amusant ! Geozzle n'est pas seulement un jeu ; c'est aussi une expérience d'apprentissage captivante. Affûtez vos connaissances géographiques de manière divertissante, que vous soyez joueur occasionnel ou étudiant passionné."
         ],
         "GooglePlayLink": "https://play.google.com/store/apps/details?id=lupadevstudio.com.geozzle",
-        "installation": "Cette application est disponible sur Google Play.",
+        "AppStoreLink": "https://apps.apple.com/us/app/geozzle/id6478439292",
+        "installation": "Cette application est disponible sur le Play Store et l'App Store.",
         "languages": [
             "Français",
             "Anglais"
         ],
         "platforms": [
-            "Android"
+            "Android",
+            "IoS"
         ],
         "pegi_image": "/assets/PEGI/age-3.jpg"
     },

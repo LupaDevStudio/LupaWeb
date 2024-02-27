@@ -5,13 +5,14 @@
         "name": "Geozzle - Launch",
         "date": "February 25, 2024",
         "vignetteSource": "/assets/apps_images/geozzle_vignette.jpg",
-        "shortDescription": "Embark on an incredible journey of world discovery with Geozzle, the ultimate geography trivia game!",
+        "shortDescription": "First game released on both Play store and App Store! Embark on an incredible journey of world discovery with Geozzle, the ultimate geography trivia game!",
         "tags": [
             "Geozzle",
             "Android",
+            "IoS",
             "Release"
         ],
-        "release": "We are delighted to announce the release of our brand new game on the Play Store. With a completely revamped graphical style and an innovative concept that combines entertainment and learning, we invite you to discover Geozzle!",
+        "release": "We are delighted to announce the release of our brand new game on the Play Store and on the App Store! With a completely revamped graphical style and an innovative concept that combines entertainment and learning, we invite you to discover Geozzle on both platforms!",
         "improvements": null,
         "bugsFixed": null
     },
