@@ -45,7 +45,15 @@
         "platforms": [
             "Android"
         ],
-        "pegi_image": "/assets/PEGI/age-7.jpg"
+        "pegi_image": "/assets/PEGI/age-7.jpg",
+        "TrailerLink": "https://www.youtube.com/embed/gATLZJNnqP8?si=MPAbe61RwycW5sLX",
+        "displayImages": [
+            "/assets/apps_images/postrias/screen_1.jpg",
+            "/assets/apps_images/postrias/screen_2.jpg",
+            "/assets/apps_images/postrias/screen_3.jpg",
+            "/assets/apps_images/postrias/screen_4.jpg",
+            "/assets/apps_images/postrias/screen_5.jpg"
+        ]
     },
     "lumacryte": {
         "id": "lumacryte",
