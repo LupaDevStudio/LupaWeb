@@ -1,4 +1,27 @@
 {
+    "geozzle_v106": {
+        "id": "geozzle_v106",
+        "gameId": "geozzle",
+        "name": "Geozzle - version 1.0.6",
+        "date": "11 mars 2024",
+        "vignetteSource": "/assets/apps_images/geozzle_vignette_106.jpg",
+        "shortDescription": "Mise à jour de Geozzle avec de nouveaux fonds et un bouton pour couper le son!",
+        "tags": [
+            "Geozzle",
+            "Android",
+            "IoS",
+            "MAJ"
+        ],
+        "release": null,
+        "improvements": [
+            "Ajout de nouveaux décors pour l'Europe.",
+            "Ajout d'un bouton pour couper les bruitages et la musique.",
+            "Amélioration du formattage de la langue officielle et du PIB."
+        ],
+        "bugsFixed": [
+            "Correction du bug mineur de caractères spéciaux non affichés."
+        ]
+    },
     "geozzle_v100": {
         "id": "geozzle_v100",
         "gameId": "geozzle",
