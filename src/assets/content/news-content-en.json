@@ -1,4 +1,27 @@
 {
+    "geozzle_v106": {
+        "id": "geozzle_v106",
+        "gameId": "geozzle",
+        "name": "Geozzle - version 1.0.6",
+        "date": "March 11, 2024",
+        "vignetteSource": "/assets/apps_images/geozzle_vignette_106.jpg",
+        "shortDescription": "Update of Geozzle with new backgrounds and a mute button!",
+        "tags": [
+            "Geozzle",
+            "Android",
+            "IoS",
+            "Update"
+        ],
+        "release": null,
+        "improvements": [
+            "Added new backgrounds for Europe.",
+            "Added button to mute music and sounds.",
+            "Improved formatting for language and GDP."
+        ],
+        "bugsFixed": [
+            "Fixed minor bug with missing characters."
+        ]
+    },
     "geozzle_v100": {
         "id": "geozzle_v100",
         "gameId": "geozzle",
@@ -20,13 +43,13 @@
         "id": "postrias_v221",
         "gameId": "postrias",
         "name": "Postrias - version 2.2.1",
-        "date": "5 janvier 2024",
+        "date": "January 5, 2024",
         "vignetteSource": "/assets/apps_images/postrias_christmas.jpg",
         "shortDescription": "The winter version of Postrias has been released on the PlayStore, with brand new backgrounds!",
         "tags": [
             "Postrias",
             "Android",
-            "MAJ"
+            "Update"
         ],
         "release": null,
         "improvements": [
