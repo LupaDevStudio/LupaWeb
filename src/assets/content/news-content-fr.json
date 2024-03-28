@@ -1,11 +1,31 @@
 {
+    "geozzle_v107": {
+        "id": "geozzle_v107",
+        "gameId": "geozzle",
+        "name": "Geozzle - version 1.0.7",
+        "date": "30 mars 2024",
+        "vignetteSource": "/assets/apps_images/geozzle_vignette_107.jpg",
+        "shortDescription": "Mise à jour de Geozzle avec de nouveaux fonds et un écran de chargement !",
+        "tags": [
+            "Geozzle",
+            "Android",
+            "IoS",
+            "MAJ"
+        ],
+        "release": null,
+        "improvements": [
+            "Ajout de nouveaux décors pour tous les continents.",
+            "Ajout d'un écran de chargement lors de la requête permettant de récupérer les informations sur un nouveau pays."
+        ],
+        "bugsFixed": null
+    },
     "geozzle_v106": {
         "id": "geozzle_v106",
         "gameId": "geozzle",
         "name": "Geozzle - version 1.0.6",
         "date": "11 mars 2024",
         "vignetteSource": "/assets/apps_images/geozzle_vignette_106.jpg",
-        "shortDescription": "Mise à jour de Geozzle avec de nouveaux fonds et un bouton pour couper le son!",
+        "shortDescription": "Mise à jour de Geozzle avec de nouveaux fonds et un bouton pour couper le son !",
         "tags": [
             "Geozzle",
             "Android",
@@ -16,7 +36,7 @@
         "improvements": [
             "Ajout de nouveaux décors pour l'Europe.",
             "Ajout d'un bouton pour couper les bruitages et la musique.",
-            "Amélioration du formattage de la langue officielle et du PIB."
+            "Amélioration du formatage de la langue officielle et du PIB."
         ],
         "bugsFixed": [
             "Correction du bug mineur de caractères spéciaux non affichés."
@@ -73,7 +93,7 @@
             "Android",
             "Sortie"
         ],
-        "release": "Nous sommes fiers de partager avec vous la version remasterisée de Postrias, un jeu originellement réalisé en 2020 lors d'une game jam d'un weekend. Découvrez un univers post-apocalyptique envahi par les dinosaures où vous êtes le dirigeant des derniers survivants du monde ; prenez des décisions pour permettre à votre communauté de survivre !",
+        "release": "Nous sommes fiers de partager avec vous la version remastérisée de Postrias, un jeu originellement réalisé en 2020 lors d'une game jam d'un weekend. Découvrez un univers post-apocalyptique envahi par les dinosaures où vous êtes le dirigeant des derniers survivants du monde ; prenez des décisions pour permettre à votre communauté de survivre !",
         "improvements": null,
         "bugsFixed": null
     },

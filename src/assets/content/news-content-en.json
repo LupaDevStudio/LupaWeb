@@ -1,4 +1,24 @@
 {
+    "geozzle_v107": {
+        "id": "geozzle_v107",
+        "gameId": "geozzle",
+        "name": "Geozzle - version 1.0.7",
+        "date": "March 30, 2024",
+        "vignetteSource": "/assets/apps_images/geozzle_vignette_107.jpg",
+        "shortDescription": "Update of Geozzle with new backgrounds and a loading screen!",
+        "tags": [
+            "Geozzle",
+            "Android",
+            "IoS",
+            "MAJ"
+        ],
+        "release": null,
+        "improvements": [
+            "Added new backgrounds for all continents.",
+            "Added a loading screen for the request gathering the information on a new country."
+        ],
+        "bugsFixed": null
+    },
     "geozzle_v106": {
         "id": "geozzle_v106",
         "gameId": "geozzle",
