@@ -13,7 +13,9 @@
       <div *ngIf="AppContent.trailerId">
         <p class="title">Trailer</p>
         <div class="separator"></div>
-        <app-you-tube-player videoId={{AppContent.trailerId}}></app-you-tube-player>
+        <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px;" >
+          <app-you-tube-player videoId={{AppContent.trailerId}}></app-you-tube-player>
+        </div>
       </div>
 
       <div *ngIf="AppContent.displayImages">
