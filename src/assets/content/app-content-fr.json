@@ -33,7 +33,8 @@
             "/assets/apps_images/geozzle/Geozzle4.jpg",
             "/assets/apps_images/geozzle/Geozzle5.jpg",
             "/assets/apps_images/geozzle/Geozzle6.jpg"
-        ]
+        ],
+        "displayImagesOrientation": "vertical"
     },
     "postrias": {
         "id": "postrias",
@@ -63,7 +64,8 @@
             "/assets/apps_images/postrias/screen_3.jpg",
             "/assets/apps_images/postrias/screen_4.jpg",
             "/assets/apps_images/postrias/screen_5.jpg"
-        ]
+        ],
+        "displayImagesOrientation": "horizontal"
     },
     "lumacryte": {
         "id": "lumacryte",

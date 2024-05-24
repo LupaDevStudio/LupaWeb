@@ -1,8 +1,26 @@
 <div class="slider-container">
-    <div class="slider">
-
-        <div *ngFor="let image of images; let i = index" class="slide"
+    <div class="slider" *ngIf="orientation == 'horizontal'">
+            <div *ngFor="let image of images; let i = index" class="slide"
             [style.transform]="'translateX(' + -currentIndex * 100 + '%)'">
+                <img [src]="image" alt="Game Banner">
+                <div class="slide-title" *ngIf="! center_title && titles[i]">
+                    {{titles[i].toUpperCase()}}</div>
+                <div class="slide-title slide-title-center" *ngIf="center_title && titles[i]">
+                    {{titles[i].toUpperCase()}}</div>
+                <div *ngIf="texts[i]" class="slide-text">
+                    {{texts[i]}}
+                </div>
+                <button mat-raised-button color="accent" class="slide-button"
+                    [routerLink]="'/applications/' +titles[i].toLowerCase()" routerLinkActive="active"
+                    ariaCurrentWhenActive="page" *ngIf="enable_buttons && titles[i]">
+                    {{"Discover"|translate}}
+                </button>
+            </div>
+    </div>
+
+    <div class="slider" *ngIf="orientation == 'vertical'" style="width: 50%;">
+        <div *ngFor="let image of images; let i = index" class="slide"
+        [style.transform]="'translateX(' + -currentIndex * 100 + '%)'">
             <img [src]="image" alt="Game Banner">
             <div class="slide-title" *ngIf="! center_title && titles[i]">
                 {{titles[i].toUpperCase()}}</div>
@@ -17,9 +35,9 @@
                 {{"Discover"|translate}}
             </button>
         </div>
+</div>
 
 
-    </div>
     <button mat-mini-fab color="accent" (click)="prevSlide()" class="prev-button"
         *ngIf="enable_buttons"><mat-icon>chevron_left</mat-icon></button>
     <button mat-mini-fab color="accent" (click)="nextSlide()" class="next-button"
