@@ -9,4 +9,5 @@ export interface Application {
     downloadLink: string;
     installation: string;
     information: string;
+    trailerId: string;
 }
