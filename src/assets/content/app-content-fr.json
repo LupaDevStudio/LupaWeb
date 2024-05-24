@@ -22,9 +22,19 @@
         ],
         "platforms": [
             "Android",
-            "IoS"
+            "iOS"
         ],
-        "pegi_image": "/assets/PEGI/age-3.jpg"
+        "pegi_image": "/assets/PEGI/age-3.jpg",
+        "trailerId": "qOud6XjMhA4",
+        "displayImages": [
+            "/assets/apps_images/geozzle/Geozzle1.jpg",
+            "/assets/apps_images/geozzle/Geozzle2.jpg",
+            "/assets/apps_images/geozzle/Geozzle3.jpg",
+            "/assets/apps_images/geozzle/Geozzle4.jpg",
+            "/assets/apps_images/geozzle/Geozzle5.jpg",
+            "/assets/apps_images/geozzle/Geozzle6.jpg"
+        ],
+        "displayImagesOrientation": "vertical"
     },
     "postrias": {
         "id": "postrias",
@@ -47,14 +57,15 @@
             "Android"
         ],
         "pegi_image": "/assets/PEGI/age-7.jpg",
-        "TrailerLink": "https://www.youtube.com/embed/gATLZJNnqP8?si=MPAbe61RwycW5sLX",
+        "trailerId": "gATLZJNnqP8",
         "displayImages": [
             "/assets/apps_images/postrias/screen_1.jpg",
             "/assets/apps_images/postrias/screen_2.jpg",
             "/assets/apps_images/postrias/screen_3.jpg",
             "/assets/apps_images/postrias/screen_4.jpg",
             "/assets/apps_images/postrias/screen_5.jpg"
-        ]
+        ],
+        "displayImagesOrientation": "horizontal"
     },
     "lumacryte": {
         "id": "lumacryte",

@@ -10,11 +10,12 @@
       <div class="separator"></div>
       <p *ngFor="let paragraph of AppContent.storyDescription" class="content">{{paragraph}}</p>
 
-      <div *ngIf="AppContent.TrailerLink">
+      <div *ngIf="AppContent.trailerId">
         <p class="title">Trailer</p>
         <div class="separator"></div>
-        <iframe class="video-player" [src]="sanitizeUrl(AppContent.TrailerLink)" title="YouTube video player"
-          frameborder="0" allowfullscreen></iframe>
+        <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px;" >
+          <app-you-tube-player videoId={{AppContent.trailerId}}></app-you-tube-player>
+        </div>
       </div>
 
       <div *ngIf="AppContent.displayImages">
@@ -22,7 +23,7 @@
         <div class="separator"></div>
         <div class="image-slider-container">
           <app-image-slider class="image-slider" [images]="AppContent.displayImages" [enable_buttons]="true"
-            [center_title]="false" [slide_delay]="5000"></app-image-slider>
+            [center_title]="false" [slide_delay]="5000" [orientation]="AppContent.displayImagesOrientation"></app-image-slider>
         </div>
 
 

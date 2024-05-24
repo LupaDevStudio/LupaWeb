@@ -16,7 +16,7 @@ export class ImageSliderComponent extends CommonFunctionalityComponent implement
   @Input() enable_buttons: boolean = true;
   @Input() center_title: boolean = false;
   @Input() slide_delay = 10000;
-
+  @Input() orientation: string = "horizontal";
 
   languageService: LanguageService;
   langSubscription: Subscription;

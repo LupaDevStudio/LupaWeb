@@ -16,6 +16,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {YouTubePlayerModule} from '@angular/youtube-player';
 
 import { TitleBarComponent } from './title-bar/title-bar.component';
 import { WelcomeComponent } from './welcome/welcome.component';
@@ -27,6 +28,7 @@ import { FootBarComponent } from './foot-bar/foot-bar.component';
 import { LegalComponent } from './legal/legal.component';
 import { ImageSliderComponent } from './image-slider/image-slider.component';
 import { CommonFunctionalityComponent } from './common-functionality/common-functionality.component';
+import { YouTubePlayerComponent } from './you-tube-player/you-tube-player.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,8 @@ import { CommonFunctionalityComponent } from './common-functionality/common-func
     FootBarComponent,
     LegalComponent,
     ImageSliderComponent,
-    CommonFunctionalityComponent
+    CommonFunctionalityComponent,
+    YouTubePlayerComponent
   ],
   imports: [
     BrowserModule,
@@ -62,7 +65,8 @@ import { CommonFunctionalityComponent } from './common-functionality/common-func
     MatSelectModule,
     MatAutocompleteModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    YouTubePlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
