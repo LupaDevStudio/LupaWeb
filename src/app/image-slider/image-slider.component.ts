@@ -21,8 +21,9 @@ export class ImageSliderComponent extends CommonFunctionalityComponent implement
   languageService: LanguageService;
   langSubscription: Subscription;
 
-  currentIndex = 0;
+  currentIndex: number = 0;
   intervalId: any;
+  hasTouchedButton: boolean = false;
 
   constructor(
     public override router: Router,
@@ -40,29 +41,39 @@ export class ImageSliderComponent extends CommonFunctionalityComponent implement
   }
 
   startSlideShow() {
-    // Set an interval to switch images every 3 seconds (adjust as needed)
+    // Set an interval to switch images every slide_delay seconds
     this.intervalId = setInterval(() => {
-      this.nextSlide();
+      this.nextSlide(false);
     }, this.slide_delay);
   }
 
-  prevSlide() {
-    if (this.currentIndex > 0) {
-      this.currentIndex--;
+  prevSlide(buttonTouched: boolean) {
+    if (buttonTouched) {
+      this.hasTouchedButton = true;
     }
-    else if (this.currentIndex == 0) {
-      this.currentIndex = this.images.length - 1;
+
+    if (!this.hasTouchedButton || buttonTouched) {
+      if (this.currentIndex > 0) {
+        this.currentIndex--;
+      }
+      else if (this.currentIndex == 0) {
+        this.currentIndex = this.images.length - 1;
+      }
     }
   }
 
-  nextSlide() {
-    if (this.currentIndex == this.images.length - 1) {
-      this.currentIndex = 0;
+  nextSlide(buttonTouched: boolean) {
+    if (buttonTouched) {
+      this.hasTouchedButton = true;
     }
-    else if (this.currentIndex < this.images.length - 1) {
 
-      this.currentIndex++;
-
+    if (!this.hasTouchedButton || buttonTouched) {
+      if (this.currentIndex == this.images.length - 1) {
+        this.currentIndex = 0;
+      }
+      else if (this.currentIndex < this.images.length - 1) {
+        this.currentIndex++;
+      }
     }
   }
 
