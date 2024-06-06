@@ -1,4 +1,38 @@
 {
+    "linconym": {
+        "id": "linconym",
+        "name": "Linconym",
+        "date": "June 9, 2024",
+        "introductionSentence": "Unleash your creativity and rearrange letters to transform words into other ones!",
+        "vignetteSource": "/assets/apps_images/linconym_vignette.jpg",
+        "bannerSource": "/assets/apps_images/linconym_banner.jpg",
+        "storyDescription": [
+            "Linconym is a letter game that will test your creativity and your ability to think outside the box! Your mission is to link words together by rearranging letters to form new ones. You can either add, delete, or change one letter at a time to create a chain of words. With over 100 levels grouped into engaging themes, Linconym serves as both a linguistic playground and a tool for vocabulary expansion. 💡📚",
+            "But Linconym offers more than just a linguistic challenge—it's a personal quest for excellence. 💫 You'll strive to achieve the highest scores with the fewest intermediate words, testing your skills and pushing your limits with each level. As you progress, you'll earn valuable points that can be used to customize your Linconym experience, from vibrant images to captivating music, making the game uniquely yours. 🎨🎶",
+            "In addition to the thrill of competition, Linconym invites you to embark on various quests and unlock a myriad of achievements. From solving riddles to completing challenges, you'll be rewarded for your perseverance and ingenuity, adding an extra layer of excitement to the gameplay. 🏆🚀"
+        ],
+        "GooglePlayLink": "https://play.google.com/store/apps/details?id=lupadevstudio.com.linconym",
+        "AppStoreLink": "TODO",
+        "installation": "This application is available on the Play Store and on the App Store.",
+        "languages": [
+            "English"
+        ],
+        "platforms": [
+            "Android",
+            "iOS"
+        ],
+        "pegi_image": "/assets/PEGI/age-3.jpg",
+        "trailerId": "TODO",
+        "displayImages": [
+            "/assets/apps_images/linconym/linconym1.jpg",
+            "/assets/apps_images/linconym/linconym2.jpg",
+            "/assets/apps_images/linconym/linconym3.jpg",
+            "/assets/apps_images/linconym/linconym4.jpg",
+            "/assets/apps_images/linconym/linconym5.jpg",
+            "/assets/apps_images/linconym/linconym6.jpg"
+        ],
+        "displayImagesOrientation": "vertical"
+    },
     "geozzle": {
         "id": "geozzle",
         "name": "Geozzle",

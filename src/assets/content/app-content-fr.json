@@ -1,4 +1,38 @@
 {
+    "linconym": {
+        "id": "linconym",
+        "name": "Linconym",
+        "date": "9 juin 2024",
+        "introductionSentence": "Libérez votre créativité en réarrangeant les lettres de mots pour en créer de nouveaux.",
+        "vignetteSource": "/assets/apps_images/linconym_vignette.jpg",
+        "bannerSource": "/assets/apps_images/linconym_banner.jpg",
+        "storyDescription": [
+            "Linconym est un jeu de lettres qui mettra à l'épreuve votre créativité et votre réflexion ! Votre mission consiste à relier des mots entre eux en réarrangeant les lettres pour former de nouveaux. Vous pouvez ajouter, supprimer ou modifier une lettre à chaque étape pour créer une chaîne de mots, afin de rejoindre votre mot cible ! Avec plus de 100 niveaux regroupés dans des thèmes engageants, Linconym est à la fois un terrain de jeu linguistique et un outil d'expansion du vocabulaire. 💡📚",
+            "Mais Linconym offre plus qu'un défi linguistique ! 💫 Tentez d'obtenir les scores les plus élevés avec le moins de mots intermédiaires, ce qui mettra assurément à l'épreuve vos compétences et poussera vos limites à chaque puzzle. Au fur et à mesure de votre progression, vous gagnerez des points précieux qui pourront être utilisés pour personnaliser votre expérience Linconym, des images vibrantes à la musique captivante, rendant le jeu unique. 🎨🎶",
+            "En plus du frisson de la compétition, Linconym vous invite à embarquer dans diverses quêtes et à débloquer une myriade d'accomplissements. De la résolution d'énigmes à la complétion de défis, vous serez récompensé pour votre persévérance et votre ingéniosité, ajoutant une couche supplémentaire au gameplay ! 🏆🚀"
+        ],
+        "GooglePlayLink": "https://play.google.com/store/apps/details?id=lupadevstudio.com.linconym",
+        "AppStoreLink": "TODO",
+        "installation": "Cette application est disponible sur le Play Store et l'App Store.",
+        "languages": [
+            "Anglais"
+        ],
+        "platforms": [
+            "Android",
+            "iOS"
+        ],
+        "pegi_image": "/assets/PEGI/age-3.jpg",
+        "trailerId": "TODO",
+        "displayImages": [
+            "/assets/apps_images/linconym/linconym1.jpg",
+            "/assets/apps_images/linconym/linconym2.jpg",
+            "/assets/apps_images/linconym/linconym3.jpg",
+            "/assets/apps_images/linconym/linconym4.jpg",
+            "/assets/apps_images/linconym/linconym5.jpg",
+            "/assets/apps_images/linconym/linconym6.jpg"
+        ],
+        "displayImagesOrientation": "vertical"
+    },
     "geozzle": {
         "id": "geozzle",
         "name": "Geozzle",

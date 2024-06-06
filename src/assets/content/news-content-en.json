@@ -1,4 +1,21 @@
 {
+    "linconym_v100": {
+        "id": "linconym_v100",
+        "gameId": "linconym",
+        "name": "Linconym - Launch",
+        "date": "June 9, 2024",
+        "vignetteSource": "/assets/apps_images/linconym_vignette.jpg",
+        "shortDescription": "Discover Linconym, the first letters game of LupaDevStudio!",
+        "tags": [
+            "Linconym",
+            "Android",
+            "iOS",
+            "Release"
+        ],
+        "release": "It's a pleasure for us to introduce our brand new game, which stands out from the previous ones. Embark on a literary adventure with Linconym where your goal will be to create word trees by rearranging letters.",
+        "improvements": null,
+        "bugsFixed": null
+    },
     "geozzle_v107": {
         "id": "geozzle_v107",
         "gameId": "geozzle",
