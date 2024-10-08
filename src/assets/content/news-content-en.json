@@ -1,4 +1,27 @@
 {
+    "geozzle_v210": {
+        "id": "geozzle_v210",
+        "gameId": "geozzle",
+        "name": "Geozzle - Version 2.1.0",
+        "date": "October 8, 2024",
+        "vignetteSource": "/assets/apps_images/geozzle_vignette_210.jpg",
+        "shortDescription": "A brand new gameplay for Geozzle with even more challenge!",
+        "tags": [
+            "Geozzle",
+            "Android",
+            "iOS",
+            "Update"
+        ],
+        "release": null,
+        "improvements": [
+            "Brand new gameplay with ranked clues and a streak system.",
+            "Improved statistics with the progress for each continent and each country.",
+            "Collectible backgrounds with a gallery screen.",
+            "Dynamic tutorial for a better user experience.",
+            "Added settings screen."
+        ],
+        "bugsFixed": null
+    },
     "linconym_v100": {
         "id": "linconym_v100",
         "gameId": "linconym",
@@ -19,7 +42,7 @@
     "geozzle_v107": {
         "id": "geozzle_v107",
         "gameId": "geozzle",
-        "name": "Geozzle - version 1.0.7",
+        "name": "Geozzle - Version 1.0.7",
         "date": "March 30, 2024",
         "vignetteSource": "/assets/apps_images/geozzle_vignette_107.jpg",
         "shortDescription": "Update of Geozzle with new backgrounds and a loading screen!",
@@ -39,7 +62,7 @@
     "geozzle_v106": {
         "id": "geozzle_v106",
         "gameId": "geozzle",
-        "name": "Geozzle - version 1.0.6",
+        "name": "Geozzle - Version 1.0.6",
         "date": "March 11, 2024",
         "vignetteSource": "/assets/apps_images/geozzle_vignette_106.jpg",
         "shortDescription": "Update of Geozzle with new backgrounds and a mute button!",
@@ -79,7 +102,7 @@
     "postrias_v221": {
         "id": "postrias_v221",
         "gameId": "postrias",
-        "name": "Postrias - version 2.2.1",
+        "name": "Postrias - Version 2.2.1",
         "date": "January 5, 2024",
         "vignetteSource": "/assets/apps_images/postrias_christmas.jpg",
         "shortDescription": "The winter version of Postrias has been released on the PlayStore, with brand new backgrounds!",
@@ -117,7 +140,7 @@
     "tramway_collector_v121": {
         "id": "tramway_collector_v121",
         "gameId": "tramway_collector",
-        "name": "Tramway Collector - version 1.2.1",
+        "name": "Tramway Collector - Version 1.2.1",
         "date": "September 1, 2023",
         "vignetteSource": "/assets/apps_images/tramway_collector_121.jpg",
         "shortDescription": "Tramway Collector now displays the animated Lupa logo at startup.",
@@ -135,7 +158,7 @@
     "tramway_collector_v120": {
         "id": "tramway_collector_v120",
         "gameId": "tramway_collector",
-        "name": "Tramway Collector - version 1.2.0",
+        "name": "Tramway Collector - Version 1.2.0",
         "date": "August 29, 2023",
         "vignetteSource": "/assets/apps_images/tramway_collector_120.jpg",
         "shortDescription": "A new version of Tramway Collector with some modifications.",
@@ -159,7 +182,7 @@
     "tramway_collector_v110": {
         "id": "tramway_collector_v110",
         "gameId": "tramway_collector",
-        "name": "Tramway Collector - version 1.1.0",
+        "name": "Tramway Collector - Version 1.1.0",
         "date": "July 20, 2023",
         "vignetteSource": "/assets/apps_images/tramway_collector_110.jpg",
         "shortDescription": "A second version of Tramway Collector is now available on the Play Store with minor improvements.",
