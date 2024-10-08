@@ -1,4 +1,27 @@
 {
+    "geozzle_v210": {
+        "id": "geozzle_v210",
+        "gameId": "geozzle",
+        "name": "Geozzle - Version 2.1.0",
+        "date": "8 octobre 2024",
+        "vignetteSource": "/assets/apps_images/geozzle_vignette_210.jpg",
+        "shortDescription": "La version 2 de Geozzle est désormais en ligne avec un tout nouveau système de jeu !",
+        "tags": [
+            "Geozzle",
+            "Android",
+            "iOS",
+            "Update"
+        ],
+        "release": null,
+        "improvements": [
+            "Tout nouveau gameplay avec les indices répartis par catégorie et un système de série.",
+            "Des statistiques améliorées avec le progrès sur chaque continent et chaque pays.",
+            "Des fonds collectables, regroupés dans un écran galerie.",
+            "Un tutoriel dynamique pour une meilleure expérience utilisateur.",
+            "Menu des paramètres ajouté."
+        ],
+        "bugsFixed": null
+    },
     "linconym_v100": {
         "id": "linconym_v100",
         "gameId": "linconym",
@@ -19,7 +42,7 @@
     "geozzle_v107": {
         "id": "geozzle_v107",
         "gameId": "geozzle",
-        "name": "Geozzle - version 1.0.7",
+        "name": "Geozzle - Version 1.0.7",
         "date": "30 mars 2024",
         "vignetteSource": "/assets/apps_images/geozzle_vignette_107.jpg",
         "shortDescription": "Mise à jour de Geozzle avec de nouveaux fonds et un écran de chargement !",
@@ -39,7 +62,7 @@
     "geozzle_v106": {
         "id": "geozzle_v106",
         "gameId": "geozzle",
-        "name": "Geozzle - version 1.0.6",
+        "name": "Geozzle - Version 1.0.6",
         "date": "11 mars 2024",
         "vignetteSource": "/assets/apps_images/geozzle_vignette_106.jpg",
         "shortDescription": "Mise à jour de Geozzle avec de nouveaux fonds et un bouton pour couper le son !",
@@ -79,7 +102,7 @@
     "postrias_v221": {
         "id": "postrias_v221",
         "gameId": "postrias",
-        "name": "Postrias - version 2.2.1",
+        "name": "Postrias - Version 2.2.1",
         "date": "5 janvier 2024",
         "vignetteSource": "/assets/apps_images/postrias_christmas.jpg",
         "shortDescription": "La version hiver de Postrias sort sur le PlayStore avec des décors inédits !",
@@ -117,7 +140,7 @@
     "tramway_collector_v121": {
         "id": "tramway_collector_v121",
         "gameId": "tramway_collector",
-        "name": "Tramway Collector - version 1.2.1",
+        "name": "Tramway Collector - Version 1.2.1",
         "date": "1er septembre 2023",
         "vignetteSource": "/assets/apps_images/tramway_collector_121.jpg",
         "shortDescription": "Tramway Collector affiche maintenant le logo animé de Lupa au démarrage.",
@@ -135,7 +158,7 @@
     "tramway_collector_v120": {
         "id": "tramway_collector_v120",
         "gameId": "tramway_collector",
-        "name": "Tramway Collector - version 1.2.0",
+        "name": "Tramway Collector - Version 1.2.0",
         "date": "29 août 2023",
         "vignetteSource": "/assets/apps_images/tramway_collector_120.jpg",
         "shortDescription": "Une nouvelle version de Tramway Collector avec quelques correctifs.",
@@ -159,7 +182,7 @@
     "tramway_collector_v110": {
         "id": "tramway_collector_v110",
         "gameId": "tramway_collector",
-        "name": "Tramway Collector - version 1.1.0",
+        "name": "Tramway Collector - Version 1.1.0",
         "date": "20 juillet 2023",
         "vignetteSource": "/assets/apps_images/tramway_collector_110.jpg",
         "shortDescription": "Une deuxième version de Tramway Collector apparaît sur le Play Store avec des améliorations mineures.",
