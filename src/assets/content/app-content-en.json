@@ -41,11 +41,20 @@
         "vignetteSource": "/assets/apps_images/geozzle_vignette.jpg",
         "bannerSource": "/assets/apps_images/geozzle_banner.jpg",
         "storyDescription": [
-            "Discover the world! Select your favorite continent and immerse yourself in a universe filled with information about each country. Geozzle takes you on a virtual tour around the world!",
-            "Guess the country! Each round presents an exciting challenge! Choose your favorite category, whether it's the official currency, type of government, area, GDP, and more. Can you guess the country based on these provided clues?",
-            "Conquer all continents! Challenge yourself on all six continents! Explore the unique characteristics of each region as you progress through the levels. Geozzle ensures an engaging and educational experience for players of all ages.",
-            "Wonderful images! Immerse yourself in the beauty of each continent; from the icy landscapes of Antarctica to the vibrant scenery of Africa, Geozzle combines education with aesthetic pleasure.",
-            "Educational and Fun! Geozzle is not just a game; it's also a captivating learning experience. Sharpen your geographical knowledge in an entertaining way, whether you're a casual player or an avid learner."
+            "🌐 Discover the world",
+            "Travel across the six continents and collect various pieces of information about each country to guess them. Geozzle takes you on a virtual tour around the world!",
+            "",
+            "🤔 Guess all the countries",
+            "Each round represents a new challenge! Choose your favorite category - whether it's official currency, type of government, area, GDP, flag, and more. Can you guess the country based on as few clues as possible? Put your skills to the test in this quiz and learn new facts about countries!",
+            "",
+            "🏆 Conquer all continents",
+            "Challenge yourself on all six continents and guess each country with the highest score! Challenge your friends and compare your performances. Geozzle transforms the geography quiz into an engaging, social experience.",
+            "",
+            "🎨 Wonderful images",
+            "Immerse yourself in the beauty of each continent with mesmerizing images that slide seamlessly as you play. From the icy landscapes of Antarctica to the vivid landscapes of Africa and the cultural sites of Europe, Geozzle combines education with aesthetic pleasure. Discover geography as you've never seen it before! Will you manage to unlock all the backgrounds thanks to the points you collect as you play?",
+            "",
+            "🌟 Educational and fun",
+            "Geozzle is not just a game; it's a captivating learning experience. Sharpen your geographical knowledge in an entertaining way, perfect for both casual players and avid learners."
         ],
         "GooglePlayLink": "https://play.google.com/store/apps/details?id=lupadevstudio.com.geozzle",
         "AppStoreLink": "https://apps.apple.com/us/app/geozzle/id6478439292",
@@ -59,7 +68,7 @@
             "iOS"
         ],
         "pegi_image": "/assets/PEGI/age-3.jpg",
-        "trailerId": "qOud6XjMhA4",
+        "trailerId": "MtKV9bWBoPg",
         "displayImages": [
             "/assets/apps_images/geozzle/Geozzle1.jpg",
             "/assets/apps_images/geozzle/Geozzle2.jpg",

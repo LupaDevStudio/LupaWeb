@@ -41,11 +41,20 @@
         "vignetteSource": "/assets/apps_images/geozzle_vignette.jpg",
         "bannerSource": "/assets/apps_images/geozzle_banner.jpg",
         "storyDescription": [
-            "Découvrez le monde ! Sélectionnez votre continent préféré et plongez-vous dans un univers empli d'informations sur chaque pays. Geozzle vous emmène en visite virtuelle autour du monde !",
-            "Devinez le pays ! Chaque manche présente un défi passionnant ! Choisissez votre catégorie préférée, que ce soit la monnaie officielle, le type de gouvernement, la superficie, le PIB, et plus encore. Pourrez-vous deviner le pays en fonction de ces indices fournis ?",
-            "Conquérissez tous les continents ! Défiez-vous sur les six continents ! Explorez les caractéristiques uniques de chaque région au fur et à mesure de votre progression dans les niveaux. Geozzle garantit une expérience engageante et éducative pour les joueurs de tous âges.",
-            "Images merveilleuses ! Plongez-vous dans la beauté de chaque continent ; des paysages glacés de l'Antarctique aux décors vibrants de l'Afrique, Geozzle associe l'éducation au plaisir esthétique.",
-            "Éducatif et Amusant ! Geozzle n'est pas seulement un jeu ; c'est aussi une expérience d'apprentissage captivante. Affûtez vos connaissances géographiques de manière divertissante, que vous soyez joueur occasionnel ou étudiant passionné."
+            "🌐 Découvrir le monde",
+            "Voyagez au travers des six continents et récoltez diverses informations sur chaque pays pour les deviner. Geozzle vous emmène dans un tour virtuel autour du monde !",
+            "",
+            "🤔 Deviner tous les pays",
+            "Chaque partie représente un nouveau défi ! Choisissez votre catégorie préférée - qu'il s'agisse de la monnaie officielle, du type de gouvernement, de la superficie, du PIB, du drapeau, et plus encore. Pourrez-vous deviner le pays en vous basant sur le moins d'indices possibles ? Mettez vos compétences à l'épreuve dans ce quiz et apprenez de nouvelles choses sur les pays !",
+            "",
+            "🏆 Conquérir tous les continents",
+            "Relevez le défi sur les six continents et devinez chaque pays avec le meilleur score ! Défiez vos amis et comparez vos performances. Geozzle transforme le quiz de géographie en une expérience sociale et attrayante.",
+            "",
+            "🎨 Images merveilleuses",
+            "Plongez dans la beauté de chaque continent grâce à des images envoûtantes qui défilent pendant les parties. Des paysages glacés de l'Antarctique aux paysages éclatants de l'Afrique tout en passant sur les sites culturels d'Europe, Geozzle allie l'éducation au plaisir esthétique. Découvrez la géographie comme vous ne l'avez jamais vue ! Parviendrez-vous à débloquer tous les fonds grâce aux points que vous récolterez au fur et à mesure de vos parties ?",
+            "",
+            "🌟 Éducatif et Amusant",
+            "Geozzle n'est pas seulement un jeu ; c'est aussi une expérience d'apprentissage captivante. Affûtez vos connaissances géographiques de manière divertissante, que vous soyez joueur occasionnel ou étudiant passionné."
         ],
         "GooglePlayLink": "https://play.google.com/store/apps/details?id=lupadevstudio.com.geozzle",
         "AppStoreLink": "https://apps.apple.com/us/app/geozzle/id6478439292",
@@ -59,7 +68,7 @@
             "iOS"
         ],
         "pegi_image": "/assets/PEGI/age-3.jpg",
-        "trailerId": "qOud6XjMhA4",
+        "trailerId": "MtKV9bWBoPg",
         "displayImages": [
             "/assets/apps_images/geozzle/Geozzle1.jpg",
             "/assets/apps_images/geozzle/Geozzle2.jpg",

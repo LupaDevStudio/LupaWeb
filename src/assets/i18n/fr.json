@@ -6,7 +6,7 @@
     "TeamContent": "Créé le 5 juillet 2023, LupaDevStudio est un studio français indépendant de développement d'applications et de jeux vidéos sur mobiles et ordinateurs. Nous sommes une équipe de quatre étudiants passionnés par la programmation et nous avons fondé LupaDevStudio pour partager nos créations avec vous.",
     "OurPhilosophy": "Notre philosophie",
     "PhilosophyContent": [
-        "Toutes nos applications sont réalisées en Python et nous avons choisi de rendre le code accessible sur notre GitHub. L'open-source est une valeur qui nous tient à cœur afin de contribuer à la communauté.",
+        "Toutes nos applications sont réalisées en Python grâce à la librairie Kivy et nous avons choisi de rendre le code accessible sur notre GitHub. L'open-source est une valeur qui nous tient à cœur afin de contribuer à la communauté.",
         "Nous voulons que nos projets le soient afin que vous puissiez en réutiliser le code et les idées, apprendre en vous inspirant ou bien nous prêter main forte directement dans le développement en corrigeant des bugs ou en implémentant les fonctionnalités que vous souhaitez.",
         "Nous sommes curieux de vos retours, remarques et propositions sur nos jeux. N'hésitez donc pas à nous contacter par mail ou sur notre compte Instagram, nous vous répondrons avec plaisir !"
     ],
