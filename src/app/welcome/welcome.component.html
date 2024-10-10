@@ -7,31 +7,40 @@
 
 
             <div class="middle-div">
-                <p class="main-title">LupaDevStudio</p>
+                <h1 style="font-size:xx-large; font-weight: bolder;" class="main-title">{{'LupaDevStudio-Mobile-Games'|translate}}</h1>
+                <!-- <p class="main-title">LupaDevStudio</p> -->
+
+                <!-- Our team paragraph -->
 
                 <p class="title">{{'OurTeam'|translate}}</p>
                 <div class="separator"></div>
-                <p class="content">
-                    {{'TeamContent'|translate}}
+                <p class="content" [innerHTML]="'TeamContent'|translate">
                 </p>
 
-                <p class="title">{{'OurPhilosophy'|translate}}</p>
-                <div class="separator"></div>
-                <p class="content" *ngFor="let paragraph of 'PhilosophyContent'|translate">
-                    {{paragraph}}
-                </p>
-                <a mat-raised-button color="accent" href="https://github.com/LupaDevStudio" target="_blank"
-                    class="download-button">
-                    {{'GithubButton'|translate}}
-                </a>
+                <!-- Our games paragraph -->
 
                 <p class="title">{{'OurApps'|translate}}</p>
                 <div class="separator"></div>
-                <a [routerLink]="'/applications/'" routerLinkActive="active">
+                <a [routerLink]="'/applications/'" routerLinkActive="active" style="margin-bottom: 30px; margin-top: 10px;">
                     <app-image-slider class="image-slider" [images]="applicationsBannerList"
                         [texts]="applicationsTextList" [titles]="applicationsTitleList" [enable_buttons]="false"
                         [center_title]="true" [slide_delay]="5000" [orientation]="'horizontal'"></app-image-slider>
                 </a>
+
+                <!-- Our philosophy paragraph -->
+
+                <p class="title">{{'OurPhilosophy'|translate}}</p>
+                <div class="separator"></div>
+                <!-- <p class="content" *ngFor="let paragraph of 'PhilosophyContent'|translate">
+                    {{paragraph}}
+                </p> -->
+                <p class="content" [innerHTML]="paragraph|translate" *ngFor="let paragraph of 'PhilosophyContent'|translate">
+                </p>
+                <a mat-raised-button color="accent" href="https://github.com/LupaDevStudio" target="_blank"
+                    class="download-button" style="margin-top: 10px;">
+                    {{'GithubButton'|translate}}
+                </a>
+
             </div>
 
 
