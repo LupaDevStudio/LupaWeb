@@ -1,17 +1,18 @@
 {
     "HomePage": "Accueil",
-    "Applications": "Applications",
+    "LupaDevStudio-Mobile-Games": "LupaDevStudio - Le jeu vidéo mobile indépendant",
+    "Games": "Jeux",
     "News": "Actualités",
     "OurTeam": "Notre équipe",
-    "TeamContent": "Créé le 5 juillet 2023, LupaDevStudio est un studio français indépendant de développement d'applications et de jeux vidéos sur mobiles et ordinateurs. Nous sommes une équipe de quatre étudiants passionnés par la programmation et nous avons fondé LupaDevStudio pour partager nos créations avec vous.",
+    "TeamContent": "Créé le 5 juillet 2023, <b>LupaDevStudio</b> est un studio français indépendant de développement de <b>jeux vidéos</b> et d'<b>applications mobiles</b>, aussi bien pour Android que pour iOS. Nous sommes une équipe de quatre étudiants passionnés par la programmation et nous avons fondé LupaDevStudio pour partager nos créations avec vous.",
     "OurPhilosophy": "Notre philosophie",
     "PhilosophyContent": [
-        "Toutes nos applications sont réalisées en Python grâce à la librairie Kivy et nous avons choisi de rendre le code accessible sur notre GitHub. L'open-source est une valeur qui nous tient à cœur afin de contribuer à la communauté.",
-        "Nous voulons que nos projets le soient afin que vous puissiez en réutiliser le code et les idées, apprendre en vous inspirant ou bien nous prêter main forte directement dans le développement en corrigeant des bugs ou en implémentant les fonctionnalités que vous souhaitez.",
-        "Nous sommes curieux de vos retours, remarques et propositions sur nos jeux. N'hésitez donc pas à nous contacter par mail ou sur notre compte Instagram, nous vous répondrons avec plaisir !"
+        "Tous nos jeux sont réalisés en <b>Python</b> grâce à la librairie Kivy et nous avons choisi de rendre le code accessible sur notre GitHub. L'<b>open-source</b> est une valeur qui nous tient à cœur afin de contribuer à la communauté.",
+        "Nous voulons que nos projets soient ouverts afin que vous puissiez en réutiliser le code et les idées, <b>apprendre</b> en vous inspirant ou bien nous prêter main forte directement dans le développement en corrigeant des bugs ou en implémentant les fonctionnalités que vous souhaitez.",
+        "Nous sommes curieux de vos <b>retours</b>, remarques et propositions sur nos jeux. N'hésitez donc pas à nous contacter par <b>mail</b> ou sur notre compte <b>Instagram</b>, nous vous répondrons avec plaisir !"
     ],
     "GithubButton": "Visiter notre GitHub",
-    "OurApps": "Nos applications",
+    "OurApps": "Nos jeux",
     "ContactUs": "Nous contacter",
     "SupportUs": "Nous soutenir",
     "LegalInformation": "Mentions légales",

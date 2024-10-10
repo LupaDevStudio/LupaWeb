@@ -8,8 +8,8 @@ import { NewsComponent } from './news/news.component';
 import { LegalComponent } from './legal/legal.component';
 
 const routes: Routes = [
-  { path: '', component: WelcomeComponent, data: { title: "LupaDevStudio" } },
-  { path: 'applications', component: ApplicationsComponent, data: { title: "Applications" } },
+  { path: '', component: WelcomeComponent, data: { title: "LupaDevStudio-Mobile-Games" } },
+  { path: 'applications', component: ApplicationsComponent, data: { title: "Games" } },
   { path: 'applications/:id', component: ApplicationDetailsComponent, data: { title: "temp" } },
   { path: 'news', component: NewsComponent, data: { title: "News" } },
   { path: 'news/:id', component: NewsPageDetailsComponent, data: { title: "temp" } },

@@ -1,17 +1,18 @@
 {
     "HomePage": "Home",
-    "Applications": "Applications",
+    "LupaDevStudio-Mobile-Games": "LupaDevStudio - Independent mobile games",
+    "Games": "Games",
     "News": "News",
     "OurTeam": "Our Team",
-    "TeamContent": "Established on July 5, 2023, LupaDevStudio is an independent French studio specializing in developing applications and video games for mobile and computer platforms. We are a team of four students passionate about programming, and we founded LupaDevStudio to share our creations with you.",
+    "TeamContent": "Established on July 5, 2023, <b>LupaDevStudio</b> is an independent French studio specializing in developing <b>video games</b> and applications for <b>mobile</b>, both Android and iOS. We are a team of four students passionate about programming, and we founded LupaDevStudio to share our creations with you.",
     "OurPhilosophy": "Our Philosophy",
     "PhilosophyContent": [
-        "All our applications are developed in Python thanks the Kivy library, and we have chosen to make the code accessible on our GitHub. Open-source is a value that is dear to us to contribute to the community.",
-        "We want our projects to be open so that you can reuse the code and ideas, learn by drawing inspiration, or even lend us a hand directly in development by fixing bugs or implementing the features you desire.",
-        "We are curious about your feedback, remarks, and suggestions about our games. So, feel free to contact us via email or through our Instagram account, and we will gladly respond to you!"
+        "All our games are developed in <b>Python</b> thanks the Kivy library, and we have chosen to make the code accessible on our GitHub. <b>Open-source</b> is a value that is dear to us to contribute to the community.",
+        "We want our projects to be open so that you can reuse the code and ideas, <b>learn</b> by drawing inspiration, or even lend us a hand directly in development by fixing bugs or implementing the features you desire.",
+        "We are curious about your <b>feedback</b>, remarks, and suggestions about our games. So, feel free to contact us via <b>email</b> or through our <b>Instagram</b> account, and we will gladly respond to you!"
     ],
     "GithubButton": "Visit our GitHub",
-    "OurApps": "Our Applications",
+    "OurApps": "Our Games",
     "ContactUs": "Contact Us",
     "SupportUs": "Support Us",
     "LegalInformation": "Legal Information",
